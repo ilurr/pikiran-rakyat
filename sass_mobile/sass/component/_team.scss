@@ -1,0 +1,255 @@
+.team {
+	position: relative;
+	&__logo {
+		position: relative;
+		padding: 10px 0;
+	}
+	&__list {
+		position: relative;
+	}
+	&__bigitem {
+		position: relative;
+		text-align: center;
+		padding: 0;
+		display: block;
+		display: -ms-flexbox;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	&__item {
+		position: relative;
+		padding: 0 5px;
+		margin: 0 0 10px;
+		width: calc(100% / 3);
+		&.full {
+			width: 100%;
+		}
+	}
+	&__img {
+		display: block;
+		text-align: center;
+		padding: 20px;
+		overflow: hidden;
+		border-radius: 100%;
+		border: 1px solid #ccc;
+		background: #fff;
+		text-align: center;
+		@include transition(all .2s ease);
+		&:hover {
+			border: 5px solid $color_theme;
+		}
+	}
+	&__link.active {
+		.team__img {
+			border: 5px solid $color_theme;
+		}
+	}
+	&__name {
+		display: block;
+		padding: 10px 0;
+		font-size: 13px;
+	}
+	
+	// detail
+	&__detail {
+		position: relative;
+		padding: 0 0 40px;
+		&__logo {
+			padding: 0 20px;
+			float: right;
+			img {
+				height: 80px;
+			}
+		}
+	}
+	&__ads {
+		&__logo {
+			padding: 20px 0 10px;
+			text-align: center;
+			span {
+				display: block;
+				padding: 0 0 5px;
+				font-size: 12px;
+				text-align: center;
+			}
+			img {
+				height: 80px;
+			}
+		}
+	}
+	&__title {
+		padding: 0 0 10px;
+		@include font-pack($dinpro_bold, 24px, false, 1.2, $color_theme);
+	}
+	&__info {
+		@include font-pack(false, 16px, false, 1.6, false);
+		span {
+			float: right;
+			width: 75%;
+			display: inline-block;
+			padding: 0 0 0 10px;
+			position: relative;
+			&:before {
+				content: ":";
+				position: absolute;
+				left: 2px;
+				top: 0;
+			}
+		}
+	}
+	&__row {
+		position: relative;
+	}
+	// tabs
+	&__header {
+		position: relative;
+	}
+	&__tab {
+		position: relative;
+		display: block;
+		z-index: 2;
+		li {
+			display: inline-block;
+			margin: 0;
+		}
+		a {
+			border-radius: 5px 5px 0 0;
+			display: block;
+			padding: 17px 10px;
+			border: 1px solid #c8c8c8;
+			background: #c8c8c8;
+			text-align: center;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			width: 100%;
+			@include font-pack($dinpro_bold, 16px, false, false, #fff);
+		}
+		a:hover {
+			background: darken(#c8c8c8,8%);
+			border: 1px solid darken(#c8c8c8,8%);
+			color: #fff;
+		}
+		a.active {
+			background: #fff;
+			color: #2a2a2a;
+			border-top: 1px solid #c8c8c8;
+			border-right: 1px solid #c8c8c8;
+			border-left: 1px solid #c8c8c8;
+			border-bottom: 1px solid transparent;
+		}
+	}
+	&__content {
+		position: relative;
+		top: -1px;
+		z-index: 1;
+		padding: 20px 15px;
+		margin: 0 -15px;
+		background: #fff;
+		border-top: 1px solid #c8c8c8;
+		border-bottom: 1px solid #c8c8c8;
+		border-radius: 0;
+	}
+	
+	// member
+	&__member {
+		position: relative;
+		padding: 20px 0 0;
+		display: block;
+		&__wrap {
+			position: relative;
+		}
+		&__item {
+			padding: 0 0 20px;
+			margin: 0 0 20px;
+			border-bottom: 1px solid #ccc;
+			display: block;
+			display: -ms-flexbox;
+			display: flex;
+			flex-wrap: nowrap;
+			justify-content: space-around;
+			align-items: flex-start;
+			&:last-child {
+				border-bottom: transparent;
+				margin: 0;
+			}
+		}
+		&__photo {
+			display: block;
+			margin: 0 5px 0 0;
+			width: 60px;
+			height: 60px;
+			border-radius: 100%;
+			overflow: hidden;
+			border: 1px solid #ccc;
+			background: #fff;
+			@include min-responsive(360px) {
+				width: 75px;
+				height: 75px;
+			}
+			@include min-responsive(600px) {
+				width: 90px;
+				height: 90px;
+			}
+		}
+		&__row {
+			@include min-responsive(600px) {
+				width: 50%;
+			}
+		}
+		&__info {
+			padding: 3px 0;
+			font-size: 12px;
+			@include min-responsive(360px) {
+				font-size: 13px;
+			}
+			span {
+				display: inline-block;
+				width: 110px;
+				float: right;
+				padding: 0 0 0 10px;
+				position: relative;
+				@include min-responsive(360px) {
+					width: 120px;
+				}
+				&:before {
+					content: ":";
+					position: absolute;
+					left: 2px;
+					top: 0;
+				}
+			}
+		}
+	}
+	
+	// wp
+	&__logo.page {
+		padding: 20px 0;
+		.team__item {
+			@include min-responsive(600px) {
+				width: calc(100% / 5);
+			}
+		}
+	}
+	&__logo.wp {
+		.team__bigitem {
+			//height: 275px;
+			align-items: center;
+		}
+		.team__item {
+			padding: 0;
+			margin: 0;
+		}
+		.team__img {
+			overflow: inherit;
+			border-radius: 0;
+			padding: 10px;
+			background: transparent;
+			border: 1px solid transparent;
+			@include min-responsive(600px) {
+				padding: 50px;
+			}
+		}
+	}
+}

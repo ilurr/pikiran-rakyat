@@ -1,0 +1,80 @@
+.notes {
+	position: relative;
+	text-align: center;
+	padding: 20px 0;
+	display: block;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-between;
+	&__item {
+		display: inline-block;
+		padding: 0;
+	}
+}
+
+.league {
+	&__bottom {
+		padding: 40px 0;
+	}
+	&__logo {
+		display: block;
+		text-align: center;
+		img {
+			width: 300px;
+		}
+	}
+	&__title {
+		text-align: center;
+		//letter-spacing: 1px;
+		padding: 20px 0 0;
+		@include font-pack($dinpro_black, 34px, false, false, $color_theme);
+	}
+	&__title2 {
+		text-align: center;
+		padding: 0 0 20px;
+		margin: -5px 0 0;
+		@include font-pack($dinpro_medium, 26px, false, false, #999);
+	}
+	&__subtitle {
+		letter-spacing: 5px;
+		padding: 0;
+		@include font-pack($dinpro_medium, 30px, false, false, $color_theme);
+	}
+	&__content {
+		padding: 0 0 40px;
+		@include font-pack(false, 18px, false, 1.7, false);
+	}
+	&__prize {
+		&__title {
+			padding: 35px 0 0;
+			span {
+				display: block;
+			}
+			span:first-child {
+				text-transform: uppercase;
+				letter-spacing: 3px;
+				@include font-pack($dinpro_black, 22px, false, 1, $color_theme);
+			}
+			span:nth-of-type(2) {
+				padding: 5px 0;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+				@include font-pack($dinpro_black, 50px, false, 1, #9f8226);
+			}
+			span:last-child {
+				@include font-pack($dinpro_regular, 21px, false, 1, #9f8226);
+			}
+		}
+		&__img {
+			padding: 20px 0 40px;
+			margin: 0 20px 0 -10px;
+			float: left;
+		}
+	}
+}
+.newsslide__item {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	width: calc(100% / 4); 
+}

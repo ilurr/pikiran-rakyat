@@ -1,0 +1,26 @@
+.breadcrumb {
+	position: relative;
+	//padding: 0 0 20px;
+	&__wrap {
+		position: relative;
+	}
+	&__item {
+		display: inline-block;
+		@include font-pack($raleway, 14px, 400, false, $color-theme);
+		&:after {
+			content: ' | ';
+		}
+		&:last-child {
+			&:after {
+				content: '';
+			}
+		}
+	}
+	&__link {
+		position: relative;
+		display: inline-block;
+		&:hover {
+			color: #000;
+		}
+	}
+}

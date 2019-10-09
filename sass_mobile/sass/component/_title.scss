@@ -1,0 +1,55 @@
+.title {
+	position: relative;
+	padding: 40px 10px 10px;
+	text-transform: uppercase;
+	letter-spacing: 12px;
+	text-align: center;
+	text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.4);
+	border-bottom: 1px solid #fff;
+	z-index: 2;
+	@include font-pack($dinpro_black, 24px, false, 1, #fff);
+	span {
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+	}
+	&__main {
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		padding: 10px 0 20px;
+		@include font-pack($dinpro_black, 20px, false, 1, #747474);
+	}
+	&__page {
+		padding: 10px 0 10px;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		border-bottom: 1px solid #666;
+		margin: 0 0 20px;
+		@include font-pack($dinpro_black, 24px, false, 1, #000);
+	}
+}
+
+.subtitle {
+	position: relative;
+	padding: 20px 0;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	@include font-pack($dinpro_light, 26px, false, 1, #000);
+	&--bg {
+		padding: 0 0 10px;
+		span {
+			display: inline-block;
+			padding: 8px 10px;
+			background: rgba(57, 15, 20, 0.8);
+			border-radius: 10px;
+			color: #fff;
+		}
+	}
+}

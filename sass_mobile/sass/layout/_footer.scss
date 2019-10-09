@@ -1,0 +1,120 @@
+.footer {
+	margin: 0;
+	padding: 40px 0 60px;
+	background: $color_theme;
+	@include font-pack($dinpro_regular, 14px, false, false, #fff);
+	&__menu {
+		position: relative;
+		padding: 20px 10px;
+		text-align: center;
+	}
+	&__item {
+		position: relative;
+		padding: 0;
+		display: inline-block;
+	}
+	&__link {
+		text-transform: uppercase;
+		padding: 5px 7px;
+		display: inline-block;
+		@include font-pack(false, 13px, false, false, false);
+		&:hover {
+			color: darken($color_theme, 30%);
+		}
+	}
+	&__copyright {
+		text-align: center;
+		padding: 0 10px;
+		p {
+			font-size: 12px;
+			color: #fff;
+			margin: 5px 0 10px;
+		}
+		a:hover {
+			color: darken($color_theme, 30%);
+		}
+	}
+	&__credit {
+		text-align: center;
+		text-transform: uppercase;
+		padding: 0 0 10px;
+		margin: 0;
+		@include font-pack($dinpro_medium, 10px, false, false, #fff);
+	}
+	&__bar {
+		position: relative;
+		&__wrap {
+			position: relative;
+			padding: 10px 0;
+			display: block;
+			display: -ms-flexbox;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			&.big {
+				align-items: flex-start;
+				padding: 15px 0 0;
+				flex-wrap: wrap;
+				.footer__bar__title {
+					max-width: 140px;
+					margin: 0 auto;
+				}
+				.footer__bar__img {
+					padding: 0 5px 20px;
+				}
+				.footer__bar__img span {
+					//width: 90px;
+					height: 90px;
+					margin: 0 0 5px;
+					img {
+						height: 100%;
+						max-width: none;
+					}
+				}
+			}
+			&.middle {
+				align-items: center;
+				padding: 25px 0;
+				flex-wrap: wrap;
+				justify-content: center;
+				.footer__bar__img {
+					padding: 0 10px 10px;
+				}
+				.footer__bar__img img {
+					//width: 70px;
+					height: 60px;
+				}
+			}
+			&.bottom {
+				justify-content: center;
+				align-items: flex-start;
+				.footer__bar__img {
+					//width: 150px;
+					//width: 100%;
+					padding: 0 5px;
+					margin: 10px 0;
+					img {
+						padding: 0 5px;
+						height: 50px;
+						@include min-responsive(330px) {
+							height: 62px;
+						}
+					}
+				}
+			}
+		}
+		&__img {
+			display: inline-block;
+			text-align: center;
+			padding: 0 10px;
+			margin: 7px 0;
+			span {
+				display: inline-block;
+			}
+		}
+		&__title {
+			padding: 7px 0 0;
+			font-size: 12px;
+		}
+	}
+}

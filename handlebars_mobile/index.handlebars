@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+	<!-- header -->
+	{{> header}}
+	
+	<!-- nav menu -->
+	{{> nav}}
+	
+	<div class="section section__header">
+		<img src="asset/images/iel_university_bg.png" alt="">
+	</div>
+	
+	<div class="section section__top">
+	
+		<!-- bg -->
+		<span class="section__bg" style="background-image:url('asset/images/bg_middle.jpg')"></span>
+
+		<!-- official -->
+		<div class="official">
+			<div class="official__item">
+				<img src="asset/images/by_02.png" alt="">
+			</div>
+			<div class="official__item">
+				<img src="asset/images/by_03.png" alt="">
+			</div>
+			<div class="official__item">
+				<img src="asset/images/by_04.png" alt="">
+			</div>
+			<div class="official__item">
+				<img src="asset/images/by_05.png" alt="">
+			</div>
+			<div class="official__item">
+				<img src="asset/images/by_06.png" alt="">
+			</div>
+		</div>
+
+		<h1 class="title__main">The Official University Esports League of Indonesia</h1>
+
+		<div class="notes">
+			<div class="notes__item">
+				<img src="asset/images/box_01.jpg" alt="">
+			</div>
+			<div class="notes__item">
+				<img src="asset/images/box_02.jpg" alt="">
+			</div>
+			<div class="notes__item">
+				<img src="asset/images/box_03.jpg" alt="">
+			</div>
+		</div>
+
+		<!-- team -->
+		{{> wp_team}}
+
+		<!-- banner -->
+		{{> banner}}
+
+	</div>
+	<div class="section section__middle">
+	
+		<!-- bg -->
+		<span class="section__bg" style="background-image:url('asset/images/bg_middle_2.jpg')"></span>
+		
+		<!-- video -->
+		<div class="video__wp">
+			<div class="video__wrapper">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/fSsNuI8vogc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+		</div>
+
+		<!-- schedule -->
+		{{!> wp_schedule}}
+
+		<!-- finals -->
+		{{> wp_finals}}
+
+	</div>
+	<div class="section section__bottom">
+	
+		<!-- news -->
+		<h3 class="subtitle">News</h3>
+		{{> wp_news}}
+
+		<!-- standing -->
+		<h3 class="subtitle">Standing</h3>
+		{{> wp_standing}}
+
+		<!-- banner -->
+		{{> banner}}
+			
+	</div>
+
+	<!-- share -->
+	{{!> wp_social}}
+	
+	<!-- footer -->
+	{{> footer}}
+	
+	<script src="./asset/js/slick.min.js"></script>
+	<script src="./asset/js/main.js"></script>
+
+</body>
+</html>

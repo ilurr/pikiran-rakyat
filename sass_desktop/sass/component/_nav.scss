@@ -1,0 +1,76 @@
+.menu {
+	position: relative;
+	padding: 0;
+	background: $color_theme;
+	&__launch {
+		height: 58px;
+	}
+	&__item {
+		//display: inline-block;
+		vertical-align: top;
+		position: relative;
+		padding: 0 5px;
+	}
+	&__link {
+		display: inline-block;
+		padding: 2px;
+		text-transform: uppercase;
+		@include font-pack($dinpro_light, false, 700, false, #8f8f8f);
+		&:hover {
+			color: $color-theme;
+		}
+		.icon {
+			font-size: 30px;
+		}
+		span {
+			font-size: 12px;
+			vertical-align: middle;
+			display: inline-block;
+		}
+	}
+	&--fixed {
+		position: fixed;
+		top: 0;
+		z-index: 10;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+		width: $screen-lg-desktop;
+		@include min-responsive($screen-lg-desktop) {
+			width: 100%;
+		}
+	}
+}
+
+.nav {
+	position: relative;
+	z-index: 10;
+	padding: 0;
+	@include transition(all .2s ease);
+	&__wrap {
+		position: relative;
+		text-align: center;
+		display: block;
+		display: -ms-flexbox;
+		display: flex;
+		justify-content: flex-start;
+	}
+	&__item {
+		display: inline-block;
+		position: relative;
+		margin-right: 40px;
+	}
+	&__link {
+		position: relative;
+		display: block;
+		padding: 15px 5px 20px 5px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		border-top: 4px solid transparent;
+		@include font-pack($dinpro_light, 15px, false, false, #fff);
+		&--active,
+		&:hover {
+			color: #fff;
+			border-top: 4px solid #fff;
+			//font-weight: 700;
+		}
+	}
+}

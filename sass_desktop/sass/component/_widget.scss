@@ -1,0 +1,13 @@
+.official {
+	position: relative;
+	text-align: center;
+	padding: 40px 0;
+	display: block;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-between;
+	&__item {
+		display: inline-block;
+		padding: 0 15px;
+	}
+}

@@ -1,0 +1,63 @@
+.fx {
+	&__wrap {
+		position: relative;
+	}
+	&__item {
+		display: block;
+		padding: 0 0 15px;
+		text-align: center;
+	}
+	&__date {
+		@include font-pack($dinpro_regular, 13px, false, 1, false);
+		padding: 10px 0;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+	&__vs {
+		display: block;
+		display: -ms-flexbox;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		@include min-responsive(600px) {
+			justify-content: space-evenly;
+		}
+	}
+	&__score {
+		@include font-pack($dinpro_bold, 45px, false, 1, false);
+		span {
+			display: inline-block;
+			padding: 0 5px;
+			vertical-align: middle;
+			@include font-pack($dinpro_light, 18px, false, false, false);
+		}
+	}
+	&__logo {
+		width: 30%;
+		background: #fff;
+		padding: 15px;
+		border-radius: 100%;
+		overflow: hidden;
+		border: 1px solid #ccc;
+		@include min-responsive(600px) {
+			width: 20%;
+		}
+	}
+	&__box {
+		position: relative;
+		padding: 0 10px;
+		&.mlbb {
+			.fx__score,
+			.fx__date {
+				color: $color_theme_ml;
+			}
+		}
+		&.dota {
+			.fx__score,
+			.fx__date {
+				color: $color_theme_dt;
+			}
+		}
+	}
+}

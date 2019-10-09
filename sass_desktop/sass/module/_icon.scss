@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?f60mrc');
+  src:  url('../fonts/icomoon.eot?f60mrc#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?f60mrc') format('truetype'),
+    url('../fonts/icomoon.woff?f60mrc') format('woff'),
+    url('../fonts/icomoon.svg?f60mrc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e900";
+  color: #848484;
+}
+.icon-line:before {
+  content: "\e901";
+}
+.icon-photo:before {
+  content: "\e902";
+}
+.icon-play:before {
+  content: "\e903";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-feed:before {
+  content: "\f09e";
+}
+.icon-rss:before {
+  content: "\f09e";
+}
+.icon-globe:before {
+  content: "\f0ac";
+}
+.icon-google-plus:before {
+  content: "\f0d5";
+}
+.icon-caret-down:before {
+  content: "\f0d7";
+}
+.icon-angle-left:before {
+  content: "\f104";
+}
+.icon-angle-right:before {
+  content: "\f105";
+}
+.icon-angle-up:before {
+  content: "\f106";
+}
+.icon-angle-down:before {
+  content: "\f107";
+}
+.icon-youtube:before {
+  content: "\f16a";
+}
+.icon-instagram:before {
+  content: "\f16d";
+}
+.icon-whatsapp:before {
+  content: "\f232";
+}
+.icon-home {
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMyAxOSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjE5Ij48ZGVmcz48aW1hZ2Ugd2lkdGg9IjIzIiBoZWlnaHQ9IjE5IiBpZD0iaW1nMSIgaHJlZj0iZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFCY0FBQUFUQ0FNQUFBQk1aV2FFQUFBQUFYTlNSMElCMmNrc2Z3QUFBSGhRVEZSRkk2cmZJcXJoSUtmZkFBQUFFSEMvRUhhOEVIYThFSGkvSTZyZ0k2bmdJNm5oSUsvZkVIYThFSFc4RVhhOEVYYTdJcW5mSXFyZ0lxcmhJS3ZpRUhTN0VIVzhFSFc3SUt2ZklxbmdJcW5oSUtyZkVIVzZFSGE3RUhhOEVIYTdJcXJmSTZyZklxcmZFSFc5RUhhOElxbmZFSGE3STZyZkVIYThSYmhPVHdBQUFDaDBVazVUd0c4Z0FCQmZyeUQvcjE4UVVKLy84SUR2bjA5QTc4QkEzNDh3TUkvZmdPQ3c4R0RRMEhCZ29Pb1R1a2dBQUFDZFNVUkJWSGljYmRIYkZvSWdFSVhoeVcxSm9VQmxXbG9lT3ZuK2J4aUVFVUgvNVhlejE1b2hXaVFJU3BlcmpJaXg5WVo3bWhkQ1NKQml1dTF1YjdFc0RrSlhnV3BtTzU2YTlud1J0ZzdFbVV1NGNoRDZQNTVwSDJLWDBLNWlyNHpYc1hmR2VleTU4ZSt3TjJ0OENGM1BHbGVoVjlhYk1mQ3JkU1RrKzYzRTdFQjkvN2g4MkFQU2ZOMW4vL1lweGErRHExRk1yZnVDY3oyVGVkOTVBUmh5RUkvVnpURHVBQUFBQUVsRlRrU3VRbUNDIi8+PC9kZWZzPjxzdHlsZT50c3BhbiB7IHdoaXRlLXNwYWNlOnByZSB9PC9zdHlsZT48dXNlIGlkPSJCYWNrZ3JvdW5kIiBocmVmPSIjaW1nMSIgeD0iMCIgeT0iMCIgLz48L3N2Zz4=);
+}
