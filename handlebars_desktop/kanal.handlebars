@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+	<!-- header -->
+	{{> header}}
+	
+	<!-- ads skin -->
+	{{> ads_skin}}
+	
+	<!-- content -->
+	<div class="row clearfix">
+		<div class="container cearfix">
+			<div class="col-offset-fluid clearfix">
+				<div class="col-bs12-12">
+					
+					<!-- ads top -->
+					{{> ads_top}}
+					
+					<h3 class="title4"><span>Bandung Raya</span></h3>
+
+				</div>
+				
+				<div class="col-bs12-8">
+				
+					<!-- headline -->
+					<section class="hl mt3 clearfix">
+						{{> headline_kanal channel=WP.Headline total=1 index_start=0 index_end=1}}
+					</section>
+					
+					<!-- editors pick -->
+					<section class="editors mt3 clearfix">
+						<h3 class="title3"><span>Berita Utama Lainnya</span></h3>
+						<div class="editors__wrap js--editors">
+							{{> editor_pick channel=WP.Latest total=6 index_start=10 index_end=16}}
+						</div>
+					</section>
+					
+					<!-- latest -->
+					<section class="latest mt3 clearfix">
+						<h3 class="title"><span>Berita Terkini</span></h3>
+						<div class="latest__wrap">
+							{{> latest channel=WP.Latest total=10 index_start=0 index_end=20}}
+						</div>
+						
+						<div class="latest__more clearfix">
+							<a href="all.html" class="latest__button">Lihat Semua</a>
+						</div>
+					</section>
+					
+				</div>
+				<div class="col-bs12-4">
+				
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+					<!-- most -->
+					<section class="most mt2 clearfix">
+						<h3 class="title"><span>Terpopuler</span></h3>
+						<div class="most__wrap">
+							{{> most channel=Most total=10 index_start=0 index_end=10}}
+						</div>
+					</section>
+					
+					<!-- network -->
+					<section class="row mt2 clearfix">
+						<h3 class="title5"><span>Jawa Barat Network</span></h3>
+						<div class="network__sidebar js--network-sidebar">
+							{{> network_sidebar channel=WP.Sorotan total=8 index_start=0 index_end=8}}
+						</div>
+					</section>
+					
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- footer -->
+	{{> footer}}
+
+	{{> js}}
+	
+</body>
+</html>

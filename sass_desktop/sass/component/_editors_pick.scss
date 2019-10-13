@@ -1,57 +1,49 @@
-.fx {
+.editors {
+	position: relative;
+	padding: 10px 20px 15px;
+	border: 1px solid #D2D2D2;
 	&__wrap {
 		position: relative;
+		@include display-flex();
+		flex-wrap: wrap;
+		margin: 0 -5px;
 	}
 	&__item {
-		display: block;
-		padding: 0 0 25px;
-		text-align: center;
+		width: 33.333333%;
+		padding: 0 5px;
 	}
-	&__date {
-		@include font-pack($dinpro_regular, 13px, false, 1, false);
-		padding: 10px 0;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-	}
-	&__vs {
-		display: block;
-		display: -ms-flexbox;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		align-items: center;
-	}
-	&__score {
-		@include font-pack($dinpro_bold, 45px, false, 1, false);
-		span {
-			display: inline-block;
-			padding: 0 5px;
-			vertical-align: middle;
-			@include font-pack($dinpro_light, 18px, false, false, false);
+	&__img {
+		position: relative;
+		img {
+			width: 100%;
 		}
-	}
-	&__logo {
-		width: 30%;
-		background: #fff;
-		padding: 15px;
-		border-radius: 100%;
-		overflow: hidden;
-		border: 1px solid #ccc;
 	}
 	&__box {
 		position: relative;
-		padding: 0 40px;
-		&.mlbb {
-			.fx__score,
-			.fx__date {
-				color: $color_theme_ml;
-			}
-		}
-		&.dota {
-			.fx__score,
-			.fx__date {
-				color: $color_theme_dt;
-			}
-		}
+		padding: 5px 0 10px;
+	}
+	&__subtitle {
+		display: inline-block;
+		padding: 0 0 3px;
+		text-transform: uppercase;
+		border-bottom: 1px solid $color_theme;
+		letter-spacing: 2.4px;
+		@include font-pack(false, 10px, false, false, $color_theme);
+	}
+	&__title {
+		margin: 10px 0 5px;
+		@include font-pack(false, 16px, 700, false, false);
+		@include title_overflow(auto, 60px);
+	}
+	&__date {
+		letter-spacing: 1.2px;
+		@include font-pack(false, 11px, false, false, #000);
+	}
+	&__link {
+		display: block;
+	}
+	.arrow {
+		top: 45px;
+		box-shadow: 0px 0px 8px rgba(0, 0, 0, .2);
 	}
 }

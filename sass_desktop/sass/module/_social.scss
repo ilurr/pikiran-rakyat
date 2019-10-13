@@ -112,18 +112,6 @@
 				//background: darken(#cd201f, 20%);
 			}
 		}
-		&.active {
-			//background: #cd201f;
-			background: #f5f5f5;
-			color: #cd201f!important;
-			-webkit-animation: pulse 2s ease;
-			-o-animation: pulse 2s ease;
-			animation: pulse 2s ease;
-			&:hover {
-				color: #cd201f!important;
-				//background: darken(#cd201f, 20%);
-			}
-		}
 		&--comment-o {
 			background: #b3b2b2;
 			&:hover {
@@ -134,92 +122,40 @@
 			color: #fff;
 			// background: #fff;
 			//span {
-				@include transform_scale(1.1);
+				//@include transform_scale(1.1);
 			//}
 		}
 	}
-	&--footer {
-		padding: 0 0 20px;
+	&--header {
+		padding: 0;
 		text-align: right;
 		.social__link {
-			font-size: 22px;
-			width: 45px;
-			height: 45px;
-			padding: 11px;
+			font-size: 15px;
+			width: 25px;
+			height: 25px;
+			padding: 5px;
 			color: #fff;
-			background: darken($color_theme, 5%);
+			background: #1b1b1b;
 			position: relative;
+			&:hover {
+				background: $color_theme;
+				//color: #fff;
+			}
 		}
-	}
-	&--banner {
-		text-align: center;
-		padding: 10px 0 0;
 		.social__item {
-			padding: 0 10px;
-		}
-		.social__link {
-			color: #fff;
-			background: #3a3a3a;
-			position: relative;
-		}
-		.icon-kaskus {
-			width: 35px;
-			height: 35px;
-			background-size: 20px;
-		}
-	}
-	&--header {
-		.social__item {
-			padding: 0;
+			padding: 0 5px;
 		}
 	}
 	&--article {
-		padding: 5px 0;
-		text-align: right;
-		// display: inline-block;
-		.social__item {
-			display: block;
-			text-align: center;
-			margin: 0 0 5px;
-		}
+		padding: 10px 0 20px;
+		text-align: center;
 		.social__link {
-			width: 40px;
-			height: 40px;
-			font-size: 19px;
-			padding: 10px;
-			border-radius: 5px;
-			color: #fff;
-			border: 1px solid rgba(0,0,0,.1);
-			//background: initial;
-		}
-	}
-	&--article--top {
-		padding: 10px 0;
-		text-align: right;
-		.social__item {
-			text-align: center;
-			margin: 0;
-		}
-		.social__link {
-			width: 40px;
-			height: 40px;
-			font-size: 19px;
-			padding: 10px;
-			color: rgba(0,0,0,.5);
-			border: 1px solid rgba(0,0,0,.1);
-			background: transparent;
-		}
-	}
-	&--list {
-		opacity: 0;
-		visibility: hidden;
-		@include transition(all .2s ease);
-		.social__link {
-			border: 1px solid #fff;
-			color: #fff;
-			width: 28px;
-			height: 28px;
-			padding: 4px;
+			&:hover {				
+				@include transform_scale(1.02);
+				box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+				//background: $color_theme;
+				//color: #fff;
+			}
 		}
 	}
 	&__text {
@@ -240,46 +176,4 @@
 			@include font-pack(false, 12px, 300, 1, false);
 		}
 	}    
-}
-.socBanner {
-	position: relative;
-	padding: 15px 0;
-	&__box {
-		background: #f5f5f5;
-		border-radius: 15px;
-		border: 1px solid #d8d8d8;
-		text-align: center;
-	}
-	&__title {
-		padding: 15px 15px;
-		text-align: center;
-		@include font-pack($roboto, 20px, 700, 1, false);
-		span {
-			vertical-align: middle;
-			display: inline-block;
-			margin-right: 5px;
-			font-size: 45px;
-		}
-	}
-	&__wrap {
-		position: relative;
-		padding: 0 10px;
-	}
-	&__item {
-		display: inline-block;
-		float: left;
-		width: 33.333333%;
-	}
-	&__button {
-		display: inline-block;
-		margin: 15px 0px;
-		text-align: center;
-		padding: 8px 15px;
-		border: 1px solid $color_kanya2;
-		@include font-pack($roboto, 16px, 700, 1, $color_kanya2);
-		&:hover {
-			background: $color_kanya2;
-			color: #fff;
-		}
-	}
 }

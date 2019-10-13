@@ -1,14 +1,17 @@
 .breadcrumb {
 	position: relative;
-	//padding: 0 0 20px;
+	padding: 20px 0 0;
 	&__wrap {
 		position: relative;
+		font-style: italic;
 	}
 	&__item {
 		display: inline-block;
-		@include font-pack($raleway, 14px, 400, false, $color-theme);
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		@include font-pack(false, 16px, 700, false, #7E7E7E);
 		&:after {
-			content: ' | ';
+			content: ' / ';
 		}
 		&:last-child {
 			&:after {

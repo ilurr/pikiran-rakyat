@@ -1,44 +1,30 @@
 .search {
 	position: relative;
-	&__item {
-		text-align: right;
-		padding: 12px 5px;
-		&:after {
-			content: '';
-			position: absolute;
-			width: 305px;
-			height: 70%;
-			top: 15%;
-			right: -2px;
-			z-index: -1;
-			border-radius: 40px;
-			background: darken($color_theme, 10%);
-			@include transition(all .2s ease);
-		}
-	}
 	&__bar {
-		display: inline-block;
-		position: absolute;
-		width: 300px;
-		right: 0;
-		top: 10px;
-		z-index: 1;
-		@include transition(all .2s .2s ease);
+		margin-top: 35px;
+		position: relative;
+		.icon {
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			z-index: 2;
+			font-size: 19px;
+			pointer-events: none;
+		}
 	}
 	&__input {
 		background: transparent;
-		height: 36px !important;
-		width: 250px;
+		height: 40px !important;
+		width: 100%;
 		-webkit-appearance: none;
 		-moz-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
 		box-shadow: none;
-		border: none;
-		color: #fff;
-		@include font-pack($dinpro_regular, 14px, 700, false, false);
+		border: 1px solid #D5D5D5;
+		@include font-pack(false, 14px, false, false, false);
 		&::placeholder {
-			color: #fff;
+			color: #ccc;
 		}
 		&:focus,
 		&:hover {
@@ -48,12 +34,17 @@
 			appearance: none;
 			background: transparent;
 			box-shadow: none;
-			border: none;
+			border: 1px solid darken(#D5D5D5, 20%);
 		}
 	}
 	&__submit {
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 1;
+		
 		width: 40px;
-		height: 30px;
+		height: 40px;
 		-webkit-appearance: none;
 		-moz-appearance: none;
 		-ms-appearance: none;
@@ -72,77 +63,6 @@
 			box-shadow: none;
 			border: none;
 			color: transparent;
-		}
-	}
-	&__button {
-		position: relative;
-		z-index: 1;
-		pointer-events: none;
-		color: #fff;
-		&.active {
-			pointer-events: none;
-		}
-	}
-	&--hide {
-		&.search__item:after {
-			width: 0px;
-		}
-		.search__bar {
-			opacity: 0;
-			pointer-events: none;
-			//visibility: hidden;
-		}
-		.search__button {
-			color: #fff;
-			pointer-events: inherit;
-			&:hover {
-				//color: $color-theme;
-			}
-		}
-	}
-	
-	// page
-	&__result {
-		text-align: center;
-		position: relative;
-		padding: 0 0 20px;
-	}
-	&__title {
-		margin: 0;
-		padding: 0 0 10px;
-		@include font-pack(false, 20px, 700, false, #2a2a2a);		
-	}
-	&__keyword {
-		padding: 10px 0 0;
-		@include font-pack(false, 18px, false, false, #2a2a2a);		
-	}
-	&__lead {
-		padding: 0 0 20px;
-		strong {
-			font-weight: 700;
-			font-size: 20px;
-		}
-	}
-	&__sort {
-		position: relative;
-		display: inline-block;
-		margin: 0 auto;
-		span {
-			position: absolute;
-			right: 20px;
-			top: 11px;
-			font-size: 20px;
-			z-index: -1
-		}
-		select {
-			-webkit-appearance: none;
-			-moz-appearance: none;
-			-ms-appearance: none;
-			appearance: none;
-			width: 200px;
-			border-radius: 40px;
-			padding: 6px 25px;
-			background: transparent;
 		}
 	}
 }

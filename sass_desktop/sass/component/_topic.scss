@@ -1,202 +1,45 @@
-.team {
+.topic {
 	position: relative;
-	&__logo {
+	padding: 40px 0 80px;
+	&__wrap {
 		position: relative;
-		//padding: 60px 25px;
-		padding: 20px 25px;
-	}
-	&__list {
-		position: relative;
-	}
-	&__bigitem {
-		position: relative;
-		text-align: center;
+		@include display-flex();
 		padding: 0;
-		display: block;
-		display: -ms-flexbox;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: flex-start;
+		margin: 0;
+		@include min-responsive($screen-lg-desktop) {
+			margin: 0 -20px;
+		}
 	}
 	&__item {
 		position: relative;
 		padding: 0 20px;
-		margin: 0 0 25px;
-		width: calc(100% / 6);
-		&.full {
-			width: 100%;
-		}
+		width: 50%;
 	}
 	&__img {
-		display: block;
-		text-align: center;
-		padding: 20px;
-		overflow: hidden;
-		border-radius: 100%;
-		border: 1px solid #ccc;
-		background: #fff;
-		@include transition(all .2s ease);
-		&:hover {
-			border: 5px solid $color_theme;
-		}
-	}
-	&__link.active {
-		.team__img {
-			border: 5px solid $color_theme;
-		}
-	}
-	&__name {
-		display: block;
-		padding: 10px 0;
-	}
-	
-	// detail
-	&__detail {
 		position: relative;
-		padding: 0 60px 40px;
-		&__logo {
-			padding: 0 20px;
-			float: right;
-			img {
-				height: 80px;
-			}
+		img {
+			width: 100%;
 		}
 	}
-	&__ads {
-		&__logo {
-			padding: 0 0 0 10px;
-			float: right;
-			span {
-				display: block;
-				padding: 0 0 5px;
-				font-size: 12px;
-				text-align: center;
-			}
-			img {
-				height: 80px;
-			}
-		}
+	&__box {
+		position: relative;
+		background: rgba(0,0,0,.5);
+		padding: 0 20px 20px;
 	}
 	&__title {
-		text-transform: uppercase;
-		padding: 0 0 20px;
-		@include font-pack($dinpro_black, 30px, false, 1, $color_theme);
+		margin: 15px 0;
+		@include font-pack(false, 20px, 700, false, #fff);
+		@include title_overflow(55px, 55px);
 	}
-	&__info {
-		@include font-pack(false, 18px, false, 1.6, false);
-		span {
-			min-width: 150px;
-			display: inline-block;
-			padding: 0 10px 0 0;
-		}
+	&__date {
+		letter-spacing: 1.2px;
+		@include font-pack(false, 12px, false, false, #fff);
 	}
-	&__row {
-		position: relative;
-	}
-	
-	// member
-	&__member {
-		position: relative;
-		padding: 40px 0 0;
+	&__link {
 		display: block;
-		display: -ms-flexbox;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: flex-start;
-		&__wrap {
-			position: relative;
-		}
-		&__item {
-			padding: 0 0 20px;
-			margin: 0 0 20px;
-			border-bottom: 1px solid #ccc;
-			&:last-child {
-				border-bottom: transparent;
-				margin: 0;
-			}
-		}
-		&__photo {
-			display: inline-block;
-			float: left;
-			margin: 0 40px 0 0;
-			width: 90px;
-			height: 90px;
-			border-radius: 100%;
-			overflow: hidden;
-			border: 1px solid #ccc;
-			background: #fff;
-		}
-		&__info {
-			padding: 2px 0;
-			span {
-				display: inline-block;
-				min-width: 150px;
-			}
-		}
-	}
-	&__header {
-		position: relative;
-		width: 20%;
-	}
-	&__tab {
-		position: relative;
-		display: block;
-		z-index: 2;
-		li {
-			display: block;
-			margin: 0 0 10px 0;
-		}
-		a {
-			border-radius: 5px 0 0 5px;
-			display: block;
-			padding: 17px 10px;
-			border: 1px solid #c8c8c8;
-			background: #c8c8c8;
-			text-align: center;
-			text-transform: uppercase;
-			letter-spacing: 1px;
-			width: 100%;
-			@include font-pack($dinpro_bold, 16px, false, false, #fff);
-		}
-		a:hover {
-			background: darken(#c8c8c8,8%);
-			border: 1px solid darken(#c8c8c8,8%);
-			color: #fff;
-		}
-		a.active {
-			background: #fff;
-			color: #2a2a2a;
-			border-top: 1px solid #c8c8c8;
-			border-right: 1px solid transparent;
-			border-left: 1px solid #c8c8c8;
-			border-bottom: 1px solid #c8c8c8;
-		}
-	}
-	&__content {
-		width: 80%;
-		position: relative;
-		left: -1px;
-		z-index: 1;
-		padding: 40px 60px;
-		background: #fff;
-		border: 1px solid #c8c8c8;
-		border-radius: 0 5px 5px 5px;
-	}
-	
-	// wp
-	&__logo.wp {
-		.team__bigitem {
-			height: 275px;
-			align-items: center;
-		}
-		.team__img {
-			overflow: inherit;
-			border-radius: 0;
-			padding: 10px;
-			background: transparent;
-			border: 1px solid transparent;
+		&:hover {
+			color: inherit;
+			text-decoration: underline;
 		}
 	}
 }

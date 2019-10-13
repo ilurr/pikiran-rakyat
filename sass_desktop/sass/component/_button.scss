@@ -13,39 +13,39 @@
 		box-shadow: none;
 		border-radius: 10px;
 		@include transition(all .2s ease);
-		@include font-pack($dinpro_bold, 16px, 700, false, #999);
+		@include font-pack(false, 16px, 700, false, #999);
 		&:hover {
 			color: #fff;
 			//border: 1px solid $color-theme;
 			background: $color_theme;
 		}
 	}
-	&__backtop {
-		opacity: 1;
-		visibility: visible;
-		position: fixed;
-		right: 10px;
-		bottom: 25px;
-		z-index: 9;
-		display: block;
-		border: none;
-		padding: 0;
-		text-align: center;
-		background: $color-theme;
-		border-radius: 100%;
-		span {
-			width: 40px;
-			height: 40px;
-			display: block;
-			color: #fff;
-			font-size: 35px;
-		}
-		&:hover {
-			border: none;
-		}
-	}
-	&--hide {
-		opacity: 0;
-		visibility: hidden;
-	}
+//	&__backtop {
+//		opacity: 1;
+//		visibility: visible;
+//		position: fixed;
+//		right: 10px;
+//		bottom: 25px;
+//		z-index: 9;
+//		display: block;
+//		border: none;
+//		padding: 0;
+//		text-align: center;
+//		background: $color-theme;
+//		border-radius: 100%;
+//		span {
+//			width: 40px;
+//			height: 40px;
+//			display: block;
+//			color: #fff;
+//			font-size: 35px;
+//		}
+//		&:hover {
+//			border: none;
+//		}
+//	}
+//	&--hide {
+//		opacity: 0;
+//		visibility: hidden;
+//	}
 }

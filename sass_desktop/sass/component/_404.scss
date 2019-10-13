@@ -28,15 +28,15 @@
 		}
 	}
 	&__title {
-		@include font-pack($dinpro_black, 190px, 700, 1, $color_theme);
+		@include font-pack(false, 150px, 700, 1, $color_theme);
 	}
 	&__subtitle {
 		text-transform: uppercase;
-		@include font-pack($dinpro_light, 40px, 700, 1, $color_theme);
+		@include font-pack(false, 40px, 400, 1, $color_theme);
 	}
 	&__content {
 		padding: 30px 0;
-		@include font-pack($dinpro_light, 18px, 400, 1, rgba(0,0,0,.6));
+		@include font-pack(false, 18px, 400, 1, #000);
 	}
 	&__link {
 		display: block;
@@ -46,7 +46,7 @@
 		border-radius: 5px;
 		text-align: center;
 		text-transform: uppercase;
-		@include font-pack($roboto, 16px, 700, false, false);
+		@include font-pack(false, 16px, 700, false, false);
 		@include transition(all .2s ease);
 		color: #fff;
 		background: $color_theme;

@@ -1,199 +1,87 @@
-.news {
+.latest {
 	position: relative;
-	&__wp {
+	&__item {
 		position: relative;
-		padding: 0 0 40px;
-	}
-	&__list {
-		position: relative;
-	}
-	&__wrap {
-		position: relative;
+		@include display-flex();
+		margin: 30px 0;
+		&:first-child {
+			margin: 0 0 30px;
+		}
 	}
 	&__img {
+		width: 250px;
+		position: relative;
+	}
+	&__right {
+		width: calc(100% - 250px);
+		padding: 0 0 0 30px;
+	}
+	&__subtitle {
 		display: inline-block;
-		float: left;
-		margin: 0 10px 5px 0;;
-		width: 210px;
+		padding: 0 0 3px;
+		text-transform: uppercase;
+		border-bottom: 1px solid $color_theme;
+		letter-spacing: 2.4px;
+		@include font-pack(false, 12px, false, false, $color_theme);
+		&:hover {
+			border-bottom: 1px solid #000;
+		}
+	}
+	&__title {
+		margin: 10px 0;
+		@include font-pack(false, 22px, 700, false, false);
+		@include title_overflow(auto, 85px);
 	}
 	&__date {
-		padding: 0 0 12px;
-		text-transform: uppercase;
-		@include font-pack($dinpro_regular, 12px, false, 1, $color_theme);
+		letter-spacing: 1.2px;
+		@include font-pack(false, 12px, false, false, $color_grey);
 	}
-	&__title {
-		//@include title_overflow(auto, 125px);
-		height: auto;
-		min-height: 125px;
-		overflow: hidden;
-		@include font-pack($dinpro_medium, 18px, false, false, #000);
+	&__author {
+		padding: 0 0 5px;
+		letter-spacing: 1px;
+		@include font-pack(false, 16px, 700, false, $color_theme);
 	}
 	&__link {
 		display: block;
-		&:hover {
-			color: darken($color_theme, 25%);
-		}
-	}
-	&__item {
-		display: block;
-		position: relative;
-		padding: 10px 0;
-		&.big {
-			padding: 0;
-			margin: 0 0 10px;
-			.news__img {
-				display: block;
-				width: 100%;
-			}
-			.news__img:after {
-				content: '';
-				position: absolute;
-				z-index: 1;
-				width: 100%;
-				height: 100%;
-				top: 0;
-				left: 0;
-				background: rgba(0,0,0,.3);
-			}
-			.news__img img {
-				width: 100%;
-			}
-			.news__box {
-				position: absolute;
-				z-index: 1;
-				width: 100%;
-				bottom: 0;
-				left: 0;
-				padding: 20px 25px;
-			}
-			.news__title {
-				color: #fff;
-				font-size: 24px;
-				font-family: $dinpro_bold;
-				max-height: 100px;
-			}
-			.news__link:hover {
-				color: #fff;
-			}
-			.news__date {
-				color: #fff;
-			}
-		}
-	}
-	&__page {
-		position: relative;
-		padding: 20px 0 40px;
-		.news__item {
-			padding: 30px 0;
-			border-bottom: 1px solid #ccc;
-		}
-		.news__item:last-child {
-			padding: 30px 0 0;
-			border-bottom: transparent;
-		}
-		.news__img {
-			width: 300px;
-			margin: 0 25px 0 0;
-		}
-		.news__date {
-			padding: 0 0 20px;
-		}
-		.news__title {
-			font-size: 30px;
-			max-height: 120px;
-		}
-		.news__item.big {
-			padding: 0;
-			.news__img {
-				margin: 0;
-			}
-			.news__box {
-				padding: 40px;
-			}
-			.news__title:after {
-				content: '';
-				position: absolute;
-				left: 0;
-				top: 10%;
-				width: 20px;
-				height: 85%;
-				background: $color_theme;
-				z-index: 1;
-			}
-			.news__title {
-				font-size: 30px;
-				max-height: 120px;
-				font-family: $dinpro_black;
-				position: relative;
-				margin: 0 -40px;
-				padding: 0 40px;
-			}
-		}
 	}
 	&__more {
-		padding:  0 0 40px;
+		margin: -10px 0 0;
+		padding: 0 0 20px;
+		text-align: center;
 	}
-}
-
-.hl {
-	position: relative;
-    width: $screen-lg-desktop;
-    @include min-responsive($screen-lg-desktop) {
-        width: 100%;
-    }
-	&__wrap {
-		position: relative
-	}
-	&__item {
-		display: block;
-		position: relative;
-	}
-	&__img {
-		position: relative;
-		width: 100%;
-		&:after {
-			content: '';
-			position: absolute;
-			z-index: 1;
-			width: 100%;
-			height: 100%;
-			top: 0;
-			left: 0;
-			background: rgba(0,0,0,.5);
-		}
-		img {
-			width: 100%;
-		}
-	}
-	&__box {
-		position: absolute;
-		bottom: 60px;
-		left: 0;
-		width: 100%;
-		height: auto;
-		z-index: 1;
-	}
-	&__title {
-		padding: 0 60px;
-		position: relative;
-		@include title_overflow(auto, 140px);
-		@include font-pack($dinpro_black, 35px, false, false, #fff);
-		&:after {
-			content: '';
-			position: absolute;
-			left: 0;
-			top: 10%;
-			width: 20px;
-			height: 85%;
-			background: #eba657;
-			z-index: 1;
-		}
-	}
-	&__link {
-		display: block;
-		color: #fff;
+	&__button {
+		display: inline-block;
+		padding: 5px 0;
+		text-transform: uppercase;
+		font-style: italic;
+		letter-spacing: 2px;
+		border-bottom: 1px solid $color_theme;
+		@include font-pack(false, 18px, 700, false, $color_theme);
 		&:hover {
-			color: #eba657;
+			color: #000;
+		}
+	}
+	
+	// read
+	&--article {
+		.latest__item {
+			margin: 20px 0;
+		}
+		.latest__right {
+			padding-left: 10px;
+			width: calc(100% - 100px);
+		}
+		.latest__img {
+			width: 100px;
+			height: 100px;
+		}
+		.latest__title {
+			margin: 0 0 7px;
+			font-size: 18px;
+			max-height: 71px;
+		}
+		.latest__date {
+			color: $color_theme;
 		}
 	}
 }

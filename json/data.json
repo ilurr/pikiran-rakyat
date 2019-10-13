@@ -1,1 +1,1726 @@
-{}
+{
+  "menu": [
+    {
+      "title": "Bandung Raya",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0
+    },
+    {
+      "title": "Jawa Barat",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0
+    },
+    {
+      "title": "Nasional",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0
+    },
+    {
+      "title": "Internasional",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0
+    },
+    {
+      "title": "Persib",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0
+    },
+    {
+      "title": "Bola",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0
+    },
+    {
+      "title": "Olahraga",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0
+    },
+    {
+      "title": "Ekonomi",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0
+    },
+    {
+      "title": "Teknologi",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0
+    },
+    {
+      "title": "Entertainment",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0
+    },
+    {
+      "title": "Kesehatan",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0
+    }
+  ],
+  "WP": {
+    "Headline": [
+      {
+        "title": "Massa Mahasiswa: Ke DPR karena Panggilan Hati, Bukan Sekadar Kebutuhan Insta Story",
+        "subtitle": "Nasional",
+        "lead": "Massa mahasiswa kembali gelar aksi di Gedung DPR RI, Jalan Gatot Subroto, Jakarta Pusat, Selasa (24/9/2019).",
+        "img": "2019/09/24/5d8a14220d803.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Oppo Luncurkan Aplikasi untuk Servis Ponsel di Indonesia",
+        "subtitle": "Teknologi",
+        "lead": "Oppo meresmikan aplikasi layanan purna jual Oppo Service lewat acara peluncuran yang digelar di Jakarta hari ini, Kamis (22/8/2019).",
+        "img": "2019/08/22/5d5e49444bd9b.jpg",
+        "link": "artikel-advertorial.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": 1
+      },
+      {
+        "title": "Kisah di Balik Foto Viral Anak SMA Bawa Bendera Merah Putih di Tengah Kabut Gas Air Mata",
+        "subtitle": "Bandung Raya",
+        "lead": "Aksi pelajar SMK dan SMA di sekitar gedung DPR, Rabu (25/9/2019) menyisakan sebuah kisah yang melekat di benak para pelajar itu.",
+        "img": "2019/09/27/5d8e277b66271.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Lindswell Kwok: Saya Senang, Puas, dan Lega, Saya Mau Istirahat Dulu",
+        "subtitle": "Olahraga",
+        "lead": "Atlet wushu andalan Indonesia, Lindswell Kwok, mengaku belum memiliki rencana jika pensiun dari cabang olahraga yang membesarkan namanya tersebut.",
+        "img": "2018/08/20/2595843028.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Seperti Apa Ramen Toriton Milik Ramen Menya Sakon di Fukushima?",
+        "subtitle": "Belia",
+        "lead": "Cobalah gurihnya kuah ramen mereka yang populer berkat rasio campuran tulang Toriton, serta kuah shoyu.",
+        "img": "2018/03/11/4042345607.jpg",
+        "link": "artikel-advertorial.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": 1
+      },
+      {
+        "title": "Ekspresi Diri Lewat Fashion ala Pevita Pearce",
+        "subtitle": "Entertainment",
+        "lead": "Artis peran Pevita Pearce mengaku hanya setia pada satu jenis sampo tertentu. Karena itu, dirinya tak pernah lupa membawa sampo tersebut ketika sedang bepergian ke luar kota atau travelling.",
+        "img": "2016/01/21/1627218Pevita-Pearce-861780x390.JPG",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": 1
+      }
+    ],
+    "Latest": [
+      {
+        "title": "Oppo R15 Resmi Berponi ala iPhone X, Harga Rp 6 Jutaan",
+        "subtitle": "Teknologi",
+        "lead": "Akhirnya Oppo resmi merilis Oppo R15 dan Oppo R15 Dream Mirror Edition. Dan benar, desainnya memiliki \"poni\" kekinian.",
+        "img": "2018/03/20/3328053008.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": 1
+      },
+      {
+        "title": "Indonesia Jajaki Kerja Sama dengan Toko Modern Arab Saudi",
+        "subtitle": "Internasional",
+        "lead": "Hingga saat ini ITPC Jeddah dan Danube Company Ltd. telah melakukan pertemuan bisnis sebanyak dua kali. ",
+        "img": "2017/11/09/2641371151.jpg",
+        "link": "artikel-ekonomi.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "OJK: Bank Harus Ganti Rugi Dana Nasabah Korban 'Skimming'",
+        "subtitle": "Ekonomi",
+        "lead": "OJK bakal selalu mengevaluasi manajemen risiko sistem keamanan perbankan",
+        "img": "2013/05/01/1302462-kum-mandiri-raih-laba-rp-43-triliun--780x390.jpg",
+        "link": "artikel-video.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": 10.16,
+        "ads": ""
+      },
+      {
+        "title": "Aneka Pernak-pernik Edisi Terbatas Doraemon di 3COINS",
+        "subtitle": "Jawa Barat",
+        "lead": "3COINS merupakan toko pernak-pernik di Jepang yang menjual berbagai barang dengan harga 300 yen. Toko ini menjual barang-barang edisi terbatas bertema Doraemon in 3COINS dari 3 Februari kemarin.",
+        "img": "2018/03/11/1806210072.jpg",
+        "link": "artikel-brandzview.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": 1
+      },
+      {
+        "title": "Bulan Depan Harga Mitsubishi Xpander Naik Lagi?",
+        "subtitle": "Otokir",
+        "lead": "Harga Mitsubishi Xpander sudah naik sejak awal 2018.",
+        "img": "2017/11/29/1191927821.jpg",
+        "link": "artikel-otomotif.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Kalahkan Kroasia, Perancis Raih Gelar Juara Piala Dunia 2018",
+        "subtitle": "Bola",
+        "lead": "Timnas Perancis menang 4-2 atas timnas Kroasia pada babak final Piala Dunia 2018.",
+        "img": "2018/07/15/30335776.jpg",
+        "link": "artikel-bola.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "2019, China Luncurkan Satelit Komersial yang Bisa Ditarik Kembali",
+        "subtitle": "Internasional",
+        "lead": "China telah berhasil menarik kembali 20 satelit yang telah mengudara sejak 1975. Kini, mereka berencana menawarkannya untuk kebutuhan komersial.",
+        "img": "2017/09/12/2020040194.jpg",
+        "link": "artikel-sains.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Apa yang Menarik dari Pernikahan Pangeran Harry dan Meghan Markle?",
+        "subtitle": "Entertainment",
+        "lead": "Kapel St George memiliki kapasitas hingga 800 tamu, atau lebih kecil dari lokasi pernikahan Pangeran William dan Kate Middleton di Westminster Abbey.",
+        "img": "2017/11/28/3258046512.jpg",
+        "link": "artikel-lifestyle.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Memesona, Tol Ngawi-Kertosono Diapit Gunung Wilis dan Lawu",
+        "subtitle": "Ekonomi",
+        "lead": "Jalan tol ini menawarkan pemandangan keindahan Gunung Lawu dan Gunung Wilis di jalur perjalanannya. ",
+        "img": "2018/03/21/3186676929.jpg",
+        "link": "artikel-properti.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Didier Drogba Dukung Neymar Raih Ballon d'Or",
+        "subtitle": "Persib",
+        "lead": "Drogba Mendukung Neymar untuk merusak dominasi Ronaldo dan Messi di Ballon d'Or",
+        "img": "2017/12/24/4061819977.jpg",
+        "link": "artikel-bola.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Jelang Rilis, Iron Man dan Doctor Strange Akan Sapa Penggemar di Asia",
+        "subtitle": "Entertainment",
+        "lead": "Sosok Iron Man dan Doctor Strange akan menyapa para penggemarnya di Marina Bay Sands, Singapura.",
+        "img": "2017/11/05/3650046131.jpeg",
+        "link": "artikel-entertainment.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Vanesha Prescilla Tidak Sulit Lepas Karakter Milea",
+        "subtitle": "Entertainment",
+        "lead": "Artis peran pendatang baru Vanesha Prescilla mengatakan, bukan hal yang sulit baginya untuk melepas karakter Milea dalam film Dilan 1990 untuk kemudian masuk ke dalam karakter baru pada film Teman Tapi Menikah (TTM).",
+        "img": "2018/03/21/2557719547.jpg",
+        "link": "artikel-entertainment.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Arus Tol Dialihkan, Mahasiswa Menuju Gedung DPR dengan Turun ke Jalan Tol",
+        "subtitle": "Nasional",
+        "lead": "Mahasiswa Universitas Krisnadwipayana, Bekasi menuju Gedung DPR/MPR Republik Indonesia di Jalan Gatot Subroto, Jakarta Selatan, Selasa (24/9/2019).",
+        "img": "2019/09/24/5d89cc55e1c3d.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Memaknai Pembangunan Perdamaian Melalui Perempuan",
+        "subtitle": "Kesehatan",
+        "lead": "Keterlibatan perempuan dalam tindak radikalisme dan terorisme bukan hal yang baru sama sekali.",
+        "img": "2017/11/29/1787802732.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Film Pendek: Pejuang LDR dan Samsung Galaxy S9",
+        "subtitle": "Teknologi",
+        "lead": "Samsung Galaxy S9 hadir dengan fitur-fitur yang mampu meningkatkan pengalaman berkomunikasi virtual, tanpa batasan jarak dan waktu.",
+        "img": "2018/03/19/4036466474.png",
+        "link": "artikel-video.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": 6.42,
+        "ads": ""
+      },
+      {
+        "title": "Korea Utara Bobol Rp 28 Triliun untuk Danai Program Senjata",
+        "subtitle": "Internasional",
+        "lead": "Korea Utara melakukan serangan siber tanpa bisa dideteksi oleh pemerintah negara asing.",
+        "img": "2019/08/02/5d445db91d5c1.jpg",
+        "link": "artikel-news.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Solusi Biar Ojek Online Tidak Main HP di Jalanan",
+        "subtitle": "Otokir",
+        "lead": "Masih kurang pemahaman \"safety riding\" dari penyedia jasa aplikasi.",
+        "img": "2016/10/27/203606320161003-061929-8123-unjuk.rasa-.pengemudi-.go-.jek-780x390.jpg",
+        "link": "artikel-otomotif.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Yuk Bernostalgia dengan Bus Kota Tempo Dulu",
+        "subtitle": "Otomotif",
+        "lead": "Bagi yang ingin bernostalgia mengenang masa lalu saat menumpang bus kota",
+        "img": "2018/03/22/2095168927.jpg",
+        "link": "artikel-otomotif.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Gerakan #JamMainKita Ajak Anak Bermain di Luar Ruangan",
+        "subtitle": "Teknologi",
+        "lead": "Aktivitas luar ruang, seperti permainan tradisional, punya segudang manfaat. Sebut saja seperti Gobak Sodor, Tapak Gunung hingga Lompat Karet.",
+        "img": "2018/02/15/2837143849.jpg",
+        "link": "artikel-lifestyle.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Kemampuan Matematika Siswa Indonesia Memprihatikan, Solusinya?",
+        "subtitle": "Jawa Barat",
+        "lead": "Hasi Survei Programme for International Student Assessment (PISA) menunjukkan, kemampuan matematika pelajar Indonesia memprihatikan. Apa solusinya?",
+        "img": "2018/03/20/3292993438.jpg",
+        "link": "artikel-brandzview.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": 1
+      },
+      {
+        "title": "Catat, Ini Jadwal Mekarnya Bunga Sakura di Korea Tahun 2018",
+        "subtitle": "Internasional",
+        "lead": "Yuk saatnya melihat sakura di Korea",
+        "img": "2017/04/17/3095528600.jpg",
+        "link": "artikel-travel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Bersama Inter Milan, Antonio Conte Melabrak Batas",
+        "subtitle": "Bola",
+        "lead": "Sebelum ini, Antonio Conte tak pernah merasakan manisnya 12 poin dari 4 laga pertama musim.",
+        "img": "2019/09/27/5d8d352cd8a4e.jpg",
+        "link": "artikel-bola.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "INACA: Indonesia Masih Kekurangan Kapten Pilot",
+        "subtitle": "Ekonomi",
+        "lead": "Menurut INACA, kekurangan level kapten pilot saat ini cukup besar. Ini bukan hanya terjadi pada satu maskapai tetapi di industri secara keseluruhan",
+        "img": "2018/01/16/2790988665.jpg",
+        "link": "artikel-ekonomi.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "'Terima Kasih Bapak Presidenku, Bulan Harap Bisa Cium Tangan Bapak Langsung'",
+        "subtitle": "Bandung Raya",
+        "lead": "Setelah menerima kursi roda, Bulan langsung mengunggah foto-fotonya di atas kursi roda berikut ucapan terima kasih kepada Jokowi di akun Instagramnya.",
+        "img": "2018/03/21/1168062604.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Macet, Jakarta Masih Berorientasi pada Kendaraan Pribadi",
+        "subtitle": "Jawa Barat",
+        "lead": "Ketika jarum jam menunjukkan pukul 17.30-21.00, jalur-jalur jalan di Jakarta bak lapangan parkir yang dipenuhi kendaraan.",
+        "img": "2018/02/13/4014920816.jpg",
+        "link": "artikel-properti.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Beli Mobil Hasil Lelang Bakal Bisa Kredit",
+        "subtitle": "Bandung Raya",
+        "lead": "Ibid sedang mengusahakan agar pembeli mobil lelang bisa membayar secara kredit.",
+        "img": "2017/10/31/1661465697.jpg",
+        "link": "artikel-otomotif.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Komentar Pebalap Malaysia yang Dapat Poin di MotoGP",
+        "subtitle": "Otomotif",
+        "lead": "Balapan perdana di MotoGP pebalap Malaysia ini langsung dapat poin.",
+        "img": "2018/03/18/482663636.jpg",
+        "link": "artikel-otomotif.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Takut Tertular Penyakit Saat Penerbangan? Duduklah Dekat Jendela",
+        "subtitle": "Entertainment",
+        "lead": "Riset terbaru telah menemukan bahwa ada satu tempat di pesawat terbang yang menawarkan perlindungan dari berbagai penularan penyakit seperti flu.",
+        "img": "2018/03/21/880469239.jpg",
+        "link": "artikel-lifestyle.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Begini Cara Go-Jek agar Mitra Tidak Pakai \"Tuyul\" ",
+        "subtitle": "Bandung Raya",
+        "lead": "Ada beberapa langkah antisipasi dalam sistem keamanan yang tengah dikembangkan untuk memberantas \"tuyul\". ",
+        "img": "2016/04/19/1429065DSCF0425780x390.jpg",
+        "link": "artikel-tekno.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Mengenal Katsuko Saruhashi Sang \"Pengamat Hujan\"",
+        "subtitle": "Teknologi",
+        "lead": "Ia adalah penemu Sarushi's Table, metodologi penting di bidang ilmu kelautan. Dia membuktikan jika perempuan bisa ikut berkontribusi di bidang iptek.",
+        "img": "2018/03/21/3493884794.png",
+        "link": "artikel-tekno.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Bursa Saham AS Ditutup Turun Pasca-Kenaikan Suku Bunga The Fed",
+        "subtitle": "Ekonomi",
+        "lead": "Pelaku pasar masih mencoba untuk menebak-nebak jumlah kenaikan suku bunga yang akan berlangsung tahun ini.",
+        "img": "2013/08/28/1946285PerangAmerikaSuriah081377683997-preview780x390.jpg",
+        "link": "artikel-ekonomi.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Pameran Kaca 'Glasstec' ke-25 Bakal Digelar di Jerman",
+        "subtitle": "Internasional",
+        "lead": "Pameran Glasstec tahun ini akan menentukan standar-standar yang akan berlaku di industri kaca dunia. Para peserta pameran dari berbagai-belahan dunia.",
+        "img": "2015/01/14/1816299shutterstock-rhine780x390.jpg",
+        "link": "artikel-properti.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Bolt Bersiap Bermain di Old Trafford",
+        "subtitle": "Olahraga",
+        "lead": "Bolt tengah mempersiapkan diri untuk memperkuat tim Sisa Dunia  dalam laga amal Soccer Aid di Old Trafford pada 10 Juni. ",
+        "img": "2016/08/19/1025416us1780x390.jpg",
+        "link": "artikel-news.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "5 Pasal 'Menggigit' dalam Pergub Tempat Hiburan yang Disahkan Anies",
+        "subtitle": "Kesehatan",
+        "lead": "Anies menyebut, aturan yang dulu berbeda dengan aturan yang baru disahkannya. Menurut dia, pergub ini punya \"gigi\" yang lebih kuat implementasinya.",
+        "img": "2018/03/12/3760632751.jpeg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Menanti Putusan Gugatan Penghuni Apartemen Kalibata City...",
+        "subtitle": "Nasional",
+        "lead": "Penghuni Apartemen Kalibata City menggugat Rp 13 miliar kepada pengembang dan perusahaan yang ditunjuk pengembang untuk menjadi Badan Pengelola. ",
+        "img": "2017/05/29/12037172461.JPG",
+        "link": "artikel-news.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Milan Vs Inter, I Nerazzurri Menangi Derby Della Madonnina",
+        "subtitle": "Bola",
+        "lead": "Derby Della Madonnina antara AC Milan vs Inter Milan berakhir untuk kemenangan skuad I Nerazzurri.",
+        "img": "2019/09/22/5d8690f7491f7.jpg",
+        "link": "artikel-bola.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Promo Hotel di Bali Saat Nyepi 2018",
+        "subtitle": "Belia",
+        "lead": "Nyepi saatnya hotel-hotel di Bali memberi potongan harga dan paket menarik untuk wisatawan. ",
+        "img": "2016/11/09/1601570Beach-Front-Private-Suites-Pool780x390.jpg",
+        "link": "artikel-travel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Giliran Ghea yang Tersingkir dari Indonesian Idol 2018",
+        "subtitle": "Entertainment",
+        "lead": "Line voting ditutup. Kini tiba saatnya pembawa Acara Daniel Mananta membacakan pengumuman hasil voting Top 5 Indonesian Idol 2018.",
+        "img": "2018/02/20/10433186.jpg",
+        "link": "artikel-entertainment.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Kata Setya Novanto, Ada Uang E-KTP ke Puan Maharani dan Pramono Anung",
+        "subtitle": "Nasional",
+        "lead": "\"Bu Puan Maharani Ketua Fraksi PDI-P dan Pramono adalah 500.000. Itu keterangan Made Oka,\" kata Setya Novanto",
+        "img": "2018/02/08/20348551961.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Mulai Rp 400 Jutaan, Rumah di Perbatasan Bekasi Jadi Incaran",
+        "subtitle": "Belia",
+        "lead": "Rumah dua lantai yang ditawarkan mulai Rp400 jutaan hingga Rp1 miliar laku keras di perbatasan Bekasi. Segmen segmen menengah atas lagi naik daun.",
+        "img": "2018/03/18/54917559.jpg",
+        "link": "artikel-properti.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      }
+    ],
+    "Sorotan": [
+      {
+        "title": "Kena Tipu via SMS, Hubungi \"Call Center\" Ini! ",
+        "subtitle": "Bogor",
+        "lead": "Polisi mengimbau kepada masyarakat untuk segera melapor ke call center polisi jika mendapat upaya penipuan melalui pesan singkat atau SMS. Call center polisi tersebut dapat dihubungi di nomor 081513566635 atau 085284248610.",
+        "img": "2019/09/17/5d80b50be2713.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Simak, Kondisi Proyek Tol Sukabumi Terkini",
+        "subtitle": "Sukabumi",
+        "lead": "Tol Trans-Sumatera dirancang memiliki panjang 2.700 kilometer. Tol ini memiliki 24 ruas, terdiri atas 15 ruas utama dan sembilan ruas tambahan.",
+        "img": "2019/06/02/98872555.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Zaman Sudah Berubah, Bagaimana dengan Kualitas Lulusan Sekolah?",
+        "subtitle": "Cirebon",
+        "lead": "Kualitas lulusan yang seperti apakah yang saat ini dibutuhkan oleh dunia industri?",
+        "img": "2018/04/08/499437839.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": 1
+      },
+      {
+        "title": "Jawa Barat Surganya Glamping, 8 Tempat Kemah Mewah dekat Jakarta",
+        "subtitle": "Tasikmalaya",
+        "lead": "Mau berkemah tetapi tetap nyaman, cobain glamping yuk!",
+        "img": "2018/08/02/2116057339.JPG",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Bima Arya Dukung Rencana Pemindahan Ibu Kota Jawa Barat",
+        "subtitle": "Bogor",
+        "lead": "Menurut Bima, rencana tersebut sudah pasti dipikirkan dengan matang. Terlebih, Emil, sapaan akrabnya, dinilai ahli dalam tata kota.",
+        "img": "2019/07/02/4200786050.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Dedi Mulyadi Usulkan Jawa Barat Digabung dengan Jakarta",
+        "subtitle": "Bandung",
+        "lead": "Alasan lainnya penggabungan Jakarta dengan Jawa Barat adalah untuk mengakomodasi keinginan masyarakat Bekasi dan Depok untuk bergabung dengan Jakarta.",
+        "img": "2019/07/31/5d41a45a35a9d.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "Wali Kota Bekasi: Bantuan dari DKI Hampir Rp 1 T, Jawa Barat Cuma Rp 66 M, Banyakan Mana?",
+        "subtitle": "Karawang",
+        "lead": "Padahal, Rahmat Effendi merasa Bekasi punya kontribusi besar terhadap Pemprov Jawa Barat.",
+        "img": "2019/09/13/5d7b59fe02c17.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      },
+      {
+        "title": "10 Universitas Swasta Terbaik Jawa Barat, PTS Mana Pilihanmu?",
+        "subtitle": "Kuningan",
+        "lead": "Mendorong peningkatan kualitas, Kemenristekdikti membuat pemetaan peringkat dan klaster universitas Indonesia. Berikut 10 universitas terbaik Jabar?",
+        "img": "2019/08/17/5d5782b9491dd.jpeg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "duration": "",
+        "ads": ""
+      }
+    ],
+    "Opini": [
+      {
+        "title": "Teka-teki Ibu Kota Baru dan Bocoran Seorang Walikota di Kalimantan",
+        "subtitle": "Edukasi",
+        "lead": "Keterlibatan perempuan dalam tindak radikalisme dan terorisme bukan hal yang baru sama sekali.",
+        "img": "2019/03/10/4210088778.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "T Bachtiar",
+        "author_title": "Anggota Masyarakat Geografi Nasional Indonesia dan Kelompok Riset Cekungan Bandung",
+        "author_img": "https://static.pikiran-rakyat.com/public/media_thumbnail/public/profile/dxNxxnIldfrwoiPr6xAhliaVgcDA39jaoldmwbzm.jpeg"
+      },
+      {
+        "title": "Malam di Jawa",
+        "subtitle": "Edukasi",
+        "lead": "Indonesia merupakan sebuah negara yang luas, dengan budaya, bahasa, dan kepercayaan yang amat beragam. ",
+        "img": "2012/10/25/0933523780x390.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Hawe Setiawan",
+        "author_title": "Penulis",
+        "author_img": "https://static.pikiran-rakyat.com/public/media_thumbnail/public/profile/RGoF0cg8aWB6ap8Dt1VgNStvfNBokmm0gk6iaRyV.jpeg"
+      },
+      {
+        "title": "Misteri Kematian Mantan Wakapolda Sumut: Silet, Racun Serangga, dan...",
+        "subtitle": "Regional",
+        "lead": "Masuk pekan keempat belum ada tanda-tanda sedikitpun tentang penyebab kematian mantan Wakil Kepala Polda Sumatera Utara Kombes Pol (Purn) Agus Samad yang hampir sebagian kariernya dihabiskan di dunia intelijen.",
+        "img": "2018/03/01/1586971283.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Karim Suryadi",
+        "author_title": "Peneliti Komunikasi Politik, Dosen FPIPS UPI",
+        "author_img": "https://static.pikiran-rakyat.com/public/media_thumbnail/public/profile/GhMKkNaD6rupfe3U1yTldfhEoONTAvuSrRvZPfVu.jpeg"
+      },
+      {
+        "title": "Gebrakan Para Wanita Lepas dari Diskriminasi",
+        "subtitle": "Nasional",
+        "lead": "Gebrakan Para Wanita Lepas dari Diskriminasi",
+        "img": "2018/03/21/3500999941.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Eko Noer Kristiyanto",
+        "author_title": "Peneliti Hukum di Kementerian Hukum dan HAM",
+        "author_img": "https://static.pikiran-rakyat.com/public/media_thumbnail/public/profile/aS2bTlVUt9Q6lR1pjeZ9QUc5kKacnqrr4CzIHVx4.png"
+      },
+      {
+        "title": "Catatan Pertemuan dengan BJ Habibie di Muenchen",
+        "subtitle": "Nasional",
+        "lead": "Saat memeriksa HP, saya tersentak membaca sebuah berita tentang kondisi Pak Habibie di Jerman.",
+        "img": "2018/03/12/88739748.jpeg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Karim Suryadi",
+        "author_title": "Peneliti Komunikasi Politik, Dosen FPIPS UPI",
+        "author_img": "https://static.pikiran-rakyat.com/public/media_thumbnail/public/profile/GhMKkNaD6rupfe3U1yTldfhEoONTAvuSrRvZPfVu.jpeg"
+      },
+      {
+        "title": "Cerita di Balik Perppu Pilkada Langsung dan Opsi atas UU MD3",
+        "subtitle": "Nasional",
+        "lead": "Saat ini ruang publik sedang diramaikan dengan polemik terkait Undang-Undang MPR, DPR, DPD, dan DPRD (MD3).",
+        "img": "2018/03/17/1153880863.JPG",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Chappy Hakim",
+        "author_title": "KSAU 2002-2005",
+        "author_img": "https://static.pikiran-rakyat.com/public/media_thumbnail/public/profile/GhMKkNaD6rupfe3U1yTldfhEoONTAvuSrRvZPfVu.jpeg"
+      },
+      {
+        "title": "“Pengabaian” Pengaruhi Perkembangan Otak Anak",
+        "subtitle": "Edukasi",
+        "lead": "Studi menarik dari laman APA menunjukkan bahwa anak-anak yatim piatu yang dibesarkan di Romanian Institute for Abandoned Children memiliki ukuran kepala, volume otak yang relatif lebih kecil dan memiliki struktur basal ganglia yang berbeda dengan anak-anak yang diasuh oleh pengasuh khusus sejak lahir.",
+        "img": "2018/02/23/705534047.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Jannus TH Siahaan",
+        "author_title": "Doktor Sosiologi",
+        "author_img": "https://static.pikiran-rakyat.com/public/media_thumbnail/public/profile/GhMKkNaD6rupfe3U1yTldfhEoONTAvuSrRvZPfVu.jpeg"
+      },
+      {
+        "title": "Bagaimana Posisi Utang Indonesia? ",
+        "subtitle": "Nasional",
+        "lead": "Jangan membandingkan utang Indonesia dengan Jepang. Begitu pernyataan Presiden Partai Keadilan Sejahtera Sohibul Iman.",
+        "img": "2017/11/18/2685930683.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Nufransa Wira Sakti",
+        "author_title": "-",
+        "author_img": "https://static.pikiran-rakyat.com/public/media_thumbnail/public/profile/GhMKkNaD6rupfe3U1yTldfhEoONTAvuSrRvZPfVu.jpeg"
+      },
+      {
+        "title": "Mendorong  Pers Menjadi Pengawal Pilkada",
+        "subtitle": "Nasional",
+        "lead": "PEMILIHAN gubernur, bupati, dan wali kota sedang dalam tahapan kampanye dan dana kampanye (penyerahan laporan awal dana kampanye/LADK serta pengumuman LADK).",
+        "img": "2018/03/16/1986036811.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Girindra Sandino",
+        "author_title": "Wakil Sekjen KIPP",
+        "author_img": "https://static.pikiran-rakyat.com/public/media_thumbnail/public/profile/GhMKkNaD6rupfe3U1yTldfhEoONTAvuSrRvZPfVu.jpeg"
+      },
+      {
+        "title": "Menanti Kemenangan Kedua Golkar di Pilkada Serentak",
+        "subtitle": "Nasional",
+        "lead": "SETAHUN lalu saya dengan gelisah menulis tentang sepinya kabar pemilihan kepala daerah di luar Jakarta.",
+        "img": "2018/01/22/2066038135.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Algooth Putranto",
+        "author_title": "-",
+        "author_img": "https://static.pikiran-rakyat.com/public/media_thumbnail/public/profile/GhMKkNaD6rupfe3U1yTldfhEoONTAvuSrRvZPfVu.jpeg"
+      },
+      {
+        "title": "Hari Tidur Sedunia 2018, Pentingnya Tidur bagi Sendi Kehidupan",
+        "subtitle": "Lifestyle",
+        "lead": "-",
+        "img": "2018/03/15/11375519.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Dr. Andreas Prasadja, RPSGT *",
+        "author_title": "Praktisi",
+        "author_img": "https://static.pikiran-rakyat.com/public/media_thumbnail/public/profile/GhMKkNaD6rupfe3U1yTldfhEoONTAvuSrRvZPfVu.jpeg"
+      },
+      {
+        "title": "60 Tahun Indonesia-Selandia Baru, Belajar dari Negeri Kiwi",
+        "subtitle": "Nasional",
+        "lead": "-",
+        "img": "2018/03/15/847868267.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Perhimpunan Pelajar Indonesia",
+        "author_title": "PPI",
+        "author_img": "profile/6328972c68f9e70c5efdf08252800eae.jpg"
+      },
+      {
+        "title": "Mengenang Stephen Hawking, dari Topik Bumi Datar hingga Peran Tuhan",
+        "subtitle": "Sains",
+        "lead": "-",
+        "img": "2018/03/14/3141528168.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Palupi Annisa Auliani",
+        "author_title": "Tukang Ketik",
+        "author_img": "profile/88dc6ef079c8455adf5ded040e8a9316.jpg"
+      },
+      {
+        "title": "Jokowi-AHY Ideal Buat Demokrat",
+        "subtitle": "Nasional",
+        "lead": "-",
+        "img": "2018/03/06/3036973739.jpeg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Aji Chen Bromokusumo",
+        "author_title": "Budayawan",
+        "author_img": "profile/7dec54e10ec72422b6853ab12c725699.jpg"
+      },
+      {
+        "title": "Mengurai Potensi Konflik Indonesia-Australia di Bidang Pertahanan",
+        "subtitle": "Nasional",
+        "lead": "-",
+        "img": "2018/03/14/1654798454.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Chappy Hakim",
+        "author_title": "KSAU 2002-2005",
+        "author_img": "profile/9010bb2f0221f24f6a9d6cce93faf6f3.jpg"
+      },
+      {
+        "title": "Hubungan Dagang dan Reformasi Politik Tiongkok",
+        "subtitle": "Internasional",
+        "lead": "-",
+        "img": "2018/03/12/53042158.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Saidiman Ahmad",
+        "author_title": "-",
+        "author_img": "profile/4604d4cf0cad6878ea2a1a5d602974da.jpg"
+      },
+      {
+        "title": "Peran Bawaslu dan Pemilu yang Berintegritas",
+        "subtitle": "Nasional",
+        "lead": "-",
+        "img": "2017/11/16/2009233950.JPG",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Eki Baihaki",
+        "author_title": "-",
+        "author_img": "profile/df434c86f401271e24e8b34e0387dd5c.jpg"
+      },
+      {
+        "title": "VUCA dan Dunia yang Tunggang Langgang",
+        "subtitle": "Ekonomi",
+        "lead": "-",
+        "img": "2016/06/29/2235380ThinkstockPhotos-486506872780x390.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "AM Lilik Agung",
+        "author_title": "Trainer bisnis",
+        "author_img": "profile/80c2782386cea461f1402b2759500643.jpg"
+      },
+      {
+        "title": "Begini Cara Laporkan Aset Keuangan dan Investasi dalam SPT Pajak",
+        "subtitle": "Ekonomi",
+        "lead": "-",
+        "img": "2013/03/05/1209099-ron-pengembalian-surat-pemberitahuan-spt-780x390.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Rudiyanto Zh",
+        "author_title": "Direktur Panin Asset Management",
+        "author_img": "profile/257ee7f9f1046f0cc0c0e82b7432b40b.jpg"
+      },
+      {
+        "title": "Demi Semangat Kebhinekaan Generasi Millenial",
+        "subtitle": "Nasional",
+        "lead": "-",
+        "img": "2018/03/10/792276408.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Munawir Aziz",
+        "author_title": "Wakil Sekretaris LTN Pengurus Besar Nahdlatul Ulama",
+        "author_img": "profile/70e99e4fa0ced532dbecd8085c69d9c3.jpg"
+      },
+      {
+        "title": "Membangun Narasi Keberagaman",
+        "subtitle": "Nasional",
+        "lead": "-",
+        "img": "2018/03/09/2689190612.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Lenny Hidayat",
+        "author_title": "Partnership for Governance Reform Specialist",
+        "author_img": "profile/3a5f9c9f0275fb39fe2c3e6b91aa7cdd.jpg"
+      },
+      {
+        "title": "Birokrasi Zaman \"Now\" dan \"Open Government\" di Era Media Sosial",
+        "subtitle": "Megapolitan",
+        "lead": "-",
+        "img": "2018/01/29/3572604340.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Heryadi Silvianto",
+        "author_title": "Dosen FIKOM UMN",
+        "author_img": "profile/24cba389ceed1be52fd86d57a5562962.jpg"
+      },
+      {
+        "title": "Arah Tranformasi dan \"Digital Crisis\" 2018",
+        "subtitle": "Ekonomi",
+        "lead": "-",
+        "img": "2017/02/17/0630273Digital-Transformation780x390.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Rhenald Kasali ",
+        "author_title": "Guru Besar Manajemen",
+        "author_img": "profile/bc233f1a96f73c1000dfda0cddc163e0.jpg"
+      },
+      {
+        "title": "Balada \"MPV Sejuta Umat Pembunuh Avanza\"",
+        "subtitle": "Otomotif",
+        "lead": "-",
+        "img": "2017/07/20/330141979.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Agung Kurniawan",
+        "author_title": "Jurnalis",
+        "author_img": "profile/158d7d70eae1e6ce2088ed4a547258a5.jpg"
+      },
+      {
+        "title": "Dilema Pajak sebagai Sumber Pendanaan dan Stimulus Investasi",
+        "subtitle": "Ekonomi",
+        "lead": "-",
+        "img": "2018/01/15/956874893.jpg",
+        "link": "artikel.html",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Wahyu Nuryanto",
+        "author_title": "Executive Director MUC Tax Research Institute",
+        "author_img": "profile/12422274f61c89384df5246fbe94de8e.jpg"
+      }
+    ]
+  },
+  "Most": [
+    {
+      "title": "BJ Habibie, Jenius lewat Pola Asuh Ayahnya",
+      "subtitle": "News",
+      "lead": "Presiden ketiga RI, Bacharuddin Jusuf Habibie meninggal dunia. Pria kelahiran Parepare, Sulawesi Selatan, 25 Juni 1936 itu meninggal akibat penyakit yang dideritanya.",
+      "img": "2019/09/11/5d790362b463b.jpeg",
+      "link": "artikel.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "duration": "",
+      "author": "Muhammad Latief",
+      "ads": ""
+    },
+    {
+      "title": "3 Hal Ini Jadi Penyebab Rendahnya Minat Baca Anak Indonesia ",
+      "subtitle": "Tekno",
+      "lead": "Angka itu berarti, dari 10.000 anak Indonesia, hanya satu anak yang senang membaca. Tentunya hal ini sangat memprihatinkan.",
+      "img": "2019/09/09/5d7613cc10f55.jpg",
+      "link": "artikel.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "duration": "",
+      "author": "Moch S. Hendrowijono",
+      "ads": ""
+    },
+    {
+      "title": "Speech Delay, Cara Deteksi Dini dan Pencegahannya",
+      "subtitle": "Otomotif",
+      "lead": "Speech Delay atau keterlambatan bicara merupakan istilah umum merujuk pada proses keterlambatan bicara dan berbahasa yang tidak sesuai dengan usia perkembangan anak.",
+      "img": "2019/09/11/5d78d43cab9a7.jpg",
+      "link": "artikel.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "duration": "",
+      "author": "Wimpie Pangkahila",
+      "ads": ""
+    },
+    {
+      "title": "Terinspirasi BJ Habibie, di Usia 26 Tahun Ilmuwan Ini Bergelar Dr Ing",
+      "subtitle": "News",
+      "lead": "Presiden ketiga RI, Bacharuddin Jusuf Habibie, meninggal dunia di Paviliun Kartika, RSPAD Gatot Soebroto, Jakarta Pusat, Rabu (11/9/2019), akibat penyakit yang dideritanya.",
+      "img": "2019/08/29/5d67c089d202c.jpeg",
+      "link": "artikel.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "duration": "",
+      "author": "Perhimpunan Pelajar Indonesia",
+      "ads": ""
+    },
+    {
+      "title": "2 Kali Gagal Raih Beasiswa Langsung Menyerah? Contohlah Maria...",
+      "subtitle": "News",
+      "lead": "StuNed merupakan program beasiswa penuh hasil kerja sama Pemerintah Belanda dan Indonesia.",
+      "img": "2019/09/12/5d79ae6749f0a.jpeg",
+      "link": "artikel.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "duration": "",
+      "author": "Chappy Hakim",
+      "ads": ""
+    },
+    {
+      "title": "CPNS Dosen Harus S3, Ini Alasan Kemenristekdikti",
+      "subtitle": "News",
+      "lead": "Nasir mengatakan bahwa syarat kualifikasi S3 hanya untuk CPNS dosen berusia antara 35 sampai 40 tahun.",
+      "img": "2019/09/11/5d7829e639bdf.png",
+      "link": "artikel.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "duration": "",
+      "author": "Aiman Witjaksono",
+      "ads": ""
+    },
+    {
+      "title": "Film \"Habibie dan Ainun\", Inspirasi Membangun Manusia Indonesia lewat Pendidikan ",
+      "subtitle": "News",
+      "lead": "Presiden ketiga RI, Bacharuddin Jusuf Habibie, meninggal dunia di Paviliun Kartika, RSPAD Gatot Soebroto, Jakarta Pusat, Rabu (11/9/2019), akibat penyakit yang dideritanya.",
+      "img": "2016/08/11/1631598habibie-ainun780x390.jpg",
+      "link": "artikel.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "duration": "",
+      "author": "Neni Nur Hayati",
+      "ads": ""
+    },
+    {
+      "title": "BJ Habibie: Anak Indonesia Sekarang Harus Lebih Hebat dari Habibie...",
+      "subtitle": "Lifestyle",
+      "lead": "Presiden ketiga RI, Bacharuddin Jusuf Habibie, meninggal dunia di Paviliun Kartika, RSPAD Gatot Soebroto, Jakarta Pusat, Rabu (11/9/2019), akibat penyakit yang dideritanya.",
+      "img": "2019/09/11/5d78ea1301539.jpeg",
+      "link": "artikel.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "duration": "",
+      "author": "DR.dr.Tan Shot Yen,M.hum.",
+      "ads": ""
+    },
+    {
+      "title": "Inovasi Mahasiswa ITB, Kini Aki Soak Bisa Dideteksi Dini lewat Android",
+      "subtitle": "Otomotif",
+      "lead": "Mahasiswa Institut Teknologi Bandung ( ITB) terus melakukan inovasi dan berusaha menciptakan peralatan canggih yang bermanfaat dalam kehidupan sehari-hari.",
+      "img": "2019/09/10/5d7718eaca9df.jpg",
+      "link": "artikel.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "duration": "",
+      "author": "Rhenald Kasali ",
+      "ads": ""
+    },
+    {
+      "title": "BJ Habibie, Orang Asia Pertama Penerima Penghargaan Penerbangan Sipil Internasional",
+      "subtitle": "News",
+      "lead": "Presiden ketiga RI, Bacharuddin Jusuf Habibie, meninggal dunia di Paviliun Kartika, RSPAD Gatot Soebroto, Jakarta Pusat, Rabu (11/9/2019), akibat penyakit yang dideritanya.",
+      "img": "2019/09/11/5d78fbd673947.jpg",
+      "link": "artikel.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "duration": "",
+      "author": "Bondhan Kresna W.",
+      "ads": ""
+    }
+  ],
+  "read": {
+    "news": {
+      "article": {
+        "channel": "News",
+        "subchannel": "Nasional",
+        "subtitle": "",
+        "title": "Lindswell Kwok: Saya Senang, Puas, dan Lega, Saya Mau Istirahat Dulu",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Agung Kurniawan",
+        "author_img": "profile/0f5d05fa01084b64fb1169a744f69503.jpg",
+        "editor": "Eris Eka Jaya",
+        "editor_img": "",
+        "source": "",
+        "source_img": "",
+        "partner": "",
+        "ads": 0,
+        "img": "2018/08/20/2595843028.jpg",
+        "img_author": "ANTARA FOTO/AKBAR NUGROH",
+        "img_caption": "Ekspresi kegembiraan atlet wushu Indonesia Lindswell usai menyelesaikan nomor Taijijian di JIExpo Kemayoran, Jakarta, Senin (20/8/2018). Lindswell mempersembahkan emas kedua bagi kontingen Merah Putih usai berlaga dalam nomor Taijijian, meraih nilai tertinggi dengan total skor 9,75.",
+        "related": [
+          "Raih Emas, Lindswell Kwok Tak Menyadari Aksinya Ditonton Jokowi",
+          "Indonesia Kembali Raih Emas, Kali Ini dari Lindswell Kwok",
+          "Raih Poin Tertinggi, Lindswell Kwok Tampil Melebihi Ekspetasi Pelatih",
+          "Raih Poin Tertinggi, Lindswell Kwok Berpeluang Besar Raih Medali Emas",
+          "Ketika Lindswell Kwok Mengeluh Soal Fasilitas Latihan "
+        ],
+        "topic": [
+          "Asian Games 2018",
+          "Indonesia Juara"
+        ],
+        "tag": [
+          "Asian Games 2018",
+          "Lindswell Kwok",
+          "Wushu",
+          "Indonesia"
+        ],
+        "content": "<p><strong>KOMPAS.com</strong> - Atlet wushu andalan Indonesia, Lindswell Kwok, mengaku ingin istirahat terlebih dahulu setelah berhasil mempersembahkan medali emas pada ajang Asian Games 2018, Senin (20/8/2018).</p><p>Lindswell sukses mempersembahkan medali emas untuk Indonesia melalui cabor wushu dari nomor taijiquan dan taijijian yang digelar pada 19-21 Agustus 2018 di Jiexpo Kemayoran, Jakarta.</p><h2>1. Ingin Rehat Dulu</h2><p>\"Senang, puas, dan lega karena saya bisa menang, tetapi sejauh ini saya tidak punya rencana dan mau istirahat dulu,\" tuturnya.</p><div id=\"5ac2e82fce61d02932759a1a\" class=\"photo\" style=\" float: right; padding: 0 0 20px 20px;  max-width: 100% ; width:300px \" ><img data-width=\"300px\" data-aligment=\"float: right; padding: 0 0 20px 20px;\"  src=\"https://asset.kompas.com/crop/0x0:0x0/300x400/data/photo/2018/08/20/3492347208.jpg\" alt=\"Atlet Wushu Indonesia Lindswell Kwok\" /><span class=\"pb_10 author\">ANTARA FOTO/AKBAR NUGROH</span>Atlet Wushu Indonesia Lindswell Kwok</div><p><strong>Baca juga: <a href=\"http://olahraga.kompas.com/read/2018/08/20/12031698/raih-emas-lindswell-kwok-tak-menyadari-aksinya-ditonton-jokowi\" target=\"_self\">Raih Emas, Lindswell Kwok Tak Menyadari Aksinya Ditonton Jokowi</a></strong></p><p>\"Namun, yang jelas, saya tidak ingin benar-benar meninggalkan dunia wushu karena dari kecil saya di sini,\" katanya.</p><p>Bicara mengenai penerusnya, Lindswell mengakui bahwa potensi tersebut masih belum terlihat.</p><p>Lindswell sukses mempersembahkan medali emas untuk Indonesia melalui cabor wushu dari nomor taijiquan dan taijijian yang digelar pada 19-21 Agustus 2018 di Jiexpo Kemayoran, Jakarta.</p><p><strong>Baca juga: <a href=\"http://olahraga.kompas.com/read/2018/08/20/12031698/raih-emas-lindswell-kwok-tak-menyadari-aksinya-ditonton-jokowi\" target=\"_self\">Raih Emas, Lindswell Kwok Tak Menyadari Aksinya Ditonton Jokowi</a></strong></p><p>Bicara mengenai penerusnya, Lindswell mengakui bahwa potensi tersebut masih belum terlihat.</p><h2>2. Berharap Regenerasi</h2><p>Namun, Lindswell meyakini bahwa kesuksesannya mengharumkan nama Indonesia dapat menginspirasi para talenta muda wushu untuk giat berlatih.</p><div id=\"5b7a3c9ace61d046b9665e73\" class=\"photo\" style=\"   max-width: 100% ; width:750px \"><img data-width=\"750px\" data-aligment=\"\"  src=\"https://asset.kompas.com/crop/0x0:1000x667/750x500/data/photo/2018/08/20/699906300.jpg\" alt=\"Atlet Indonesia Lindswell beraksi pada kategori Taijijian Putri Wushu Asian Games 2018 di Jiexpo, Kemayoran, Jakarta, Senin (20/8/2018).\" /><span class=\"pb_10 author\">INASGOC/ISMAR PATRIZKI</span> Atlet Indonesia Lindswell beraksi pada kategori Taijijian Putri Wushu Asian Games 2018 di Jiexpo, Kemayoran, Jakarta, Senin (20/8/2018).</div><p>\"Memang untuk penerus saya masih belum terlihat karena masih kecil-kecil ya,\" tuturnya.</p><p><strong>Baca juga: <a href=\"http://bola.kompas.com/read/2018/08/19/16150028/raih-poin-tertinggi-lindswell-kwok-tampil-melebihi-ekspetasi-pelatih\" target=\"_self\">Raih Poin Tertinggi, Lindswell Kwok Tampil Melebihi Ekspetasi Pelatih</a></strong></p><p>\"Namun, bila mereka melihat kita yang bisa mengharumkan nama Indonesia, saya yakin pasti anak-anak bakal berlatih giat karena dulu saya juga begitu,\" katanya.</p><div id=\"1754\" class=\"photo-infographic\" style=\"max-width:100%;\" ><img class=\"img-infografis\" src=\"https://asset.kompas.com/data/photo/2018/09/03/20434807-fakta-asian-games.jpg\" data-title=\"Infografik: 7 Fakta Seputar Asian Games 2018\" data-link=\"https://asset.kompas.com/data/photo/2018/09/03/20434807-fakta-asian-games.jpg\"  data-type=\"blank\"/><span class=\"pb_10 author\">KOMPAS.com/Akbar Bhayu Tamtomo</span>Infografik: 7 Fakta Seputar Asian Games 2018</div><p>Lindswell sukses meraih total poin 19.50 untuk memastikan medali emas kedua Indonesia di Asian Games 2018, Senin (20/8/2018).</p><ol><li>Emas Asian Games 2019</li><li>Emas Sea Games 2017</li><li>Perak Olimpiade 2016</li><li>Perunggu Sea Games 2015</li></ol><p>Lindswell berhasil mengalahkan pesaing terberatnya, yakni atlet wushu asal Hongkong, Mok Uen Ying Juanita, yang mengoleksi poin total 19.42 poin.</p>\n"
+      }
+    },
+    "opini": {
+      "article": {
+        "channel": "Kolom",
+        "subchannel": "Bisnis",
+        "subtitle": "",
+        "title": "Mungkalpayung Jadi Mukapayung",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "T Bachtiar",
+        "author_img": "https://static.pikiran-rakyat.com/public/media_thumbnail/public/profile/dxNxxnIldfrwoiPr6xAhliaVgcDA39jaoldmwbzm.jpeg",
+        "editor": "Bambang Priyo Jatmiko",
+        "source": "Kompas TV",
+        "partner": "",
+        "ads": 0,
+        "img": "https://static.pikiran-rakyat.com/public/medium/public/2019/10/qf4mEUoupf3FvUnbOveYZ654i7IgH8xZLNWPKGK8.jpeg",
+        "img_author": "*",
+        "img_caption": "MUNGKALPAYUNG masih bisa ditelusuri di peta yang dibuat pada zaman Belanda.",
+        "related": [
+          "GMF dan Garuda Indonesia Group Raup Kontrak 2,5 Miliar Dollar AS di Singapore Airshow 2018",
+          "Cak Imin Keluhkan \"Delay,\" Ini Penjelasan Garuda Indonesia",
+          "Tahun 2017, Garuda Indonesia Catatkan Rugi 213,4 Juta Dollar AS",
+          "Garuda Indonesia Group Angkut 36,2 Juta Penumpang pada 2017",
+          "KKP Gandeng Garuda Indonesia Kembangkan Sistem Logistik Ikan Nasional"
+        ],
+        "topic": [
+          "Garuda Indonesia"
+        ],
+        "tag": [
+          "dinamika wilayah",
+          "cililin",
+          "gunung api purba",
+          "Indonesia",
+          "otonomi daerah"
+        ],
+        "content": "<p>TULISAN ini sama sekali tidak bermaksud untuk mengembalikan lagi nama Desa Mukapayung ke nama asal yang diberikan oleh para <em>karuhun</em> Cililin, yaitu Mungkalpayung. Tapi sekadar ingin mengabarkan kembali, bahwa daerah itu, semula namanya Mungkalpayung, dan tertulis dalam peta yang dibuat pada zaman Belanda.</p><p>Secara alami, kawasan antara Soreang sampai Cililin, merupakan kawasan gunungapi purba. Sekitar empat juta tahun yang lalu, terjadi letusan-letusan gunungapi di kawasan ini, mulai dari Gunung Singa, Gunung Aul, Gunung Kerud, Gunung Kaseproke, Gunung Kutawaringin, Gunung Batumaseuk, Gunung Putri, Gunung Hanyawong, Gunung Lumbung, Gunung Putri, Gunung Buleud, Gunung Lalakon, Gunung Paseban, Kompleks gunungapi purba Lagadar, dan lain-lain.</p><p>Bukti yang menunjukkan bahwa kawasan itu berupa gunung api purba adalah hasil dari letusannya, seperti adanya leleran lava, sumbat lava (banyak dimanfaatkan menjadi batu pecah untuk fondasi), breksi (campuran batuan kecil-kecil yang memadat, seperti cor beton yang sudah mengering, dan ignimbrit, yang dalam istilah masyarakat ada yang menyebutnya <em>cadas</em>, ada juga yang menyebut <em>teras</em>. Pada era tahun 1970-an, <em>teras</em> ini menjadi bahan untuk pembuatan <em>batako</em>. Sekarang menjadi pasir untuk adukan tembok.</p><p>Itulah sebabnya kawasan yang sangat luas itu berupa kerucut-kerucut gunungapi purba, yang tubuhnya berupa batuan beku yang padat, berupa breksi, dan ignimbrit. Jadi, para <em>karuhun </em>dan <em>pinisepuh </em>Cililin pada masa lalu ketika membabad alas di kawasan ini, melihat begitu banyak bebatuan dengan beragam bentuknya.</p><p>Untuk memudahkan memberikan penunjuk pada suatu kawasan, maka ada satu kawasan yang diberi nama Mungkalpayung, karena di kawasan itu terdapat batu (breksi), yang bentunya seperti payung, sehingga menjadi ciri bumi kawasan. Di tempat lain ada yang menyebutnya batu jamur, karena bentuknya seperti jamur raksasa.</p><p>Kata <em>mungkal</em>, memang tidak ada dalam <em>A Dictionary of the Sunda Language of Java</em> karya Jonathan Rigg. (1862), demikian juga dalam <em>Kamus Basa Sunda Karya R Satjadibrata (1948, 2005), </em>maupun dalam <em>Kamus Umum Basa Sunda</em> LBSS (1980). Tapi, kata <em>mungkal</em> ada dalam S Coolsma (1913), <em>Soendaneesch-Hollandsch</em>, menurutnya, &ldquo;dalam cerita <em>pantun,</em> mungkal dapat diarartikan <em>tunggul</em> dan <em>bongkot&rdquo;.</em></p><p>Ada juga dalam <em>Kamus Basa Sunda</em> karya RA Danadibrata (2006) yang mengartikan <em>mungkal</em> sama dengan batu. Di Jawa Barat, ada toponim yang menggunakan kata <em>mungkal,</em> yaitu: Mungkalpayung di Cililin, Kabupaten Bandung (Barat), dan Mungkaldatar di Kabupaten Kuningan.</p><p>Kedua toponim ini merujuk pada keadaan tempat yang memiliki batu dengan bentukan yang unik, sehingga menjadi ciri bumi yang mudah dikenali. Ada batu besar yang bentuknya unik seperti payung, maka batu itu dinamai mungkal payung, kemudian kawasannya dinamai Mungkalpayung.</p><p>Di Kabupaten Kuningan ada batu besar yang rata, datar, kemudian batu itu dinamai mungkal datar, dan kawasannya disebut Mungkaldatar.</p><h3>Mundinglaya dan Ko Jongkrang Kalapitung</h3><p>Pada zaman <em>baheula</em>, di suatu kerajaan diselenggarakan sayembara untuk mencari jimat salakadomas. Siapa yang berhasil menemukannya akan dinikahkan dengan putri raja yang jelita. Di antara para peserta, ada dua ksatria, yaitu Mundinglaya dan Ki Jongkrang Kalapitung.</p><p>Mundinglaya lah yang berhasil menemukan salakadomas. Ia bermaksud mempersembahkan jimat tersebut kepada sang putri.</p><p>Bersama kawannya, Munding Dongkol, Mundinglaya mencari sang putri. Ki Jongkrang mengetahui hal ini, maka siasat jahat muncul untuk mengalahkan Mundinglaya.</p><p>Ki Jongkrang memasang perangkap berupa batu di Ci Bitung, bertujuan untuk menjebak Mundinglaya pada saat melewati sungai. Bukan Mundinglaya yang terperangkap di sana, malah Munding Dongkol yang kena.</p><p>Masyarakat mengenalnya sebagai batu langkob. Kedua batu itu masih ada di Ci Bitung. Batu yang menghimpit batu yang menyerupai kerbau (<em>munding</em>), dipercaya itu Munding Dongkol.</p><p>Tak kehabisan siasat, kemudian Ki Jongkrang memasang cermin besar, sehingga sang putri menjadi terlihat, walau sedang tetirah di atas bukit dengan memakai payung. Ki Jongkrang pun membuat <em>porog</em>, lubang jebakan, yang bagian atasnya ditutupi dengan ranting dan seresah, sehingga terlihat alami.</p><div class=\"photo\"><div class=\"photo__img\"><img src=\"https://asset.kompas.com/crop/0x0:0x0/750x500/data/photo/2019/07/20/5d328a6934cf2.jpg\" alt=\"Ilustrasi pesawat Garuda Indonesia\"></div><div class=\"photo__caption\">Ilustrasi pesawat Garuda Indonesia. EXPOSE</div></div><p>Mundinglaya yang berjalan untuk menemui putri pujaannya, terperosok ke dalam lubang jebakan, dan tak bisa ke luar lagi. Tempat cermin (<em>eunteung</em>) menjadi Leuwi Eunteung, dan batu Mundinglaya hingga kini masih ada di tengah sawah, batu ini dinamai Munding Jalu.</p><p>Kecurangan Ki Jongkrang diketahui oleh sang putri, teramati dari puncak bukit. Kemudian sang putri berlari kemudian bersembunyi di atas bukit, tapi payungnya tertinggal. Payung itulah yang kemudian dikenal sebagai Mungkal Payung, batu payung. Bukit tempat putri bersembunyi dinamai Gunung Putri.</p><p>Pada kesempatan berikutnya, datanglah seorang nakhoda yang bernama Demang Karancang, yang bermaksud mempersunting sang putri, namun tak gagal. Bukit yang berada sebelah timur Gunung Putri dinamai Gunung Karancang, atau disebut juga Gunung Nakhoda, tapi sekarang lebih terkenal dengan nama Gunung Kaseproke.</p><h3>Masih bisa ditelusuri</h3><p>Perubahan toponim Mungkalpayung menjadi Mukapayung masih dapat ditelusuri karena perubahan itu masih baru. Dalam laman situs web Desa Mukapayung, yang dibuka tanggal 8 Oktober 2019: <a href=\"https://pemdesmukapayung.blogspot.com/p/sejarah-desa-mukapayung.html\">https://pemdesmukapayung.blogspot.com/p/sejarah-desa-mukapayung.html</a> diuraikan tentang sejarah pembentukan desa ini.</p><p>Pada tanggal 29 September 1979, Pemerintah Daerah Kabupaten Bandung beserta Tripida Kecamatan Cililin mengadakan musyawarah dengan agenda utama pemekaran desa, yang diselenggarakan di Desa Rancapanggung. Keputusan Musyawarah tersebut menyetujui untuk diadakannya pemekaran Desa Rancapanggung menjadi dua wilayah, yaitu Desa Rancapanggung sebagai desa induk, dan Desa Mukapayung, sebagai desa pemekaran.</p><p>Pada rapat pembahasan pemekaran Desa Rancapanggung itulah, nama situs Mungkalpayung atau Batupayung diusulkan menjadi nama desa. Akhirnya tokoh-tokoh masyarakat dan peserta rapat menyetujui nama desa hasil pemekaran itu menjadi Desa Mukapayung yang ada di Kecamatan Cililin, bukan Desa Mungkalpayung.</p><p>Dalam situs web Desa Mukapayung, dituliskan, makna nama desa, yaitu <em>muka</em> yang artinya <em>terbuka </em>(<em>berkembang/membangun</em>) dan <em>payung</em> yang memayungi (mengayomi/membina). Dengan nama itu diharapkan akan menjadi desa yang berkembang, membangun, dan dapat memayungi/mengayomi masyarakatnya, sehingga dapat kesejahteraan masyarakat meningkat.</p><p>Desa hasil pemekaran ini resmi menjadi Desa Mukapayung, berbatasan dengan Desa Rancapanggung dan Desa Cikadu di sebelah barat, di sebelah timur dengan Desa Kidang Pananjung dan Desa Sukamulya, di sebelah utara dengan Desa Batulayang, dan di selatan berbatasan dengan Desa Nanggerang. Luas wilayahnya 815,810 ha, terdiri dari daratan seluas 849,360 ha, dan wilayah air yang tergenang Danau Saguling seluas 33,550 ha.</p><p>Selalu ada godaan untuk mengubah toponim buatan para <em>karuhun</em> Cililin, yang dianggap kurang visioner, lalu diganti dengan toponim yang ahistoris, seperti Mungkalpayung menjadi Mukapayung.***</p>",
+        "source_link": "https://www.kompas.tv/"
+      }
+    },
+    "bola": {
+      "article": {
+        "channel": "Persib",
+        "subchannel": "News",
+        "subtitle": "",
+        "title": "Persib Optimistis Tatap Laga Jamu Persebaya",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Yohanes Enggar Harususilo",
+        "editor": "Siska Nirmala",
+        "source": "Kompas TV",
+        "source_img": "http://dummy.kompas.com/repo/kompascom/html/mobile/images/logo-kompastv.png",
+        "partner": "",
+        "ads": 0,
+        "img": "https://static.pikiran-rakyat.com/public/medium/public/2018/12/dJb9XqGhOwvjvLu5WPELAGgltQtKva1SAW1lIV5u.jpeg",
+        "img_author": "DOK. PR",
+        "img_caption": "Persib diketahui memiliki rekor buruk setiap kali bertanding di Pulau Dewata.",
+        "related": [
+          "Persib Putri Taklukan PSIS Semarang",
+          "Satgas Antimafia Bola Jatim Dalami Dugaan Pengaturan Skor Madura United vs Persib",
+          "Bobotoh Minta Satgas Antimafia Selidiki Pertandingan kontra Madura United",
+          "Manajer Persib Bandung Masuk Bursa Calon Anggota Komite Eksekutif PSSI 2019-2023"
+        ],
+        "topic": [
+          ""
+        ],
+        "tag": [
+          "Persib",
+          "Persebaya",
+          "Liga 1",
+          "Bandung",
+          "Robert Alberts"
+        ],
+        "content": "<p>BANDUNG, (PR).- Pelatih Persib Bandung, Robert Alberts menyatakan timnya siap melakoni laga kandang di Bali saat menjamu Persebaya Surabaya, 18 Oktober 2019 mendatang.</p><p><strong>Baca juga: <a href=\"https://edukasi.kompas.com/read/2018/07/23/12381241/hari-anak-nasional-dan-pr-besar-pendidikan-anak-indonesia\">Leo-Indah Berpeluang Pertahankan Gelar World Junior Championships 2019</a></strong></p><p>Seperti dilansir laman resmi klub, Persib diketahui memiliki rekor buruk setiap kali bertanding di Pulau Dewata. Namun hal tersebut, menurut Robert hanyalah soal kesiapan mental bertanding. </p><p>&ldquo;Itu yang kami diskusikan di ruang ganti. Tahun lalu, secara mental pemain masih belum kuat lantaran banyak hal yang menerpa tim di musim tersebut,&rdquo; kata Robert, Jumat 11 Oktober 2019, seperti dilansir laman resmi klub.</p><p>Ada beberapa hal yang membuat pelatih berkebangsaan Belanda itu optismis menatap laga kandang rasa tandang nanti. Salah satunya pengalaman yang dimiliki anak asuhnya. </p><div class=\"photo\"><div class=\"photo__img\"><img src=\"https://static.pikiran-rakyat.com/public/medium/public/2019/10/AVj9ybjKPnByTRrLzfQf53y1RnKLjE6tD0AETFxM.jpeg\" alt=\"Ilustrasi pesawat Garuda Indonesia\"></div><div class=\"photo__caption\">PESEPAK bola Madura United (MU) Diego Assis (kiri) berusaha melewati pesepak bola Persib Bandung Ardi Idrus (kanan) dan Esteban Viscarra (ke dua kiri) dalam laga Shopee Liga 1 di Stadion Gelora Bangkalan (SGB) Bangkalan, Jawa Timur, Sabtu, 5 Oktober 2019. Madura United memenangi pertandingan tersebut dengan skor 2-1.*/ANTARA</div></div><p>&ldquo;Hal positifnya, masih banyak pemain kami yang sudah merasakan pengalaman itu. Mereka tak ingin mengalami hal serupa pada tahun ini,&rdquo; ujar Robert.</p><p>Dia mengaku percaya, Pangeran Biru mampu mengakhiri tren negatif di Bali. Syaratnya, mental para pemain harus lebih kuat dan siap ketimbang sebelumnya. </p><p>&ldquo;Mereka sudah belajar dari itu. Jadi para pemain, secara mental harus lebih kuat dari tahun kemarin,&rdquo; katanya.***</p>",
+        "source_link": "https://www.kompas.tv/"
+      }
+    },
+    "images": {
+      "photo": {
+        "channel": "Images",
+        "subchannel": "Foto",
+        "subtitle": "",
+        "title": "Menyusuri Jalur Mudik dan Menikmati Keindahan Gunung Bromo ",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Roderick Adrian                        ",
+        "editor": "Roderick Adrian                        ",
+        "source": "",
+        "source_img": "",
+        "partner": "",
+        "ads": 0,
+        "img": "foto/73f614858444241bddf143/p_15284454023bd-taman-nasional-bromo-tengger-semeru.jpg",
+        "img_author": "KOMPAS.com/GARRY ANDREW LOTULUNG",
+        "img_caption": "Suasana Taman Nasional Bromo Tengger Semeru terlihat dari bukit Metigen, Desa Ngadisari, Kecamatan Sukapura, Probolinggo, Jawa Timur, Kamis (7/6/2018). Taman nasional yang secara administratif meliputi Kabupaten Pasuruan, Kabupaten Malang, Kabupaten Probolinggo, dan Kabupaten Lumajang yang ditetapkan sejak 1982 dengan luas wilayah mencapai 50.276,3 hektare itu menjadi salah satu tujuan wisata andalan Indonesia yang dikunjungi wisawatan domestik dan mancanegara.",
+        "img_other": [
+          {
+            "title": "Taman Nasional Bromo Tengger Semeru\" data-title=\"Suasana Taman Nasional Bromo Tengger Semeru terlihat dari bukit Metigen, Desa Ngadisari, Kecamatan Sukapura, Probolinggo, Jawa Timur, Kamis (7/6/2018). Taman nasional yang secara administratif meliputi Kabupaten Pasuruan, Kabupaten Malang, Kabupaten Probolinggo, dan Kabupaten Lumajang yang ditetapkan sejak 1982 dengan luas wilayah mencapai 50.276,3 hektare itu menjadi salah satu tujuan wisata andalan Indonesia yang dikunjungi wisawatan domestik dan mancanegara.",
+            "img": "foto/73f614858444241bddf143/p_1528446195557-taman-nasional-bromo-tengger-semeru.jpg",
+            "author": "KOMPAS.com/GARRY ANDREW LOTULUNG"
+          },
+          {
+            "title": "Suasana Taman Nasional Bromo Tengger Semeru terlihat dari bukit Metigen, Desa Ngadisari, Kecamatan Sukapura, Probolinggo, Jawa Timur, Kamis (7/6/2018). Taman nasional yang secara administratif meliputi Kabupaten Pasuruan, Kabupaten Malang, Kabupaten Probolinggo, dan Kabupaten Lumajang yang ditetapkan sejak 1982 dengan luas wilayah mencapai 50.276,3 hektare itu menjadi salah satu tujuan wisata andalan Indonesia yang dikunjungi wisawatan domestik dan mancanegara.",
+            "img": "foto/73f614858444241bddf143/p_1528446195260-taman-nasional-bromo-tengger-semeru.jpg",
+            "author": "KOMPAS.com/GARRY ANDREW LOTULUNG"
+          },
+          {
+            "title": "Desa Ngadisari Bromo",
+            "img": "foto/73f614858444241bddf143/p_1528446195260-taman-nasional-bromo-tengger-semeru.jpg",
+            "author": "KOMPAS.com/GARRY ANDREW LOTULUNG"
+          },
+          {
+            "title": "Foto udara lahan pertanian dan rumah warga di desa Ngadisari, Kecamatan Sukapura, Probolinggo, Jawa Timur, Kamis (7/6/2018). Taman nasional yang secara administratif meliputi Kabupaten Pasuruan, Kabupaten Malang, Kabupaten Probolinggo, dan Kabupaten Lumajang yang ditetapkan sejak 1982 dengan luas wilayah mencapai 50.276,3 hektare itu menjadi salah satu tujuan wisata andalan Indonesia yang dikunjungi wisawatan domestik dan mancanegara.",
+            "img": "foto/73f614858444241bddf143/p_1528445402710-panorama-wisata-bromo.jpg",
+            "author": "KOMPAS.com/GARRY ANDREW LOTULUNG"
+          },
+          {
+            "title": "Panorama kawasan wisata Gunung Bromo di Metigen, Desa Ngadisari, Probolinggo, Jawa Timur, Kamis (7/6/2018). Lokasi wisata tersebut menjadi tujuan favorit wisata karena panorama alamnya yang menjadi magnet wisatawan lokal maupun mancanegara.",
+            "img": "foto/73f614858444241bddf143/p_152844619538c-desa-ngadisari-bromo.jpg",
+            "author": "MAULANA MAHARDHIKA"
+          },
+          {
+            "title": "Warga melintas di kawasan wisata Gunung Bromo di Metigen, Desa Ngadisari, Probolinggo, Jawa Timur, Kamis (7/6/2018). Lokasi wisata tersebut menjadi tujuan favorit wisata karena panorama alamnya yang menjadi magnet wisatawan lokal maupun mancanegara.",
+            "img": "foto/73f614858444241bddf143/p_152844540244d-panorama-wisata-bromo.jpg",
+            "author": "MAULANA MAHARDHIKA"
+          },
+          {
+            "title": "Suasana Taman Nasional Bromo Tengger Semeru terlihat dari bukit Metigen, Desa Ngadisari, Kecamatan Sukapura, Probolinggo, Jawa Timur, Kamis (7/6/2018). Taman nasional yang secara administratif meliputi Kabupaten Pasuruan, Kabupaten Malang, Kabupaten Probolinggo, dan Kabupaten Lumajang yang ditetapkan sejak 1982 dengan luas wilayah mencapai 50.276,3 hektare itu menjadi salah satu tujuan wisata andalan Indonesia yang dikunjungi wisawatan domestik dan mancanegara.",
+            "img": "foto/73f614858444241bddf143/p_1528445402183-taman-nasional-bromo-tengger-semeru.jpg",
+            "author": "KOMPAS.com/GARRY ANDREW LOTULUNG"
+          },
+          {
+            "title": "Panorama kawasan wisata Gunung Bromo di Metigen, Desa Ngadisari, Probolinggo, Jawa Timur, Kamis (7/6/2018). Lokasi wisata tersebut menjadi tujuan favorit wisata karena panorama alamnya yang menjadi magnet wisatawan lokal maupun mancanegara.",
+            "img": "foto/73f614858444241bddf143/p_1528445402c8e-panorama-wisata-bromo.jpg",
+            "author": "MAULANA MAHARDHIKA"
+          }
+        ],
+        "related": [],
+        "topic": [],
+        "tag": [
+          "Gunung Bromo",
+          "Travel",
+          "Pegunungan Tengger",
+          "Malang"
+        ],
+        "content": "<p>Suasana Taman Nasional Bromo Tengger Semeru terlihat dari bukit Metigen, Desa Ngadisari, Kecamatan Sukapura, Probolinggo, Jawa Timur, Kamis (7/6/2018). Taman nasional yang secara administratif meliputi Kabupaten Pasuruan, Kabupaten Malang, Kabupaten Probolinggo, dan Kabupaten Lumajang yang ditetapkan sejak 1982 dengan luas wilayah mencapai 50.276,3 hektare itu menjadi salah satu tujuan wisata andalan Indonesia yang dikunjungi wisawatan domestik dan mancanegara.</p>"
+      },
+      "video": {
+        "channel": "Images",
+        "subchannel": "Video",
+        "subtitle": "",
+        "title": "Menjajal Datsun Cross di Berbagai Medan Jalan",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "",
+        "editor": "Ari Prasetyo",
+        "source": "",
+        "source_img": "",
+        "partner": "",
+        "ads": 0,
+        "img": "https://www.youtube.com/embed/5YS2-p7d8bU?rel=0&modestbranding=1",
+        "img_author": "-",
+        "img_caption": "-",
+        "img_other": [
+          {
+            "title": "Tyrolean di 500 mdpl Gunung Parang",
+            "img": "https://assets-cfv.kompas.com/data/73f614858444241bddf143/50321530121157d054c433/t_50321530121157d054c433.jpeg",
+            "author": ""
+          },
+          {
+            "title": "Uji Adrenalin Dengan Paralayang di Puncak Joglo, Wonogiri",
+            "img": "https://assets-cfv.kompas.com/data/73f614858444241bddf143/562f1528815940e11a3609/t_562f1528815940e11a3609.jpeg",
+            "author": ""
+          },
+          {
+            "title": "Ruas Terakhir Tol Trans-Jawa Hingga Menikmati Matahari Terbit di Bromo",
+            "img": "https://assets-cfv.kompas.com/data/73f614858444241bddf143/5e4f15284446120b814170/t_5e4f15284446120b814170.jpg",
+            "author": ""
+          },
+          {
+            "title": "Teaser: Merapah Trans-Jawa 3 Kompas.com",
+            "img": "https://assets-cfv.kompas.com/data/73f614858444241bddf143/adc91528308415dbc3e603/t_adc91528308415dbc3e603.jpg",
+            "author": ""
+          },
+          {
+            "title": "Tol Fungsional dan Operasional Solo Sampai Pasuruan Siap Untuk Arus Mudik 2018",
+            "img": "https://assets-cfv.kompas.com/data/73f614858444241bddf143/44661528257976017d9792/t_44661528257976017d9792.jpg",
+            "author": ""
+          },
+          {
+            "title": "Ruas Tol Fungsional Saat Mudik Lebaran 2018, Jakarta-Solo.",
+            "img": "https://assets-cfv.kompas.com/data/73f614858444241bddf143/ada91528099741d6957142/t_ada91528099741d6957142.jpeg",
+            "author": ""
+          }
+        ],
+        "related": [],
+        "topic": [],
+        "tag": [
+          "Datsun",
+          "Otomotif",
+          "Trans-Jawa"
+        ],
+        "content": "<p></p><b>Kompas.com-</b> Datsun Cross sejatinya merupakan <i>compact crossover </i>yang dikembangankan dengan basis sama dengan Datsun Go+. Meski platform sama, bukan berarti sensasi berkendara Cross sama dengan produk-produk Datsun lainnya yang beredar di Indonesia.<p></p><p>Pengalaman itulah yang dirasakan personil Merapah Trans-Jawa 3 Kompas.com saat menjajal ruas Tol Trans-Jawa pada Juni 2018. Bagaimana performa Datsun Cross dalam menjelajah berbagai medan jalan? Simak video lengkapnya.<br></p>"
+      }
+    }
+  },
+  "channel": {
+    "images": {
+      "channel_title": "images",
+      "photo": [
+        {
+          "title": "Reaksi Pemain dan Suporter Seusai Argentina Dibantai 3-0",
+          "subtitle": "Olahraga",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_1529614274ef9-piala-dunia-2018.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 18,
+          "ads": ""
+        },
+        {
+          "title": "Glenn Fredly Hibur Penggemar di Pekan Kebudayaan Nasional",
+          "subtitle": "Entertainment",
+          "lead": "-",
+          "img": "2018/foto/73f614858444241bddf143/t_1570795333c26-glenn-fredly-tampil-di-pkn.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 9,
+          "ads": ""
+        },
+        {
+          "title": "TPS Tema Piala Dunia Meriahkan Pilkada 2018",
+          "subtitle": "News",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_15300889326a5-pilkada-2018-di-kota-tangerang.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 12,
+          "ads": ""
+        },
+        {
+          "title": "Aksi JKT48 di Selebrasi",
+          "subtitle": "Entertainment",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_1530003996f6a-members-of-jkt48.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 12,
+          "ads": ""
+        },
+        {
+          "title": "Waspada Potensi Banjir Bandang Susulan di Banyuwangi",
+          "subtitle": "News",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_1529993285837-waspada-potensi-banjir-bandang-susulan-di-banyuwangi.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 8,
+          "ads": ""
+        },
+        {
+          "title": "Tahan Imbang Maroko, Spanyol Lolos sebagai Juara Grup B",
+          "subtitle": "Olahraga",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_1529977938e7b-spanyol-vs-maroko-piala-dunia-2018.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 10,
+          "ads": ""
+        },
+        {
+          "title": "Menteri Luar Negeri Jepang Tinjau Proyek MRT",
+          "subtitle": "News",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_1529928849e95-menteri-luar-negeri-jepang-taro-kono-mrt-bunderan-hi-.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 11,
+          "ads": ""
+        },
+        {
+          "title": "Serba-serbi Jelang Pilkada Serentak 2018",
+          "subtitle": "News",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_15299147903fa-serba-serbi-jelang-pilkada-serentak-2018.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 9,
+          "ads": ""
+        },
+        {
+          "title": "Wanita Saudi Susuri Jalan Rayakan Penghapusan Larangan Menyetir",
+          "subtitle": "Internasional",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_152991129039b-wanita-saudi-susuri-jalan-usai-larangan-menyetir-dihapus.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 10,
+          "ads": ""
+        },
+        {
+          "title": "Momen saat Aman Abdurrahman Divonis Hukuman Mati",
+          "subtitle": "News",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_15296444251c7-sidang-teroris.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 9,
+          "ads": ""
+        },
+        {
+          "title": "Merawat Tradisi Tumbilotohe",
+          "subtitle": "Feature",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_15296342510ab-merawat-tradisi-tumbilotohe.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 14,
+          "ads": ""
+        },
+        {
+          "title": "Pencarian Korban Tenggelamnya KM Sinar Bangun Terus Berlangsung",
+          "subtitle": "News",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_1529596826026-pencarian-km-sinar-bangun.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 12,
+          "ads": ""
+        },
+        {
+          "title": "Mengenal Tenun Ikat Troso",
+          "subtitle": "Feature",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_15276707777ed-mengenal-tenun-ikat-troso.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 8,
+          "ads": ""
+        },
+        {
+          "title": "Rumah si Pitung, Wadah Sanggar Tari dan Perguruan Silat",
+          "subtitle": "Feature",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_1526963565650-sanggar-di-rumah-si-pitung-jakartra-utara.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 11,
+          "ads": ""
+        },
+        {
+          "title": "Kisah Penambang Kota",
+          "subtitle": "Feature",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_152540579744a-kisah-penambang-kota.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 13,
+          "ads": ""
+        },
+        {
+          "title": "Sentuhan Presiden untuk Asmat",
+          "subtitle": "Feature",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_1524368304477-sentuhan-presiden-untuk-asmat.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 11,
+          "ads": ""
+        },
+        {
+          "title": "Bajaj Jingga yang Tinggal Nama",
+          "subtitle": "Feature",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_1520235478af3-bangkai-bajaj-oranye.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 10,
+          "ads": ""
+        },
+        {
+          "title": "Menko Polhukam Wiranto Diserang di Pandeglang",
+          "subtitle": "Nasional",
+          "lead": "-",
+          "img": "2018/foto/73f614858444241bddf143/t_1570699801893-wiranto-dirawat-di-rspad.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 6,
+          "ads": ""
+        },
+        {
+          "title": "Siaga Hadapi Bencana, Siswa Aceh Ikuti Simulasi Gempa dan Tsunami",
+          "subtitle": "Nasional",
+          "lead": "-",
+          "img": "2018/foto/73f614858444241bddf143/t_15706752057a1-pelajar-di-aceh-ikuti-simulasi-gempa-dan-tsunami.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 9,
+          "ads": ""
+        },
+        {
+          "title": "Setelah Tenggelamkan 40 Kapal, Menteri Susi Pudjiastuti Bermain Paddle Board di Natuna",
+          "subtitle": "Nasional",
+          "lead": "-",
+          "img": "2018/foto/73f614858444241bddf143/t_1570615211c3f-septic-tank.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 10,
+          "ads": ""
+        },
+        {
+          "title": "Mengintip Aktivitas Jokowi Selama Kunjungan Kerja di Singapura",
+          "subtitle": "Nasional",
+          "lead": "-",
+          "img": "2018/foto/73f614858444241bddf143/t_1570606187329-kunjungan-presiden-jokowi-di-singapura.jpeg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 10,
+          "ads": ""
+        }
+      ],
+      "features": [
+        {
+          "title": "Mengenal Jepara Lebih Dekat Lewat Tenun Ikat Troso",
+          "subtitle": "Feature",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_15276707777ed-mengenal-tenun-ikat-troso.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 8,
+          "ads": ""
+        },
+        {
+          "title": "Rumah si Pitung, Wadah Sanggar Tari dan Perguruan Silat",
+          "subtitle": "Feature",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_1526963565650-sanggar-di-rumah-si-pitung-jakartra-utara.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 11,
+          "ads": ""
+        },
+        {
+          "title": "Setahun Bencana Sulteng, Bergerak Bangkit",
+          "subtitle": "Feature",
+          "lead": "-",
+          "img": "2018/foto/73f614858444241bddf143/p_1569679681c57-setahun-bencana-sulteng-bergerak-bangkit.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 13,
+          "ads": ""
+        },
+        {
+          "title": "Cara Bersyukur ala Masyarakat Dayak Deah",
+          "subtitle": "Feature",
+          "lead": "-",
+          "img": "2018/foto/73f614858444241bddf143/p_15699034064ae-cara-bersyukur-ala-dayak-deah.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 11,
+          "ads": ""
+        },
+        {
+          "title": "Bajaj Jingga yang Tinggal Nama",
+          "subtitle": "Feature",
+          "lead": "-",
+          "img": "foto/73f614858444241bddf143/p_1520235478af3-bangkai-bajaj-oranye.jpg",
+          "link": "images-artikel-photo.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": 10,
+          "ads": ""
+        }
+      ],
+      "video": [
+        {
+          "title": "Menjajal Datsun Cross di Berbagai Medan Jalan",
+          "subtitle": "Otomotif",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/2H9dmsV7Nnw/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "02:23",
+          "ads": ""
+        },
+        {
+          "title": "Wisata Edukasi di Kebun Teh Jamus",
+          "subtitle": "Travel",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/V8Vj2iZTw8k/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "03:24",
+          "ads": ""
+        },
+        {
+          "title": "H-3 Idul Fitri 2018 Antrean Kendaraan 1,5 KM di Gringsing",
+          "subtitle": "News",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/7l_NBqtBhFw/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "02:54",
+          "ads": ""
+        },
+        {
+          "title": "Mudik 36 Jam New York - Malang",
+          "subtitle": "Tekno",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/siEKXKo3r50/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "02:23",
+          "ads": ""
+        },
+        {
+          "title": "Tyrolean di 500 mdpl Gunung Parang",
+          "subtitle": "Travel",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/dZl5zCsi6_4/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "04:00",
+          "ads": ""
+        },
+        {
+          "title": "Mencoba Tiga Kamera Huawei P20 Pro",
+          "subtitle": "Tekno",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/lzExCm7tls4/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "05:09",
+          "ads": ""
+        },
+        {
+          "title": "Didi Kempot Hibur Sobat Ambyar di Synchronize Fest",
+          "subtitle": "Entertainment",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/V7CY9FShruY/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "02:11",
+          "ads": ""
+        },
+        {
+          "title": "Kisah Dua Tetangga",
+          "subtitle": "Entertanment",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/3vPhhUdFzyY/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "05:13",
+          "ads": ""
+        },
+        {
+          "title": "Samsung Galaxy S9 di Mata Dian Sastro",
+          "subtitle": "Sponsored",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/EL3dIFhlwL0/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "02:54",
+          "ads": 1
+        },
+        {
+          "title": "Uji Adrenalin Dengan Paralayang di Puncak Joglo, Wonogiri",
+          "subtitle": "Travel",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/JEuqQ68U5vw/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "04:43",
+          "ads": ""
+        },
+        {
+          "title": "Hands-On Huawei Nova 2 Lite",
+          "subtitle": "Tekno",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/eKtSTvmSWPo/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "03:42",
+          "ads": ""
+        },
+        {
+          "title": "Samsung Galaxy S9 - Bersama Lebih Lama",
+          "subtitle": "Tekno",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/drF_oflq4Gk/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "04:37",
+          "ads": ""
+        },
+        {
+          "title": "Presiden Jokowi Minta Kasus Penyerangan Menko Polhukam Diusut Tuntas",
+          "subtitle": "Nasional",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/e0J1q7bEsY4/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "04:37",
+          "ads": ""
+        },
+        {
+          "title": "Peringatan HUT Ke-74 TNI di Geladak KRI Bima Suci di Myanmar ",
+          "subtitle": "Bandung Raya",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/CQHkEl2yzvc/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "04:37",
+          "ads": ""
+        },
+        {
+          "title": "Viral, Pemuda yang Bawa Bendera Merah Putih Saat Demo Ditangkap Polisi",
+          "subtitle": "Nasional",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/Grm4v6MrnBQ/maxresdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "04:37",
+          "ads": ""
+        },
+        {
+          "title": "Jajal Game Belum Rilis di Tokyo Game Show 2019",
+          "subtitle": "Tekno",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/wl-Km8EmbY4/maxresdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "04:37",
+          "ads": ""
+        },
+        {
+          "title": "Potret Aksi Mahasiswa Tolak RUU KPK dan RKUHP di Sejumlah Daerah",
+          "subtitle": "Tekno",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/Ub1jaNKslLw/maxresdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "04:37",
+          "ads": ""
+        },
+        {
+          "title": "Jumat Kelam di KPK, Demo Ricuh hingga Aksi Tabur Bunga",
+          "subtitle": "Tekno",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/1XeT0dHCg2Q/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "04:37",
+          "ads": ""
+        },
+        {
+          "title": "Kasus Kebakaran Hutan dan Lahan, Presiden Jokowi ke Pekanbaru",
+          "subtitle": "Tekno",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/sMTkkifb9AQ/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "04:37",
+          "ads": ""
+        },
+        {
+          "title": "Detik-detik Demo Mahasiswa Berujung Ricuh",
+          "subtitle": "Tekno",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/7SvmFvJzH10/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "04:37",
+          "ads": ""
+        },
+        {
+          "title": "Teaser: Jejak Pendaki Semeru",
+          "subtitle": "Tekno",
+          "lead": "-",
+          "img": "https://img.youtube.com/vi/dIxuukHLAIg/mqdefault.jpg",
+          "link": "images-artikel-video.html",
+          "dates": "26/11/2016, 08:31 WIB",
+          "duration": "04:37",
+          "ads": ""
+        }
+      ]
+    }
+  }
+}

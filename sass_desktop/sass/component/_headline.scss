@@ -1,0 +1,147 @@
+.hl {
+	position: relative;
+	&__big {
+		position: relative;
+		height: 381px;
+		overflow: hidden;
+	}
+	&__small {
+		position: relative;
+		margin-top: -7px;
+		height: 180px;
+		overflow: hidden;
+	}
+	&__link {
+		display: inline-block;
+		&:hover {
+			color: inherit;
+		}
+	}
+	&__b {
+		&-item {
+			position: relative;
+		}
+		&-img {
+			position: relative;
+			background: #000;
+			height: 381px;
+			img {
+				width: 100%;
+			}
+		}
+		&-cat {
+			position: absolute;
+			left: 0;
+			top: 20px;
+			z-index: 1;
+			background: #000;
+			padding: 8px 20px;
+			font-style: italic;
+			text-transform: uppercase;
+			letter-spacing: 4px;
+			@include font-pack(false, 16px, 700, false, #fff);
+		}
+		&-box {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			padding: 160px 20px 30px;
+			background: linear-gradient(90deg,#000,transparent);
+			background: -webkit-linear-gradient(90deg,#000,transparent);
+		}
+		&-subtitle {
+			display: inline-block;
+			padding: 0 0 3px;
+			text-transform: uppercase;
+			border-bottom: 1px solid #fff;
+			letter-spacing: 2.4px;
+			@include font-pack(false, 13px, false, false, #fff);
+		}
+		&-author {
+			display: inline-block;
+			padding: 0;
+			letter-spacing: 1.2px;
+			@include font-pack(false, 16px, 700, false, #fff);
+		}
+		&-title {
+			margin: 10px 0 12px;
+			padding: 0;
+			@include title_overflow(auto, 156px);
+			@include font-pack(false, 30px, 700, false, #fff);
+			& a:hover {
+				text-decoration: underline;
+			}
+		}
+		&-date {
+			letter-spacing: 1.2px;
+			@include font-pack(false, 12px, false, false, #fff);
+		}
+//		&-item {
+//			@include transition(all 2s ease);
+//			&:hover {
+//				.hl__b-box {
+//					background: linear-gradient(90deg,#00305a,transparent);
+//					background: -webkit-linear-gradient(90deg,#00305a,transparent);
+//				}
+//			}
+//		}
+	}
+	&__s {
+		&-item {
+			display: block;
+			position: relative;
+			border-right: 1px solid #fff;
+			border-top: 2px solid #fff;
+			border-left: 1px solid #fff;
+			height: 180px!important;
+			background: #000;
+			margin-top: 7px;
+			width: 25%;
+			vertical-align: top;
+			float: left;
+			&:after {
+				position: absolute;
+				content: '';
+				width: 100%;
+				top: -7px;
+				left: 0;
+				border-top: 7px solid transparent;
+				z-index: 1;
+			}
+			&.slick-current {
+				&:after {
+					border-top: 7px solid #fff;
+				}
+			}
+		}
+		&-img {
+			position: relative;
+			cursor: pointer;
+		}
+		&-title {
+			margin: 7px 0;
+			padding: 0 10px;
+			@include font-pack(false, 12px, 500, false, #fff);
+			@include title_overflow(auto, 60px);
+			& a:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	.slick-dots {
+		bottom: 33px;
+		text-align: right;
+		padding-right: 20px;
+	}
+	.slick-dots li button {
+		background: #fff;
+	}
+	.slick-dots li.slick-active button {
+		background: #eba657;
+		background: $color_theme;
+	}
+	.slick-dots li button:before {
+		content: '';
+	}
+}

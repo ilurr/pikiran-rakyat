@@ -51,6 +51,20 @@
 .pull-right {
 	float: right;
 }
+.row__bg {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	@include display_full();
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: $screen-lg-desktop;
+	@include min-responsive($screen-lg-desktop) {
+		width: 100%;
+	}
+}
 
 // override
 .tab {

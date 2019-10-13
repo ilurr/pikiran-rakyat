@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+	<!-- header -->
+	{{> header}}
+	
+	<!-- ads skin -->
+	{{> ads_skin}}
+	
+	<!-- content -->
+	<div class="row clearfix">
+		<div class="container cearfix">
+			<div class="col-offset-fluid clearfix">
+				<div class="col-bs12-12">
+					
+					<!-- ads top -->
+					{{> ads_top}}
+					
+					{{> read_breadcrumb channel=read.images.video}}
+
+				</div>
+				
+				<div class="col-bs12-8">
+				
+					<!-- header -->
+					<section class="read__header clearfix">
+						{{> read_header type="video" channel=read.images.video}}
+					</section>
+					
+					<div class="read__article clearfix">
+						
+						<!-- content -->
+						<article class="read__content clearfix">
+							{{{read.images.video.content}}}
+						</article>
+
+						<!-- tagging -->
+						<section class="read__tagging mt3 clearfix">
+							<h3 class="title6"><span>Tags</span></h3>
+							{{> read_tagging channel=read.images.video}}
+						</section>
+
+						<!-- comment -->
+						<section class="read__comment mt3 clearfix">
+							<h3 class="title6"><span>Komentar</span></h3>
+							{{> read_comment}}
+						</section>
+
+						<!-- latests -->
+						<section class="latest latest--video mt3 clearfix">
+							<h3 class="title6"><span>Video Lainnya</span></h3>
+							<div class="latest__wrap">
+								{{> latest_video channel=channel.images.video total=5 index_start=0 index_end=5}}
+							</div>
+						</section>
+							
+					</div>
+					
+					
+				</div>
+				<div class="col-bs12-4">
+				
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+					<!-- most -->
+					<section class="most mt2 clearfix">
+						<h3 class="title"><span>Terpopuler</span></h3>
+						<div class="most__wrap">
+							{{> most channel=Most total=10 index_start=0 index_end=10}}
+						</div>
+					</section>
+					
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- footer -->
+	{{> footer}}
+
+	{{> js}}
+	
+</body>
+</html>

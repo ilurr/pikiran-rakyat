@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+	<!-- header -->
+	{{> header}}
+	
+	<!-- ads skin -->
+	{{> ads_skin}}
+	
+	<!-- content -->
+	<div class="row clearfix">
+		<div class="container cearfix">
+			<div class="col-offset-fluid clearfix">
+				<div class="col-bs12-12">
+					
+					<!-- ads top -->
+					{{> ads_top}}
+					
+				</div>
+				
+				<div class="col-bs12-8">
+				
+					<!-- latest -->
+					<section class="page clearfix">
+						<h3 class="title"><span>Indeks Berita</span></h3>
+						<div class="latest__wrap">
+							{{> latest channel=WP.Latest total=10 index_start=0 index_end=20}}
+						</div>
+						
+						{{> paging}}
+					</section>
+					
+				</div>
+				<div class="col-bs12-4">
+				
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+					<!-- most -->
+					<section class="most mt2 clearfix">
+						<h3 class="title"><span>Terpopuler</span></h3>
+						<div class="most__wrap">
+							{{> most channel=Most total=10 index_start=0 index_end=10}}
+						</div>
+					</section>
+					
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- footer -->
+	{{> footer}}
+
+	{{> js}}
+	
+</body>
+</html>

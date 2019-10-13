@@ -1,58 +1,156 @@
 .title {
 	position: relative;
-	padding: 50px 0;
+	padding: 20px 0;
 	text-transform: uppercase;
-	letter-spacing: 25px;
-	text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.4);
-	@include font-pack($dinpro_black, 41px, false, 1, #fff);
-	border-top: 2px solid #fff;
-	border-bottom: 1px solid #fff;
-    width: $screen-lg-desktop;
-    @include min-responsive($screen-lg-desktop) {
-        width: 100%;
-    }
+	letter-spacing: 2px;
+	font-style: italic;
+	@include font-pack(false, 21px, 700, false, $color_theme);
 	span {
+		display: inline-block;
+		background: #fff;
+		padding-right: 10px;
+	}
+	&:after {
+		content: '';
+		border-top: 1px solid $color_theme;
 		position: absolute;
 		z-index: -1;
-		top: 0;
+		top: 32px;
 		left: 0;
 		width: 100%;
-		height: 100%;
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-size: cover;
 	}
-	&__main {
-		text-align: center;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		padding: 10px 0 20px;
-		@include font-pack($dinpro_black, 30px, false, 1, #747474);
+}
+.title2 {
+	position: relative;
+	padding: 20px 0;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-style: italic;
+	@include font-pack(false, 24px, 700, false, #fff);
+	span {
+		display: inline-block;
+		margin: 0 auto;
+		background: transparent;
+		padding: 0 0 5px;
+		border-bottom: 1px solid #fff;
 	}
-	&__page {
-		padding: 20px 0;
-		letter-spacing: 8px;
-		text-transform: uppercase;
-		border-bottom: 1px solid #666;
-		margin: 0 0 30px;
-		@include font-pack($dinpro_black, 30px, false, 1, #000);
+	a:hover {
+		color: #fff;
+	}
+	&:after {
+		content: '';
+		border-top: 1px solid transparent;
+		position: absolute;
+		z-index: -1;
+		top: 32px;
+		left: 0;
+		width: 100%;
+	}
+}
+.title3 {
+	position: relative;
+	padding: 10px 0 10px 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-style: italic;
+	@include font-pack(false, 18px, 700, false, #000);
+	span {
+		display: inline-block;
+		margin: 0 auto;
+		background: transparent;
+		padding: 0 10px;
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		top: 15px;
+		left: 0;
+		width: 13px;
+		height: 13px;
+		border-radius: 100%;
+		background: #000;
 	}
 }
 
-.subtitle {
+.title4 {
 	position: relative;
-	padding: 20px 0 30px;
+	padding: 15px 10px 0;
 	text-transform: uppercase;
-	letter-spacing: 3px;
-	@include font-pack($dinpro_light, 30px, false, 1, #000);
-	&--bg {
-		padding: 0 0 30px;
-		span {
-			display: inline-block;
-			padding: 8px 10px;
-			background: rgba(57, 15, 20, 0.8);
-			border-radius: 10px;
-			color: #fff;
+	letter-spacing: 2px;
+	text-align: center;
+	font-style: italic;
+	@include font-pack(false, 24px, 700, false, #fff);
+	span {
+		display: inline-block;
+		margin: 0 auto;
+		background: $color_theme;
+		padding: 5px 15px;
+		position: relative;
+		height: 40px;
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: -10px;
+			width: 0;
+			height: 0;
+			border-top: 20px solid transparent;
+			border-bottom: 20px solid $color_theme;
+			border-right: 5px solid $color_theme;
+			border-left: 5px solid transparent;
+		}
+		&:after {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: -10px;
+			width: 0;
+			height: 0;
+			border-top: 20px solid $color_theme;
+			border-bottom: 20px solid transparent;
+			border-right: 5px solid transparent;
+			border-left: 5px solid $color_theme;
 		}
 	}
+	&:after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		top: 35px;
+		border-top: 1px solid $color_theme;
+		left: 0;
+		width: 100%;
+	}
 }
+.title5 {
+	position: relative;
+	padding: 20px 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-style: italic;
+	text-align: center;
+	@include font-pack(false, 21px, 700, false, $color_theme);
+	span {
+		display: inline-block;
+		background: #fff;
+		padding: 10px 30px;
+	}
+}
+
+.title6 {
+	position: relative;
+	padding: 0 0 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-style: italic;
+	text-align: left;
+	@include font-pack(false, 21px, 700, false, $color_theme);
+	span {
+		display: inline-block;
+		background: #fff;
+		padding: 0;
+	}
+}
+
