@@ -97,4 +97,18 @@
 			overflow-x: scroll;
 		}
 	}
+	
+	// login
+	&__login {
+		width: 400px;
+		margin: 10vh auto;
+		padding: 10px 30px 30px;
+		box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);	
+		p {
+			color: #2a2a2a;
+		}
+		&__box {
+			margin: 20px 0 0;
+		}
+	}
 }

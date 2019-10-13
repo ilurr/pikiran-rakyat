@@ -1,23 +1,43 @@
 .button {
 	position: relative;
-	&--default {
+	&--login {
 		position: relative;
-		display: inline-block;
+		display: block;
 		width: auto;
-		padding: 8px 20px;
+		padding: 10px 20px;
+		margin: 0 0 20px;
 		border: 1px solid transparent;
 		vertical-align: text-bottom;
 		text-transform: uppercase;
-		letter-spacing: 5px;
+		letter-spacing: 2px;
 		background: transparent;
 		box-shadow: none;
-		border-radius: 10px;
+		border-radius: 0;
 		@include transition(all .2s ease);
-		@include font-pack(false, 16px, 700, false, #999);
+		@include font-pack(false, 16px, 400, false, #fff);
 		&:hover {
 			color: #fff;
-			//border: 1px solid $color-theme;
+			border: 1px solid transparent;
 			background: $color_theme;
+		}
+		.icon {
+			position: absolute;
+			left: 15px;
+			top: 11px;
+			z-index: 1;
+			font-size: 20px;
+		}
+	}
+	&--facebook {
+		background: $color_facebook;
+		&:hover {
+			background: darken($color_facebook, 8%);
+		}
+	}
+	&--google {
+		background: $color_google_plus;
+		&:hover {
+			background: darken($color_google_plus, 8%);
 		}
 	}
 //	&__backtop {
