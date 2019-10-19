@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+	<!-- header -->
+	{{> header}}
+	
+	<!-- nav -->
+	{{> nav}}
+	
+	<!-- content -->
+	<div class="row clearfix">
+		<div class="container clearfix">
+					
+			<!-- ads top -->
+			{{> ads_top}}
+
+			<!-- topic -->
+			<section class="topic__big mt2 clearfix">
+				{{> headline_topic index=true channel=WP.Sorotan total=1 index_start=1 index_end=2}}
+				<div class="topic--list clearfix">
+					<div class="latest__wrap">
+						{{> latest channel=WP.Latest total=6 index_start=0 index_end=6}}
+					</div>
+					<div class="latest__more clearfix">
+						<a href="topik-khusus-detail.html" class="latest__button">Lihat Semua</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- topic -->
+			<section class="topic__big mt2 clearfix">
+				{{> headline_topic index=true channel=WP.Sorotan total=1 index_start=0 index_end=1}}
+				<div class="topic--list clearfix">
+					<div class="latest__wrap">
+						{{> latest channel=WP.Latest total=6 index_start=6 index_end=12}}
+					</div>
+					<div class="latest__more clearfix">
+						<a href="topik-khusus-detail.html" class="latest__button">Lihat Semua</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- topic -->
+			<section class="topic__big mt2 clearfix">
+				{{> headline_topic index=true channel=WP.Sorotan total=1 index_start=2 index_end=3}}
+				<div class="topic--list clearfix">
+					<div class="latest__wrap">
+						{{> latest channel=WP.Latest total=6 index_start=12 index_end=18}}
+					</div>
+					<div class="latest__more clearfix">
+						<a href="topik-khusus-detail.html" class="latest__button">Lihat Semua</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- topic -->
+			<section class="topic__big mt2 clearfix">
+				{{> headline_topic index=true channel=WP.Sorotan total=1 index_start=3 index_end=4}}
+				<div class="topic--list clearfix">
+					<div class="latest__wrap">
+						{{> latest channel=WP.Latest total=6 index_start=18 index_end=24}}
+					</div>
+					<div class="latest__more clearfix">
+						<a href="topik-khusus-detail.html" class="latest__button">Lihat Semua</a>
+					</div>
+				</div>
+			</section>
+
+			{{> paging}}
+
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
+					
+		</div>
+	</div>
+	
+	<!-- footer -->
+	{{> footer}}
+
+	{{> js}}
+	
+</body>
+</html>

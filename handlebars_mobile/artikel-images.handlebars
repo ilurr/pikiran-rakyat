@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+	<!-- header -->
+	{{> header}}
+	
+	<!-- nav -->
+	{{> nav}}
+	
+	<!-- content -->
+	<div class="row clearfix">
+		<div class="container clearfix">
+					
+			<!-- ads top -->
+			{{> ads_top}}
+
+			{{> read_breadcrumb channel=read.images.photo}}
+
+			<!-- header -->
+			<section class="read__header clearfix">
+				{{> read_header type="gallery" channel=read.images.photo}}
+			</section>
+
+			<!-- content -->
+			<article class="read__content clearfix">
+				{{{read.images.photo.content}}}
+			</article>
+
+			<!-- tagging -->
+			<section class="read__tagging mt2 clearfix">
+				<h3 class="title6"><span>Tags</span></h3>
+				{{> read_tagging channel=read.images.photo}}
+			</section>
+
+			<!-- comment -->
+			<section class="read__comment mt2 clearfix">
+				<h3 class="title6"><span>Komentar</span></h3>
+				{{> read_comment}}
+			</section>
+
+			<!-- latests -->
+			<section class="latest latest--photos mt2 clearfix">
+				<h3 class="title6"><span>Images Lainnya</span></h3>
+				<div class="latest__wrap">
+					{{> latest_images channel=channel.images.photo total=5 index_start=0 index_end=5}}
+				</div>
+			</section>
+
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
+					
+		</div>
+	</div>
+	
+	<!-- footer -->
+	{{> footer}}
+
+	{{> js}}
+	
+</body>
+</html>

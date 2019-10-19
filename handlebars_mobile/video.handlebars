@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+	<!-- header -->
+	{{> header}}
+	
+	<!-- nav -->
+	{{> nav}}
+	
+	<!-- content -->
+	<div class="row clearfix">
+		<div class="container clearfix">
+					
+			<!-- ads top -->
+			{{> ads_top}}
+
+			<h3 class="title4"><span>PR TV</span></h3>
+
+			<!-- headline -->
+			<section class="videos__hl clearfix">
+				<div class="videos__wrap clearfix">
+					{{> headline_video channel=channel.images.video total=1 index_start=14 index_end=15}}
+				</div>
+			</section>
+
+			<!-- latest -->
+			<section class="latest latest--video clearfix">
+				<div class="latest__wrap">
+					{{> latest_video channel=channel.images.video total=8 index_start=0 index_end=8}}
+				</div>
+			</section>
+
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
+					
+			<!-- latest -->
+			<section class="latest latest--video mt2 clearfix">
+				<div class="latest__wrap">
+					{{> latest_video channel=channel.images.video total=8 index_start=8 index_end=16}}
+				</div>
+			</section>
+
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
+					
+			<!-- latest -->
+			<section class="latest latest--video mt2 clearfix">
+				<div class="latest__wrap">
+					{{> latest_video channel=channel.images.video total=8 index_start=12 index_end=20}}
+				</div>
+
+				<div class="latest__more clearfix">
+					<a href="#" class="latest__button">Lihat Semua</a>
+				</div>
+			</section>
+
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
+					
+		</div>
+	</div>
+	
+	<!-- footer -->
+	{{> footer}}
+
+	{{> js}}
+	
+</body>
+</html>

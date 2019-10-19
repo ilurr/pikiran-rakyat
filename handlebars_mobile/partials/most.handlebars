@@ -1,0 +1,16 @@
+{{#each channel}}
+{{#gte @index compare=../index_start}}
+{{#gte @index compare=../index_end}}
+{{else}}
+<div class="most__item">
+	<div class="most__number">{{add @index 1}}</div>
+	<div class="most__right">
+		<a href="artikel.html" class="most__link">
+			<h2 class="most__title">{{title}}</h2>
+		</a>
+	</div>
+</div>
+{{/gte}}
+{{else}}
+{{/gte}}
+{{/each}}

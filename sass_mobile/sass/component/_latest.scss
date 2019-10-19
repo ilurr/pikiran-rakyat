@@ -1,0 +1,140 @@
+.latest {
+	position: relative;
+	&__item {
+		position: relative;
+		@include display-flex();
+		margin: 15px 0;
+		&:first-child {
+			margin: 0 0 15px;
+		}
+	}
+	&__img {
+		width: 90px;
+		height: 90px;
+		position: relative;
+		.icon-play {
+			font-size: 35px;
+		} 
+		.icon-photo {
+			position: absolute;
+			z-index: 1;
+			left: 50%;
+			top: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			font-size: 28px;
+			color: #fff;
+		}
+	}
+	&__right {
+		width: calc(100% - 90px);
+		padding: 0 0 0 15px;
+	}
+	&__subtitle {
+		display: inline-block;
+		padding: 0 0 1px;
+		text-transform: uppercase;
+		border-bottom: 1px solid $color_theme;
+		letter-spacing: 2.1px;
+		vertical-align: top;
+		@include font-pack(false, 10px, false, false, $color_theme);
+		&:hover {
+			border-bottom: 1px solid #000;
+		}
+	}
+	&__title {
+		margin: 3px 0 1px;
+		@include font-pack(false, 16px, 700, false, false);
+//		@include title_overflow(auto, 60px);
+		@include title_overflow(auto, 42px);
+	}
+	&__date {
+		letter-spacing: 1px;
+		@include font-pack(false, 10px, false, false, $color_grey);
+	}
+	&__author {
+		padding: 5px 0;
+		letter-spacing: 1px;
+		@include font-pack(false, 12px, 700, false, $color_theme);
+	}
+	&__link {
+		display: block;
+	}
+	&__more {
+		margin: -10px 0 0;
+		padding: 10px 0 20px;
+		text-align: center;
+	}
+	&__button {
+		display: inline-block;
+		padding: 5px 0;
+		text-transform: uppercase;
+		font-style: italic;
+		letter-spacing: 2px;
+		border-bottom: 1px solid $color_theme;
+		@include font-pack(false, 18px, 700, false, $color_theme);
+		&:hover {
+			color: #000;
+		}
+	}
+	
+	// read
+	&--article {
+		.latest__item {
+			margin: 20px 0;
+		}
+		.latest__right {
+			padding-left: 10px;
+			width: calc(100% - 100px);
+		}
+		.latest__img {
+			width: 100px;
+			height: 100px;
+		}
+		.latest__title {
+			margin: 0 0 7px;
+			font-size: 18px;
+			max-height: 71px;
+		}
+		.latest__date {
+			color: $color_theme;
+		}
+	}
+	
+	&--photos {
+		.latest__img {
+			background: #000;
+			width: 150px;
+			height: 90px;
+			img {
+				opacity: .75;
+			}
+		}
+		.latest__right {
+			width: calc(100% - 150px);
+		}
+	}
+	
+	&--video {
+		.latest__img {
+			background: #000;
+			width: 150px;
+			height: 90px;
+			img {
+				position: absolute;
+				width: 100%;
+				//max-width: unset;
+				height: auto;
+				left: 50%;
+				top: 50%;
+				-webkit-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+				opacity: .75;
+				@include transition(all .2s ease);
+			}
+		}
+		.latest__right {
+			width: calc(100% - 150px);
+		}
+	}
+}

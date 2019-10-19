@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+	<!-- header -->
+	{{> header}}
+	
+	<!-- nav -->
+	{{> nav}}
+	
+	<!-- content -->
+	<div class="row clearfix">
+		<div class="container clearfix">
+					
+			<!-- ads top -->
+			{{> ads_top}}
+
+			<!-- latest -->
+			<section class="page clearfix">
+				<h3 class="title"><span>Surat Pembaca</span></h3>
+				{{> mail_form}}
+			</section>
+
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
+					
+		</div>
+	</div>
+	
+	<!-- footer -->
+	{{> footer}}
+
+	{{> js}}
+	
+</body>
+</html>

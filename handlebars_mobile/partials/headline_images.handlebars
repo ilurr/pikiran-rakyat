@@ -1,0 +1,30 @@
+<div class="photos__hl__wrap clearfix">
+	{{#each channel}}
+	{{#gte @index compare=../index_start}}
+	{{#gte @index compare=../index_end}}
+	{{else}}
+	<div class="photos__item">
+		<a href="artikel-images.html" class="photos__link">
+			<div class="photos__img">
+					{{#eq @index compare=0}}
+					<img src="https://asset.kompas.com/crop/750x500/smart/data/todaysphoto/{{img}}" alt="{{title}}">
+					{{else}}
+					<img src="https://asset.kompas.com/crop/300x160/smart/data/todaysphoto/{{img}}" alt="{{title}}">
+					{{/eq}}
+			</div>
+			<div class="photos__box">
+				<div class="photos__info">
+					<h2 class="photos__title">{{title}}</h2>
+					<date class="photos__date">24 Spetember 2019, 23:20 WIB</date>
+				</div>
+				<div class="photos__info2">
+					<div class="photos__count"><span>{{duration}}</span>foto</div>
+				</div>
+			</div>
+		</a>
+	</div>
+	{{/gte}}
+	{{else}}
+	{{/gte}}
+	{{/each}}
+</div>

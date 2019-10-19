@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+	<!-- header -->
+	{{> header}}
+	
+	<!-- nav -->
+	{{> nav}}
+	
+	<!-- content -->
+	<div class="row clearfix">
+		<div class="container clearfix">
+
+			<!-- ads top -->
+			{{> ads_top}}
+
+			{{> read_breadcrumb channel=read.bola.article}}
+
+			<!-- header -->
+			<section class="read__header clearfix">
+				{{> read_header channel=read.bola.article}}
+			</section>
+
+			<!-- content -->
+			<article class="read__content clearfix">
+				{{{read.bola.article.content}}}
+				<div class="videos__player">
+					<div class="videos__ratio">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/0qVhFc_m-PM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="videos__caption">Desta Stand Up, Cak Lontong Menertawakannya</div>
+				</div>
+			</article>
+
+			{{> read_paging}}
+
+			<!-- tagging -->
+			<section class="read__tagging mt2 clearfix">
+				<h3 class="title6"><span>Tags</span></h3>
+				{{> read_tagging channel=read.bola.article}}
+			</section>
+
+			<!-- related -->
+			<section class="read__related mt2 clearfix">
+				<h3 class="title6"><span>Artikel Terkait</span></h3>
+				{{> read_related channel=read.bola.article}}
+			</section>
+
+			<!-- comment -->
+			<section class="read__comment mt2 clearfix">
+				<h3 class="title6"><span>Komentar</span></h3>
+				{{> read_comment}}
+			</section>
+
+			<!-- latests -->
+			<section class="latest latest--article mt2 clearfix">
+				<h3 class="title6"><span>Terkini</span></h3>
+				<div class="latest__wrap">
+					{{> latest_read channel=WP.Latest total=10 index_start=20 index_end=30}}
+				</div>
+			</section>
+
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
+
+			<!-- most -->
+			<section class="most mt2 clearfix">
+				<h3 class="title6"><span>Terpopuler</span></h3>
+				<div class="most__wrap">
+					{{> most channel=Most total=10 index_start=0 index_end=10}}
+				</div>
+			</section>
+
+			<!-- network -->
+			<section class="network network--article mt2 clearfix">
+				<h3 class="title6"><span>Jawa Barat Network</span></h3>
+				<div class="network__wrap js--network">
+					{{> belt_network channel=WP.Sorotan total=8 index_start=0 index_end=8}}
+				</div>
+			</section>
+			
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
+
+		</div>
+	</div>
+	
+	<!-- footer -->
+	{{> footer}}
+
+	{{> js}}
+	
+</body>
+</html>

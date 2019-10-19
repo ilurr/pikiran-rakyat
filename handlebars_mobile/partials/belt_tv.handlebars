@@ -1,0 +1,32 @@
+{{#each channel}}
+{{#gte @index compare=../index_start}}
+{{#gte @index compare=../index_end}}
+{{else}}
+<div class="videos__item">
+	<div class="videos__img">
+		<a href="artikel-video.html">
+			<span class="icon icon-play"></span>
+			{{#eq @index compare=14}}
+			<img src="{{img}}" alt="{{title}}">
+			{{else}}
+			<img src="{{img}}" alt="{{title}}">
+			{{/eq}}
+		</a>
+	</div>
+	<div class="videos__box">
+		<div class="videos__info">
+			<h2 class="videos__title">
+				<a href="artikel-video.html" class="videos__link">{{title}}</a>
+			</h2>
+		</div>
+		{{#eq @index compare=14}}
+		<div class="videos__info2">
+			<div class="videos__duration">{{duration}}</div>
+		</div>
+		{{/eq}}
+	</div>
+</div>
+{{/gte}}
+{{else}}
+{{/gte}}
+{{/each}}

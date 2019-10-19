@@ -1,0 +1,26 @@
+{{#each channel}}
+{{#gte @index compare=../index_start}}
+{{#gte @index compare=../index_end}}
+{{else}}
+<div class="latest__item">
+	<div class="latest__img">
+		<a href="artikel-video.html">
+			<span class="icon icon-play"></span>
+			<img src="{{img}}" alt="{{title}}">
+			<div class="videos__latest__box">
+				<div class="videos__duration">{{duration}}</div>				
+			</div>
+		</a>
+	</div>
+	<div class="latest__right">
+		<h4 class="latest__subtitle"><a href="kanal.html">{{subtitle}}</a></h4>
+		<h2 class="latest__title">
+			<a href="artikel-video.html" class="latest__link">{{title}}</a>
+		</h2>
+		<date class="latest__date">25 September 2019, 23:12 WIB</date>
+	</div>
+</div>
+{{/gte}}
+{{else}}
+{{/gte}}
+{{/each}}

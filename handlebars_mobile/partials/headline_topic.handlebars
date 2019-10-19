@@ -1,0 +1,22 @@
+{{#each channel}}
+{{#gte @index compare=../index_start}}
+{{#gte @index compare=../index_end}}
+{{else}}
+<div class="topic__b-item">
+	<div class="topic__b-img">
+		<div class="topic__b-cat">Topik Khusus</div>
+		<img src="https://asset.kompas.com/crop/0x0:0x0/640x384/data/photo/{{img}}" alt="{{title}}">
+	</div>
+	<div class="topic__b-box">
+		{{#eq ../index compare=true}}
+		<h1 class="topic__b-title"><a href="topik-khusus-detail.html">{{title}}</a></h1>
+		{{else}}
+		<h1 class="topic__b-title">{{title}}</h1>
+		{{/eq}}
+		<p class="topic__b-lead">{{lead}}</p>
+	</div>
+</div>
+{{/gte}}
+{{else}}
+{{/gte}}
+{{/each}}

@@ -6,100 +6,169 @@
 	<!-- header -->
 	{{> header}}
 	
-	<!-- nav menu -->
+	<!-- nav -->
 	{{> nav}}
 	
-	<div class="section section__header">
-		<img src="asset/images/iel_university_bg.png" alt="">
-	</div>
-	
-	<div class="section section__top">
-	
-		<!-- bg -->
-		<span class="section__bg" style="background-image:url('asset/images/bg_middle.jpg')"></span>
+	<!-- content -->
+	<div class="row clearfix">
+		<div class="container clearfix">
+					
+			<!-- ads top -->
+			{{> ads_top}}
 
-		<!-- official -->
-		<div class="official">
-			<div class="official__item">
-				<img src="asset/images/by_02.png" alt="">
+			<!-- headline -->
+			<section class="hl clearfix">
+				{{> headline channel=WP.Headline total=3 index_start=0 index_end=3}}
+			</section>
+
+			<!-- editors pick -->
+			<section class="editors clearfix">
+				<h3 class="title3"><span>Pilihan Editor</span></h3>
+				<div class="editors__wrap js--editors">
+					{{> editor_pick channel=WP.Latest total=6 index_start=10 index_end=16}}
+				</div>
+			</section>
+
+			<!-- latest -->
+			<section class="latest mt2 clearfix">
+				<h3 class="title4"><span>Berita Terkini</span></h3>
+				<div class="latest__wrap">
+					{{> latest channel=WP.Latest total=10 index_start=0 index_end=10}}
+				</div>
+			</section>
+
+			<!-- topik -->
+			<section class="topic mt2 clearfix">
+				<div class="row__bg" style="background-image: url('./asset/images/bg_topik.jpg')"></div>
+				<h3 class="title2"><span><a href="topik-khusus.html">Topik Khusus</a></span></h3>
+				<div class="topic__wrap js--topic">
+					{{> belt_topic channel=WP.Sorotan total=2 index_start=1 index_end=3}}
+				</div>
+			</section>
+
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
 			</div>
-			<div class="official__item">
-				<img src="asset/images/by_03.png" alt="">
-			</div>
-			<div class="official__item">
-				<img src="asset/images/by_04.png" alt="">
-			</div>
-			<div class="official__item">
-				<img src="asset/images/by_05.png" alt="">
-			</div>
-			<div class="official__item">
-				<img src="asset/images/by_06.png" alt="">
-			</div>
-		</div>
 
-		<h1 class="title__main">The Official University Esports League of Indonesia</h1>
+			<!-- most -->
+			<section class="most mt2 clearfix">
+				<h3 class="title"><span>Terpopuler</span></h3>
+				<div class="most__wrap">
+					{{> most channel=Most total=10 index_start=0 index_end=10}}
+				</div>
+			</section>
 
-		<div class="notes">
-			<div class="notes__item">
-				<img src="asset/images/box_01.jpg" alt="">
-			</div>
-			<div class="notes__item">
-				<img src="asset/images/box_02.jpg" alt="">
-			</div>
-			<div class="notes__item">
-				<img src="asset/images/box_03.jpg" alt="">
-			</div>
-		</div>
+			<!-- opinion -->
+			<section class="opinion mt2 clearfix">
+				<h3 class="title"><span><a href="opini.html">Kolom</a></span></h3>
+				<div class="opinion__wrap">
+					{{> opinion channel=WP.Opini total=3 index_start=0 index_end=3}}
+				</div>
+			</section>
 
-		<!-- team -->
-		{{> wp_team}}
-
-		<!-- banner -->
-		{{> banner}}
-
-	</div>
-	<div class="section section__middle">
-	
-		<!-- bg -->
-		<span class="section__bg" style="background-image:url('asset/images/bg_middle_2.jpg')"></span>
-		
-		<!-- video -->
-		<div class="video__wp">
-			<div class="video__wrapper">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/fSsNuI8vogc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
-		</div>
-
-		<!-- schedule -->
-		{{!> wp_schedule}}
-
-		<!-- finals -->
-		{{> wp_finals}}
-
-	</div>
-	<div class="section section__bottom">
-	
-		<!-- news -->
-		<h3 class="subtitle">News</h3>
-		{{> wp_news}}
-
-		<!-- standing -->
-		<h3 class="subtitle">Standing</h3>
-		{{> wp_standing}}
-
-		<!-- banner -->
-		{{> banner}}
+			<!-- network -->
+			<section class="network mt2 clearfix">
+				<div class="row__bg" style="background-image: url('./asset/images/bg_network.jpg')"></div>
+				<h3 class="title2"><span>Jawa Barat Network</span></h3>
+				<div class="network__wrap js--network">
+					{{> belt_network channel=WP.Sorotan total=8 index_start=0 index_end=8}}
+				</div>
+			</section>
 			
-	</div>
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
 
-	<!-- share -->
-	{{!> wp_social}}
+			<!-- latest -->
+			<section class="latest mt2 clearfix">
+				<div class="latest__wrap">
+					{{> latest channel=WP.Latest total=10 index_start=10 index_end=20}}
+				</div>
+			</section>
+			
+			<!-- pr tv -->
+			<section class="videos mt2 clearfix">
+				<div class="row__bg" style="background-image: url('./asset/images/bg_tv.jpg')"></div>
+				<h3 class="title2"><span><a href="video.html">PR TV</a></span></h3>
+				<div class="videos__wrap clearfix">
+					{{> belt_tv channel=channel.images.video total=3 index_start=14 index_end=17}}
+				</div>
+			</section>
+			
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
+
+			<!-- salat -->
+			<section class="widget mt2 clearfix">
+				<h3 class="title"><span>Jadwal Salat</span></h3>
+				{{> widget_salat}}
+			</section>
+			
+			<!-- valas -->
+			<section class="widget mt2 clearfix">
+				<h3 class="title"><span>Valas BCA</span></h3>
+				{{> widget_valas}}
+			</section>
+
+			<!-- epaper -->
+			<section class="widget mt2 clearfix">
+				<h3 class="title"><span>Epaper</span></h3>
+				{{> widget_epaper}}
+			</section>
+			
+			<!-- mail -->
+			<section class="widget mt2 clearfix">
+				<h3 class="title"><span><a href="surat-pembaca.html">Surat Pembaca</a></span></h3>
+				{{> widget_mail}}
+			</section>
+
+			<!-- radio -->
+			<section class="widget mt2 clearfix">
+				<h3 class="title"><span>Radio Streaming</span></h3>
+				{{> widget_radio}}
+			</section>
+			
+			<!-- pr images -->
+			<section class="photos mt2 clearfix">
+				<div class="row__bg" style="background-image: url('./asset/images/bg_images.jpg')"></div>
+				<h3 class="title2"><span><a href="images.html">PR Images</a></span></h3>
+				<div class="photos__wrap">
+					{{> belt_images channel=channel.images.features total=3 index_start=0 index_end=3}}
+				</div>
+			</section>
+			
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
+			
+			<!-- latest -->
+			<section class="latest mt2 clearfix">
+				<div class="latest__wrap">
+					{{> latest channel=WP.Latest total=10 index_start=20 index_end=30}}
+				</div>
+				
+				<div class="latest__more clearfix">
+					<a href="all.html" class="latest__button">Lihat Semua</a>
+				</div>
+			</section>
+
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
+
+		</div>
+	</div>
 	
 	<!-- footer -->
 	{{> footer}}
-	
-	<script src="./asset/js/slick.min.js"></script>
-	<script src="./asset/js/main.js"></script>
 
+	{{> js}}
+	
 </body>
 </html>

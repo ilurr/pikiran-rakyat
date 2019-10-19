@@ -1,0 +1,101 @@
+.footer {
+	margin-top: 40px;
+	padding: 40px 0 60px;
+	background: #000;
+	@include font-pack(false, 16px, false, false, #fff);
+    width: $screen-lg-desktop;
+	p {
+		margin: 0;
+	}
+	&__logo {
+		padding: 0 0 20px;
+		text-align: center;
+		position: relative;
+		&:after {
+			position: absolute;
+			content: '';
+			width: 100%;
+			top: 25px;
+			left: 0;
+			z-index: 1;
+			border-top: 1px solid #fff;
+		}
+		a {
+			position: relative;
+			z-index: 2;
+			display: inline-block;
+			padding: 0 10px;
+			background: #000;
+		}
+		img {
+			height: 40px;
+		}
+	}
+	&__item {
+		position: relative;
+		padding: 0;
+		display: block;
+	}
+	&__link {
+		padding: 5px 0;
+		display: block;
+		text-align: center;
+		@include font-pack(false, 16px, false, false, false);
+		&:hover {
+			color: $color_theme;
+		}
+	}
+	&__menu {
+		position: relative;
+		padding: 0;
+		&.inline {
+			text-align: center;
+			.footer__item {
+				position: relative;
+				display: inline-block;
+				&:after {
+					content: '-';
+//					position: absolute;
+//					right: -5px;
+//					bottom: 1px;
+				}
+				&:last-child {
+					&:after {
+						content: '';
+					}
+				}
+			}
+			.footer__link {
+				padding: 2px 5px;
+				display: inline-block;
+				@include font-pack(false, 14px, false, false, false);
+			}
+		}
+	}
+	&__copyright {
+		text-align: center;
+		padding: 20px 0 0;
+		margin: 0;
+		@include font-pack(false, 14px, false, false, false);
+	}
+	&__contact {
+		text-align: center;
+		@include font-pack(false, 14px, false, false, false);
+	}
+	&__bottom {
+		//letter-spacing: .6px;
+		padding-top: 20px;
+	}
+	&__wrap {
+		&__menu {
+			position: relative;
+			@include display-flex();
+			padding: 20px 0;
+			background: #151515;
+			margin: 20px -15px;
+			& > div {
+				width: 50%;
+			}
+		}
+	}
+}

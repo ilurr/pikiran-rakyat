@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+	<!-- header -->
+	{{> header}}
+	
+	<!-- nav -->
+	{{> nav}}
+	
+	<!-- content -->
+	<div class="row clearfix">
+		<div class="container clearfix">
+					
+			<!-- ads top -->
+			{{> ads_top}}
+
+			<h3 class="title4"><span>Bandung Raya</span></h3>
+
+			<!-- headline -->
+			<section class="hl clearfix">
+				{{> headline_kanal channel=WP.Headline total=1 index_start=0 index_end=1}}
+			</section>
+
+			<!-- editors pick -->
+			<section class="editors clearfix">
+				<h3 class="title3"><span>Berita Utama Lainnya</span></h3>
+				<div class="editors__wrap js--editors">
+					{{> editor_pick channel=WP.Latest total=6 index_start=10 index_end=16}}
+				</div>
+			</section>
+
+			<!-- latest -->
+			<section class="latest mt2 clearfix">
+				<h3 class="title"><span>Berita Terkini</span></h3>
+				<div class="latest__wrap">
+					{{> latest channel=WP.Latest total=10 index_start=0 index_end=10}}
+				</div>
+			</section>
+
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
+
+			<!-- latest -->
+			<section class="latest mt2 clearfix">
+				<div class="latest__wrap">
+					{{> latest channel=WP.Latest total=10 index_start=10 index_end=20}}
+				</div>
+			</section>
+
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
+
+			<!-- latest -->
+			<section class="latest mt2 clearfix">
+				<div class="latest__wrap">
+					{{> latest channel=WP.Latest total=10 index_start=20 index_end=30}}
+				</div>
+
+				<div class="latest__more clearfix">
+					<a href="all.html" class="latest__button">Lihat Semua</a>
+				</div>
+			</section>
+
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
+					
+		</div>
+	</div>
+	
+	<!-- footer -->
+	{{> footer}}
+
+	{{> js}}
+	
+</body>
+</html>
