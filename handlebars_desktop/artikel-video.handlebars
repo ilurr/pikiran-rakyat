@@ -11,7 +11,7 @@
 	
 	<!-- content -->
 	<div class="row clearfix">
-		<div class="container cearfix">
+		<div class="container clearfix">
 			<div class="col-offset-fluid clearfix">
 				<div class="col-bs12-12">
 					
@@ -31,16 +31,16 @@
 					
 					<div class="read__article clearfix">
 						
-						<!-- content -->
-						<article class="read__content clearfix">
-							{{{read.images.video.content}}}
-						</article>
-
 						<!-- tagging -->
 						<section class="read__tagging mt3 clearfix">
 							<h3 class="title6"><span>Tags</span></h3>
 							{{> read_tagging channel=read.images.video}}
 						</section>
+
+						<!-- content -->
+						<article class="read__content clearfix">
+							{{{read.images.video.content}}}
+						</article>
 
 						<!-- comment -->
 						<section class="read__comment mt3 clearfix">

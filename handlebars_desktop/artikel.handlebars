@@ -11,7 +11,7 @@
 	
 	<!-- content -->
 	<div class="row clearfix">
-		<div class="container cearfix">
+		<div class="container clearfix">
 			<div class="col-offset-fluid clearfix">
 				<div class="col-bs12-12">
 					
@@ -38,20 +38,26 @@
 							<!-- content -->
 							<article class="read__content clearfix">
 								{{{read.bola.article.content}}}
+								<div class="videos__player">
+									<div class="videos__ratio">
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/0qVhFc_m-PM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+									<div class="videos__caption">Desta Stand Up, Cak Lontong Menertawakannya</div>
+								</div>
 							</article>
 							
 							{{> read_paging}}
-							
- 							<!-- related -->
-							<section class="read__comment mt3 clearfix">
-								<h3 class="title6"><span>Artikel Terkait</span></h3>
-								{{> read_related channel=read.bola.article}}
-							</section>
 							
  							<!-- tagging -->
 							<section class="read__tagging mt3 clearfix">
 								<h3 class="title6"><span>Tags</span></h3>
 								{{> read_tagging channel=read.bola.article}}
+							</section>
+							
+ 							<!-- related -->
+							<section class="read__comment mt3 clearfix">
+								<h3 class="title6"><span>Artikel Terkait</span></h3>
+								{{> read_related channel=read.bola.article}}
 							</section>
 							
 							<!-- comment -->

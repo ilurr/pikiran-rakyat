@@ -18,59 +18,51 @@
 					<!-- ads top -->
 					{{> ads_top}}
 					
-					{{> read_breadcrumb channel=read.opini.article}}
-
 				</div>
 				
 				<div class="col-bs12-8">
 				
-					<!-- header -->
-					<section class="read__header clearfix">
-						{{> read_header channel=read.opini.article}}
+					<!-- topic -->
+					<section class="topic__big mt3 clearfix">
+						{{> headline_topic index=true channel=WP.Sorotan total=1 index_start=1 index_end=2}}
+						<div class="topic--list clearfix">
+							<div class="topic__wrap">
+								{{> belt_topic index=true channel=WP.Latest total=6 index_start=0 index_end=6}}
+							</div>
+						</div>
 					</section>
 					
-					<div class="read__article clearfix js--tower-parent">
-						<div class="col-bs12-3 col-offset-0">
-							{{> ads_tower}}
+					<!-- topic -->
+					<section class="topic__big mt3 clearfix">
+						{{> headline_topic index=true channel=WP.Sorotan total=1 index_start=0 index_end=1}}
+						<div class="topic--list clearfix">
+							<div class="topic__wrap">
+								{{> belt_topic index=true channel=WP.Latest total=6 index_start=6 index_end=12}}
+							</div>
 						</div>
-						<div class="col-bs12-9">
-						
-							<!-- content -->
-							<article class="read__content clearfix">
-								{{{read.opini.article.content}}}
-							</article>
-							
-							{{> read_paging}}
-							
- 							<!-- tagging -->
-							<section class="read__tagging mt3 clearfix">
-								<h3 class="title6"><span>Tags</span></h3>
-								{{> read_tagging channel=read.opini.article}}
-							</section>
-							
- 							<!-- related -->
-							<section class="read__comment mt3 clearfix">
-								<h3 class="title6"><span>Artikel Terkait</span></h3>
-								{{> read_related channel=read.opini.article}}
-							</section>
-							
-							<!-- comment -->
-							<section class="read__comment mt3 clearfix">
-								<h3 class="title6"><span>Komentar</span></h3>
-								{{> read_comment}}
-							</section>
-							
-							<!-- latests -->
-							<section class="latest latest--article mt3 clearfix">
-								<h3 class="title6"><span>Terkini</span></h3>
-								<div class="latest__wrap">
-									{{> latest_read channel=WP.Latest total=10 index_start=20 index_end=30}}
-								</div>
-							</section>
-							
-						</div>
-					</div>
+					</section>
 					
+					<!-- topic -->
+					<section class="topic__big mt3 clearfix">
+						{{> headline_topic index=true channel=WP.Sorotan total=1 index_start=2 index_end=3}}
+						<div class="topic--list clearfix">
+							<div class="topic__wrap">
+								{{> belt_topic index=true channel=WP.Latest total=6 index_start=12 index_end=18}}
+							</div>
+						</div>
+					</section>
+					
+					<!-- topic -->
+					<section class="topic__big mt3 clearfix">
+						{{> headline_topic index=true channel=WP.Sorotan total=1 index_start=3 index_end=4}}
+						<div class="topic--list clearfix">
+							<div class="topic__wrap">
+								{{> belt_topic index=true channel=WP.Latest total=6 index_start=18 index_end=24}}
+							</div>
+						</div>
+					</section>
+					
+					{{> paging}}
 					
 				</div>
 				<div class="col-bs12-4">
