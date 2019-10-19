@@ -1,0 +1,30 @@
+.breadcrumb {
+	position: relative;
+	padding: 0;
+	margin: 10px 0;
+	&__wrap {
+		position: relative;
+		font-style: italic;
+	}
+	&__item {
+		display: inline-block;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		@include font-pack(false, 16px, 700, false, #7E7E7E);
+		&:after {
+			content: ' / ';
+		}
+		&:last-child {
+			&:after {
+				content: '';
+			}
+		}
+	}
+	&__link {
+		position: relative;
+		display: inline-block;
+		&:hover {
+			color: #000;
+		}
+	}
+}

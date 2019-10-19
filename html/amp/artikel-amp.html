@@ -1,0 +1,434 @@
+<!doctype html>
+<html ⚡ lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1">
+		<meta name="description" content="This is the AMP Boilerplate.">
+		<link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+		<link rel="preconnect dns-prefetch" href="https://fonts.gstatic.com/" crossorigin>
+		<script async src="https://cdn.ampproject.org/v0.js"></script>
+		<!-- Import other AMP Extensions here -->
+
+		<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+		<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+		<script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+		<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,700i&display=swap" rel="stylesheet">
+		<style amp-custom>.icon-bar{display:inline-block;width:35px;height:35px;cursor:pointer;text-decoration:none;color:#fff;text-align:center;padding:6px 0!important}.icon-bar i{position:relative;display:inline-block;color:#fff;font:700 14px/.4 Helvetica;text-transform:uppercase;text-indent:-105px}.icon-bar i,.icon-bar i:after,.icon-bar i:before{width:18px;height:2px;background:#000;transition:all .2s ease-out}.icon-bar i:after,.icon-bar i:before{content:"";position:absolute;left:0}.icon-bar i:before{top:-7px}.icon-bar i:after{bottom:-7px;width:10px}.icon-bar.active i{background:transparent}.icon-bar.active i:before{width:18px;top:0;background:#000;transform:rotate(-45deg)}.icon-bar.active i:after{width:18px;bottom:0;background:#000;transform:rotate(45deg)}*,:after,:before{box-sizing:border-box}html{margin:0;padding:0}body{font-family:Roboto,sans-serif;font-size:14px;font-weight:400;line-height:1.3;color:#000;background:#fff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeSpeed;margin:0;padding:73px 0 0}article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}a{color:inherit;vertical-align:top;outline:0;transition:all .2s ease}a,a:hover{text-decoration:none}a:hover{color:#0bb1ef}a:focus,button:focus{outline:0;outline:0 auto -webkit-focus-ring-color;outline-offset:0}img{max-width:100%;width:auto;height:auto;vertical-align:top;border:0;-ms-interpolation-mode:bicubic}table{border-collapse:collapse}iframe{border:none}iframe,video{vertical-align:top}ol,ul{margin:0;padding:0;list-style:none}h1,h2,h3,h4,h5,h6{margin:0;font-size:14px;font-weight:400}.clearfix:after,.clearfix:before{display:table;content:"";line-height:0}.clearfix:after{clear:both}.container{width:100%;margin-right:auto;margin-left:auto;padding-right:15px;padding-left:15px}.container,.page,.row{position:relative}.page__teaser{padding:0 0 30px;font-size:16px;font-weight:400}.page__teaser a{color:#0bb1ef}.section,.social{position:relative}.social__block{display:block}.social__item{display:inline-block;padding:0;padding:5px;border-radius:100%;overflow:hidden}.social__item amp-social-share{vertical-align:top}.social__item.facebook{background:#32529f}.social__item.twitter{background:#1da1f2}.social__item.whatsapp{background:#25d366}.social__item.line{background:#52b448}.social--article{padding:10px 0 20px;text-align:center}.header{position:fixed;top:0;left:0;padding:0;z-index:3;border-top:13px solid #000;background:#fff;width:100%}.header__top{position:relative;background:#fff;box-shadow:0 0 10px rgba(0,0,0,.1);z-index:1}.logo{position:relative;padding:10px 0;text-align:center}.logo img{height:40px}.logo__link,.logo a{display:inline-block}.menu{position:relative;padding:0}.menu--left,.menu--right{top:15px;position:absolute;z-index:1}.menu--left{left:5px}.menu--right{right:5px}.menu__item{display:inline-block;vertical-align:top;position:relative;padding:0}.menu__link{display:inline-block;padding:9px;color:#000}.menu__link:hover{color:#000}.menu__link span{font-size:18px}.nav{z-index:2;padding:0;transition:all .2s ease;position:absolute;width:100%;height:100vh;top:0;left:0;z-index:3}.nav__close{position:relative;height:64px;width:100%}.nav__close .menu--close{top:15px;position:absolute;z-index:1;left:5px;background:#fff}.nav__scroll{background:#000;position:relative;height:calc(100% - 40px);width:100%;overflow-y:scroll;padding:10px 0 40px}.nav__wrap{position:relative;display:-ms-flexbox;display:flex;justify-content:flex-start;margin:0;padding:10px 15px;flex-wrap:wrap;border-bottom:1px solid #2a2a2a;transition:all .2s ease}.nav__wrap li{display:inline-block;width:50%}.nav__wrap li a{position:relative;display:block;padding:8px 7px;text-transform:uppercase;letter-spacing:.1px;font-size:13px;font-weight:700;color:#fff}.nav__wrap li a.active,.nav__wrap li a:hover{color:#0bb1ef}.nav.-hide{opacity:0;visibility:hidden;transform:translateX(-100%)}.menu--left:hover~.nav{opacity:1;visibility:visible;transform:translateX(0)}.latest,.latest__item{position:relative}.latest__item{display:-ms-flexbox;display:flex;margin:15px 0}.latest__item:first-child{margin:0 0 15px}.latest__img{width:90px;height:90px;position:relative}.latest__right{width:calc(100% - 90px);padding:0 0 0 15px}.latest__subtitle{display:inline-block;padding:0 0 1px;text-transform:uppercase;border-bottom:1px solid #0bb1ef;letter-spacing:2.1px;vertical-align:top;font-size:10px;color:#0bb1ef}.latest__subtitle:hover{border-bottom:1px solid #000}.latest__title{margin:3px 0 1px;font-size:16px;font-weight:700;height:auto;max-height:42px;overflow:hidden}.latest__date{letter-spacing:1px;font-size:10px;color:#7e7e7e}.latest__author{padding:5px 0;letter-spacing:1px;font-size:12px;font-weight:700;color:#0bb1ef}.latest__link{display:block}.latest__more{margin:-10px 0 0;padding:10px 0 20px;text-align:center}.latest__button{display:inline-block;padding:5px 0;text-transform:uppercase;font-style:italic;letter-spacing:2px;border-bottom:1px solid #0bb1ef;font-size:18px;font-weight:700;color:#0bb1ef}.latest__button:hover{color:#000}.latest--article .latest__item{margin:20px 0}.latest--article .latest__right{padding-left:10px;width:calc(100% - 100px)}.latest--article .latest__img{width:100px;height:100px}.latest--article .latest__title{margin:0 0 7px;font-size:18px;max-height:71px}.latest--article .latest__date{color:#0bb1ef}.videos__player{position:relative;margin:0 -15px 20px}.videos__caption{padding:10px;text-align:left;font-size:12px;font-weight:400;color:#999}.videos__ratio{position:relative;padding-bottom:56.25%}.videos__ratio img{width:100%}.videos__ratio amp-youtube,.videos__ratio iframe{position:absolute;top:0;left:0;width:100%;height:100%}.photo{position:relative;margin:0 -15px;margin-bottom:10px}.photo img{width:100%}.photo__author{display:inline;font-size:11px;font-weight:500;color:#4d4d4d;position:relative;padding:0 5px}.photo__caption{padding:10px;text-align:left;font-size:12px;font-weight:400;color:#999}.photo__wrap{position:relative}.photo__icon{display:inline-block;width:40px;height:40px;border-radius:40px;padding:10px;background:#fff;text-align:center;font-size:20px;line-height:1;color:#000}.photo__icon__expand{position:absolute;top:15px;right:15px;z-index:1}.title6{position:relative;padding:0 0 10px;text-transform:uppercase;letter-spacing:2px;font-style:italic;text-align:left;font-size:18px;font-weight:700;color:#0bb1ef}.title6 span{display:inline-block;background:#fff;padding:0}.breadcrumb{position:relative;padding:0;margin:10px 0}.breadcrumb__wrap{position:relative;font-style:italic}.breadcrumb__item{display:inline-block;letter-spacing:1px;text-transform:uppercase;font-size:16px;font-weight:700;color:#7e7e7e}.breadcrumb__item:after{content:" / "}.breadcrumb__item:last-child:after{content:""}.breadcrumb__link{position:relative;display:inline-block}.breadcrumb__link:hover{color:#000}.read{position:relative}.read__article{padding:0 0 20px}.read__header{position:relative}.read__title{text-align:center;margin:0 0 10px;font-size:26px;font-weight:700;color:#000}.read__info{letter-spacing:1.3px;font-size:12px;color:#0bb1ef;margin:10px 0;position:relative;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;flex-wrap:wrap}.read__info a{font-weight:500}.read__info a:hover{text-decoration:underline;color:#000}.read__info__author{width:100px}.read__info__date{padding:10px}.read__info__img{margin-right:15px;border-radius:100%;width:50px;height:50px;overflow:hidden;box-shadow:2px 2px 8px rgba(0,0,0,.3)}.read__photo{margin:0 0 20px}.read__content{word-break:break-word;padding:0 0 20px;font-size:16px;font-weight:400;line-height:1.5;color:#000}.read__content h2{font-size:22px;font-weight:700;margin:30px 0 15px}.read__content h3{font-size:19px;font-weight:700;margin:25px 0 10px}.read__content strong{font-weight:700}.read__content ol,.read__content ul{list-style:disc;padding:0 0 0 30px}.read__content ol{list-style:decimal}.read__content li{list-style:inherit;display:list-item}.read__content iframe{max-width:100%}.read__content a{color:#0bb1ef;position:relative}.read__content a:hover{color:#000}.read__content table{table-layout:auto}.read__content table colgroup col,.read__content table td,.read__content table th{width:auto}.read__tagging{padding:10px 0}.related,.related__list,.related__wrap{position:relative}.related__list li{position:relative;border-bottom:1px solid #d2d2d2}.related__list li:last-child{border-bottom:1px solid transparent}.related__list li .related__title{font-size:16px}.related__list li a{display:block;padding:15px 0}.tag,.tag--article,.tag__list{position:relative}.tag__list{margin:0 -2px}.tag__list li{display:inline-block;padding:0 2px 4px;margin:0 0 5px}.tag__list li a{display:block;padding:5px 10px;background:#0bb1ef;font-size:14px;font-weight:700;color:#fff}.tag__list li a:hover{background:#07698d}.paging,.paging__wrap{position:relative}.paging__wrap{padding:0;width:100%}.paging__teaser{position:absolute;left:0;top:0;padding:0;width:80px;font-size:16px;font-weight:700}.paging__all{float:right;margin:5px 0;padding-left:10px}.paging__item{display:inline-block;vertical-align:middle;margin:5px 2px 10px}.paging__link{padding:8px 11px;display:block;line-height:1;border-radius:20px;background:#d2d2d2;font-size:14px;font-weight:400;color:#000}.paging__link--next,.paging__link--prev{font-size:14px;font-weight:300;color:#000}.paging__link--show{font-style:italic;padding:9px 15px;font-size:14px}.paging__link--active,.paging__link:hover{background:#0bb1ef;color:#fff}.paging--article{padding:25px 0 10px;position:relative;display:-ms-flexbox;display:flex}.paging--page{position:relative;padding:10px 0}.paging--page .paging__wrap{text-align:center}.paging--page .paging__link{padding:9.7px 13px}.footer{margin-top:40px;padding:40px 0 60px;background:#000;font-size:16px;color:#fff;width:100%}.footer p{margin:0}.footer__item{position:relative;padding:0;display:block}.footer__link{padding:5px 0;display:block;text-align:center;font-size:16px}.footer__link:hover{color:#0bb1ef}.footer__menu{position:relative;padding:0}.footer__menu.inline{text-align:center}.footer__menu.inline .footer__item{position:relative;display:inline-block}.footer__menu.inline .footer__item:after{content:"-"}.footer__menu.inline .footer__item:last-child:after{content:""}.footer__menu.inline .footer__link{padding:2px 5px;display:inline-block;font-size:14px}.footer__copyright{padding:20px 0 0;margin:0}.footer__contact,.footer__copyright{text-align:center;font-size:14px}.footer__bottom{padding-top:20px}.mt1{margin-top:10px}.mt2{margin-top:20px}.mt3{margin-top:30px}.mt4{margin-top:40px}.mt5{margin-top:50px}.mt6{margin-top:60px}.mt7{margin-top:70px}</style>
+		<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+		<link rel="canonical" href=".">
+
+		<title>Pikiran Rakyat | Dari Rakyat Oleh Rakyat Untuk Rakyat</title>
+	</head>
+	
+	<body>
+
+		<!-- header -->
+		<header class="header">
+			<div class="header__top">
+				<div class="logo">
+					<a href="index.html">
+						<amp-img src="./asset/images/logo_pikiran_rakyat.png" alt="Pikiran Rakyat" height="40" width="223"></amp-img>
+					</a>
+				</div>
+				<div class="menu menu--left clearfix">
+					<div class="menu__item">
+						<a href="javascript:void(0)" class="menu__link icon-bar">
+							<i></i>
+						</a>
+					</div>
+				</div>
+				
+				<!-- nav -->
+				<nav class="nav -hide">
+					<div class="nav__close">
+						<div class="menu--close clearfix">
+							<div class="menu__item">
+								<a href="javascript:void(0)" class="menu__link icon-bar active">
+									<i></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="nav__scroll">
+						<ul class="nav__wrap">
+							<li><a href="kanal.html">Bandung Raya</a></li>
+							<li><a href="kanal.html">Jawa Barat</a></li>
+							<li><a href="kanal.html">Nasional</a></li>
+							<li><a href="kanal.html">Internasional</a></li>
+							<li><a href="kanal.html">Persib</a></li>
+							<li><a href="kanal.html">Bola</a></li>
+							<li><a href="kanal.html">Olahraga</a></li>
+							<li><a href="kanal.html">Ekonomi</a></li>
+							<li><a href="kanal.html">Teknologi</a></li>
+							<li><a href="kanal.html">Entertainment</a></li>
+							<li><a href="kanal.html">Kesehatan</a></li>
+							<li><a href="kanal.html">Hidup Gaya</a></li>
+							<li><a href="kanal.html">Otokir</a></li>
+							<li><a href="kanal.html">Belia</a></li>
+							<li><a href="opini.html">Kolom</a></li>
+							<li><a href="video.html">PR TV</a></li>
+							<li><a href="images.html">PT Images</a></li>
+						</ul>
+						<ul class="nav__wrap">
+							<li><a href="#">Bandung</a></li>
+							<li><a href="#">Ciamis</a></li>
+							<li><a href="#">Bogor</a></li>
+							<li><a href="#">Tasikmalaya</a></li>
+							<li><a href="#">Cirebon</a></li>
+							<li><a href="#">Karawang</a></li>
+							<li><a href="#">Sukabumi</a></li>
+							<li><a href="#">Kuningan</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		
+		
+		<!-- content -->
+		<div class="row clearfix">
+			<div class="container clearfix">
+			
+				<!-- ads top -->
+				<div class="ads__top">
+					<amp-ad width=300 height=50 type="criteo" data-tagtype="passback" data-zone="567890"></amp-ad>
+				</div>
+				
+				<!-- breadcrumb -->
+				<div class="breadcrumb clearfix">
+					<ul class="breadcrumb__wrap">
+						<li class="breadcrumb__item"><a class="breadcrumb__link" href="index.html">Home</a></li>
+						<li class="breadcrumb__item"><a class="breadcrumb__link" href="kanal.html">News</a></li>
+					</ul>
+				</div>
+
+				<!-- photo main -->
+				<div class="photo">
+					<div class="photo__img">
+						<amp-img src="https://static.pikiran-rakyat.com/public/medium/public/2019/09/U7dsweW7iDbFhfWEaRf7z8pjz8E2A7KuEL7E2pSw.jpeg" alt="RUU KPK yang Disahkan DPR Sudah Jadi UU Nomor 19 Tahun 2019" width="640" height="384" layout="responsive"></amp-img>
+					</div>
+					<div class="photo__caption">MANTAN pimpinan KPK, Taufiqurrahman Ruki (kedua kanan) dan Erry Riyana Hardjapamekas (kiri) memberikan keterangan terkait polemik revisi UU KPK di Gedung KPK, Jakarta, Senin, 16 September 2019. Dalam keterangan tersebut, mereka menilai revisi UU KPK yang akan digodok DPR seharusnya menguatkan pemberantasan korupsi, bukan malah melemahkan.*/ANTARA FOTO</div>
+				</div>
+		
+				<!-- read header -->
+				<section class="read__header clearfix">
+					<h1 class="read__title">RUU KPK yang Disahkan DPR Sudah Jadi UU Nomor 19 Tahun 2019</h1>
+
+					<div class="read__info">
+						<div class="read__info__img">
+							<amp-img src="https://static.pikiran-rakyat.com/public/media_thumbnail/public/profile/dxNxxnIldfrwoiPr6xAhliaVgcDA39jaoldmwbzm.jpeg" alt="Muhammad Ali" width="100" height="100" layout="responsive"></amp-img>
+						</div>
+						<div class="read__info__author">
+							<a href="opini-author.html">Muhammad Ali</a>
+						</div>
+						<div class="read__info__date">
+							24 September 2019
+						</div>
+					</div>
+
+					<div class="social social--article clearfix">
+						<div class="social__item facebook">
+							<amp-social-share class="rounded" width="29" height="29" type="facebook"></amp-social-share>
+						</div>
+						<div class="social__item twitter">
+							<amp-social-share class="rounded" width="29" height="29" type="twitter"></amp-social-share>
+						</div>
+						<div class="social__item whatsapp">
+							<amp-social-share class="rounded" width="29" height="29" type="whatsapp"></amp-social-share>
+						</div>
+						<div class="social__item line">
+							<amp-social-share class="rounded" width="29" height="29" type="line"></amp-social-share>
+						</div>
+					</div>
+				</section>
+
+				<!-- read content -->
+				<article class="read__content clearfix">
+					<p>JAKARTA, (PR).- Kementerian Hukum dan Hak Asasi Manusia resmi mencatat revisi UU Komisi Pemberantasan Korupsi (UU KPK) ke Lembaran Negara. Revisi UU KPK itu disahkan sebagai UU Nomor 19 tahun 2019 tentang Perubahan UU KPK.</p><p>&quot;Revisi UU KPK sudah tercatat dalam Lembaran Negara sebagai UU No 19 Tahun 2019 mengenai Perubahan UU KPK, sudah diundangkan di Lembaran Negara Nomor 197 dengan nomor Tambahan Lembar Negara (TLN): 6409 tertanggal 17 Oktober 2019,&quot; kata Direktur Jenderal Perundang-undangan Kemenkumham, Widodo Ekatjahjana, seperti dilansir dari kantor berita Antara, Jumat, 18 Oktober 2019.</p><p>Pada Kamis, 17 Oktober 2019, itu menandakan 30 hari sejak rapat paripurna DPR pada 17 September 2019 yang mengesahkan revisi UU KPK. Akan tetapi, tidak ada pihak yang menyampaikan bahwa revisi tersebut sudah resmi diundangkan.</p><p>Menurut Pasal 73 ayat (2) UU 12 tahun 2011 tentang Pembentukan Peraturan Perundang-undangan, apabila RUU tidak ditandatangani oleh Presiden dalam waktu paling lama 30 hari sejak RUU tersebut disetujui oleh DPR, maka RUU tersebut tetap sah menjadi undang-undang. RUU tersebut pun wajib diundangkan.</p><p>UU KPK versi revisi yang disahkan DPR pun seharusnya otomatis berlaku pada 17 Oktober 2019, meski Presiden tidak menandatanganinya. Namun, salinan UU Nomor 19 tahun 2019 itu, menurut Widodo, belum dapat disebarluaskan karena masih diteliti oleh Sekretariat Negara.</p><p>&quot;Salinan UU masih diotentifikasi oleh Sekretariat Negara. Setelah itu, baru kita publikasikan di <em>website</em>,&quot; kata Widodo.</p><h3>Hal-hal krusial yang melemahkan KPK di UU 19/2019</h3><p>Seperti diketahui sebelumnya, KPK telah mengidentifikasi 26 hal yang berisiko melemahkan KPK dalam revisi UU KPK tersebut. Misalnya, KPK diletakkan sebagai lembaga negara di rumpun eksekutif yang akan mengurangi independensi KPK. Pegawai KPK pun menjadi aparatur sipil negara sehingga ada risiko independensi terhadap pengangkatan, pergeseran, dan mutasi saat menjalankan tugasnya.</p><p>Selain itu, bagian yang mengatur bahwa pimpinan adalah penanggung jawab tertinggi dihapus. Pimpinan KPK bukan lagi Penyidik dan Penuntut Umum sehingga akan berisiko pada tindakan-tindakan <em>pro justicia</em> dalam pelaksanaan tugas penindakan.</p><p>Dewan Pengawas pun lebih berkuasa daripada pimpinan KPK. Namun, syarat menjadi pimpinan KPK lebih berat dibandingkan Dewan Pengawas.</p><p>Potensi pelemahan lain adalah kewenangan Dewan Pengawas masuk pada teknis penanganan perkara, yaitu memberikan atau tidak memberikan izin penyadapan, penggeledahan, dan penyitaan. Padahal, standar larangan etik dan antikonflik kepentingan untuk Dewan Pengawas lebih rendah dibanding pimpinan dan pegawai KPK.</p><p>Karena aturan itu, operasi tangkap tangan (OTT) menjadi lebih sulit dilakukan. Alasannya karena lebih rumitnya pengajuan penyadapan dan aturan lain yang ada di UU KPK.</p><p>Kewenangan KPK melakukan supervisi pun dikurangi, yaitu dihilangkannya pasal yang mengatur kewenangan KPK untuk melakukan pengawasan, penelitian, atau penelahaan terhadap instansi yang menjalankan tugas. Wewenang terhadap instansi yang melakukan pelayanan publik pun tidak ada lagi.***</p>
+					<div class="photo">
+						<div class="photo__img">
+							<amp-img src="https://static.pikiran-rakyat.com/public/medium/public/2019/09/U7dsweW7iDbFhfWEaRf7z8pjz8E2A7KuEL7E2pSw.jpeg" alt="RUU KPK yang Disahkan DPR Sudah Jadi UU Nomor 19 Tahun 2019" width="640" height="384" layout="responsive"></amp-img>
+						</div>
+						<div class="photo__caption">MANTAN pimpinan KPK, Taufiqurrahman Ruki (kedua kanan) dan Erry Riyana Hardjapamekas (kiri) memberikan keterangan terkait polemik revisi UU KPK di Gedung KPK, Jakarta, Senin, 16 September 2019. Dalam keterangan tersebut, mereka menilai revisi UU KPK yang akan digodok DPR seharusnya menguatkan pemberantasan korupsi, bukan malah melemahkan.*/ANTARA FOTO</div>
+					</div>
+					<div class="videos__player">
+						<amp-youtube width="480" height="270" layout="responsive" data-videoid="0qVhFc_m-PM"></amp-youtube>
+						<div class="videos__caption">Desta Stand Up, Cak Lontong Menertawakannya</div>
+					</div>
+				</article>
+
+				<!-- paging -->
+				<div class="read__paging clearfix">
+					<div class="paging paging--article clearfix">
+						<div class="paging__teaser">Halaman: </div>
+						<div class="paging__wrap clearfix">
+							<div class="paging__item">
+								<a class="paging__link paging__link--active" href="#">1</a>
+							</div>
+							<div class="paging__item">
+								<a class="paging__link" href="#">2</a>
+							</div>
+							<div class="paging__item">
+								<a class="paging__link" href="#">3</a>
+							</div>
+							<div class="paging__item">
+								<a class="paging__link" href="#">4</a>
+							</div>
+							<div class="paging__item">
+								<a class="paging__link" href="#">5</a>
+							</div>
+							<div class="paging__item">
+								<a class="paging__link" href="#">6</a>
+							</div>
+							<div class="paging__all">
+								<a class="paging__link paging__link--show" href="#">Show All</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- ads square -->
+				<div class="ads mt2 clearfix">
+					<amp-ad width=300 height=250 type="criteo" data-tagtype="passback" data-zone="567890"></amp-ad>
+				</div>
+				
+				<!-- tagging -->
+				<section class="read__tagging mt2 clearfix">
+					<h3 class="title6"><span>Tags</span></h3>
+					<div class="tag tag--article clearfix">
+						<ul class="tag__list">
+							<li>
+								<h4><a href="tagging.html">ruu kpk</a></h4>
+							</li>
+							<li>
+								<h4><a href="tagging.html">dpr</a></h4>
+							</li>
+							<li>
+								<h4><a href="tagging.html">uu 19/2019</a></h4>
+							</li>
+							<li>
+								<h4><a href="tagging.html">kpk</a></h4>
+							</li>
+						</ul>
+					</div>
+				</section>
+			
+				<!-- related -->
+				<section class="read__related mt2 clearfix">
+					<h3 class="title6"><span>Artikel Terkait</span></h3>
+					<div class="read__related clearfix">
+						<ul class="related__list clearfix">
+							<li>
+								<h2 class="related__title">
+									<a href="artikel.html" class="related__link">KPK Amankan Satu Koper dari Ruang Kerja Bupati Indramayu Supendi</a>
+								</h2>
+							</li>
+							<li>
+								<h2 class="related__title">
+									<a href="artikel.html" class="related__link">HMI Pesimistis Presiden Jokowi Keluarkan Perppu</a>
+								</h2>
+							</li>
+							<li>
+								<h2 class="related__title">
+									<a href="artikel.html" class="related__link">UU KPK Dinilai Tak Berlaku Sebelum Masalah Typo Diselesaikan di Paripurna</a>
+								</h2>
+							</li>
+							<li>
+								<h2 class="related__title">
+									<a href="artikel.html" class="related__link">KPK Geledah Rumah Bupati Indramayu Supendi</a>
+								</h2>
+							</li>
+							<li>
+								<h2 class="related__title">
+									<a href="artikel.html" class="related__link">Agus Rahardjo: Mungkin Tak Ada OTT Lagi Setelah UU KPK Resmi Disahkan</a>
+								</h2>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- latests -->
+				<section class="latest latest--article mt2 clearfix">
+					<h3 class="title6"><span>Terkini</span></h3>
+					<div class="latest__wrap">
+						<div class="latest__item">
+							<div class="latest__img">
+								<a href="artikel.html">
+									<amp-img src="https://asset.kompas.com/crop/0x0:0x0/100x100/data/photo/2017/04/17/3095528600.jpg" alt="Catat, Ini Jadwal Mekarnya Bunga Sakura di Korea Tahun 2018" layout="responsive" width="100" height="100"></amp-img>
+								</a>
+							</div>
+							<div class="latest__right">
+								<h2 class="latest__title">
+									<a href="artikel.html" class="latest__link">Catat, Ini Jadwal Mekarnya Bunga Sakura di Korea Tahun 2018</a>
+								</h2>
+								<div class="latest__date">25 September 2019, 23:12 WIB</div>
+							</div>
+						</div>
+						<div class="latest__item">
+							<div class="latest__img">
+								<a href="artikel.html">
+									<amp-img src="https://asset.kompas.com/crop/0x0:0x0/100x100/data/photo/2019/09/27/5d8d352cd8a4e.jpg" alt="Bersama Inter Milan, Antonio Conte Melabrak Batas" layout="responsive" width="100" height="100"></amp-img>
+								</a>
+							</div>
+							<div class="latest__right">
+								<h2 class="latest__title">
+									<a href="artikel.html" class="latest__link">Bersama Inter Milan, Antonio Conte Melabrak Batas</a>
+								</h2>
+								<div class="latest__date">25 September 2019, 23:12 WIB</div>
+							</div>
+						</div>
+						<div class="latest__item">
+							<div class="latest__img">
+								<a href="artikel.html">
+									<amp-img src="https://asset.kompas.com/crop/0x0:0x0/100x100/data/photo/2018/01/16/2790988665.jpg" alt="INACA: Indonesia Masih Kekurangan Kapten Pilot" layout="responsive" width="100" height="100"></amp-img>
+								</a>
+							</div>
+							<div class="latest__right">
+								<h2 class="latest__title">
+									<a href="artikel.html" class="latest__link">INACA: Indonesia Masih Kekurangan Kapten Pilot</a>
+								</h2>
+								<div class="latest__date">25 September 2019, 23:12 WIB</div>
+							</div>
+						</div>
+						<div class="latest__item">
+							<div class="latest__img">
+								<a href="artikel.html">
+									<amp-img src="https://asset.kompas.com/crop/0x0:0x0/100x100/data/photo/2018/03/21/1168062604.jpg" alt="&#x27;Terima Kasih Bapak Presidenku, Bulan Harap Bisa Cium Tangan Bapak Langsung&#x27;" layout="responsive" width="100" height="100"></amp-img>
+								</a>
+							</div>
+							<div class="latest__right">
+								<h2 class="latest__title">
+									<a href="artikel.html" class="latest__link">&#x27;Terima Kasih Bapak Presidenku, Bulan Harap Bisa Cium Tangan Bapak Langsung&#x27;</a>
+								</h2>
+								<div class="latest__date">25 September 2019, 23:12 WIB</div>
+							</div>
+						</div>
+						<div class="latest__item">
+							<div class="latest__img">
+								<a href="artikel.html">
+									<amp-img src="https://asset.kompas.com/crop/0x0:0x0/100x100/data/photo/2018/02/13/4014920816.jpg" alt="Macet, Jakarta Masih Berorientasi pada Kendaraan Pribadi" layout="responsive" width="100" height="100"></amp-img>
+								</a>
+							</div>
+							<div class="latest__right">
+								<h2 class="latest__title">
+									<a href="artikel.html" class="latest__link">Macet, Jakarta Masih Berorientasi pada Kendaraan Pribadi</a>
+								</h2>
+								<div class="latest__date">25 September 2019, 23:12 WIB</div>
+							</div>
+						</div>
+						<div class="latest__item">
+							<div class="latest__img">
+								<a href="artikel.html">
+									<amp-img src="https://asset.kompas.com/crop/0x0:0x0/100x100/data/photo/2017/10/31/1661465697.jpg" alt="Beli Mobil Hasil Lelang Bakal Bisa Kredit" layout="responsive" width="100" height="100"></amp-img>
+								</a>
+							</div>
+							<div class="latest__right">
+								<h2 class="latest__title">
+									<a href="artikel.html" class="latest__link">Beli Mobil Hasil Lelang Bakal Bisa Kredit</a>
+								</h2>
+								<div class="latest__date">25 September 2019, 23:12 WIB</div>
+							</div>
+						</div>
+						<div class="latest__item">
+							<div class="latest__img">
+								<a href="artikel.html">
+									<amp-img src="https://asset.kompas.com/crop/0x0:0x0/100x100/data/photo/2018/03/18/482663636.jpg" alt="Komentar Pebalap Malaysia yang Dapat Poin di MotoGP" layout="responsive" width="100" height="100"></amp-img>
+								</a>
+							</div>
+							<div class="latest__right">
+								<h2 class="latest__title">
+									<a href="artikel.html" class="latest__link">Komentar Pebalap Malaysia yang Dapat Poin di MotoGP</a>
+								</h2>
+								<div class="latest__date">25 September 2019, 23:12 WIB</div>
+							</div>
+						</div>
+						<div class="latest__item">
+							<div class="latest__img">
+								<a href="artikel.html">
+									<amp-img src="https://asset.kompas.com/crop/0x0:0x0/100x100/data/photo/2018/03/21/880469239.jpg" alt="Takut Tertular Penyakit Saat Penerbangan? Duduklah Dekat Jendela" layout="responsive" width="100" height="100"></amp-img>
+								</a>
+							</div>
+							<div class="latest__right">
+								<h2 class="latest__title">
+									<a href="artikel.html" class="latest__link">Takut Tertular Penyakit Saat Penerbangan? Duduklah Dekat Jendela</a>
+								</h2>
+								<div class="latest__date">25 September 2019, 23:12 WIB</div>
+							</div>
+						</div>
+						<div class="latest__item">
+							<div class="latest__img">
+								<a href="artikel.html">
+									<amp-img src="https://asset.kompas.com/crop/0x0:0x0/100x100/data/photo/2016/04/19/1429065DSCF0425780x390.jpg" alt="Begini Cara Go-Jek agar Mitra Tidak Pakai &quot;Tuyul&quot; " layout="responsive" width="100" height="100"></amp-img>
+								</a>
+							</div>
+							<div class="latest__right">
+								<h2 class="latest__title">
+									<a href="artikel.html" class="latest__link">Begini Cara Go-Jek agar Mitra Tidak Pakai &quot;Tuyul&quot; </a>
+								</h2>
+								<div class="latest__date">25 September 2019, 23:12 WIB</div>
+							</div>
+						</div>
+						<div class="latest__item">
+							<div class="latest__img">
+								<a href="artikel.html">
+									<amp-img src="https://asset.kompas.com/crop/0x0:0x0/100x100/data/photo/2018/03/21/3493884794.png" alt="Mengenal Katsuko Saruhashi Sang &quot;Pengamat Hujan&quot;" layout="responsive" width="100" height="100"></amp-img>
+								</a>
+							</div>
+							<div class="latest__right">
+								<h2 class="latest__title">
+									<a href="artikel.html" class="latest__link">Mengenal Katsuko Saruhashi Sang &quot;Pengamat Hujan&quot;</a>
+								</h2>
+								<div class="latest__date">25 September 2019, 23:12 WIB</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- ads square -->
+				<div class="ads mt2 clearfix">
+					<amp-ad width=300 height=250 type="criteo" data-tagtype="passback" data-zone="567890"></amp-ad>
+				</div>
+			
+			</div>
+		</div>		
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="row footer__top container clearfix">
+				<div class="footer__contact">
+					<p>
+						Jalan Asia Afrika No. 77 Bandung 40111, <br />
+						Telefon 022-4220770, 022-4201634; <br />
+						Faksimili 022-4230632
+					</p>
+				</div>
+			</div>
+			<div class="row footer__bottom container clearfix">
+				<div class="footer__menu inline clearfix">
+					<div class="footer__item">
+						<a href="#" class="footer__link">Tentang Kami</a>
+					</div>
+					<div class="footer__item">
+						<a href="#" class="footer__link">Redaksi</a>
+					</div>
+					<div class="footer__item">
+						<a href="#" class="footer__link">Pedoman Pemberitaan</a>
+					</div>
+					<div class="footer__item">
+						<a href="#" class="footer__link">Info Iklan</a>
+					</div>
+					<div class="footer__item">
+						<a href="#" class="footer__link">Kontak</a>
+					</div>
+				</div>
+				<div class="footer__copyright">
+					<p>&copy; 1996 - 2019 Pikiran Rakyat</p>
+				</div>
+			</div>
+		</footer>
+		
+	</body>
+</html>

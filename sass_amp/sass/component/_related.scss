@@ -1,0 +1,23 @@
+.related {
+	position: relative;
+	&__wrap {
+		position: relative;
+	}
+	&__list {
+		position: relative;
+		li {
+			position: relative;
+			border-bottom: 1px solid #d2d2d2;
+			&:last-child {
+				border-bottom: 1px solid transparent;
+			}
+			.related__title {
+				@include font-pack(false, 16px, false, false, false);
+			}
+			a {
+				display: block;
+				padding: 15px 0;
+			}
+		}
+	}
+}

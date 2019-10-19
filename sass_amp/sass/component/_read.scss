@@ -1,0 +1,113 @@
+.read {
+	position: relative;
+	&__article {
+		padding: 0 0 20px;
+	}
+	&__header {
+		position: relative;
+		//text-align: center;
+	}
+	&__title {
+		text-align: center;
+		margin: 0 0 10px;
+		@include font-pack(false, 26px, 700, false, #000);
+	}
+	&__info {
+		letter-spacing: 1.3px;
+		@include font-pack(false, 12px, false, false, $color_theme);
+		margin: 10px 0;
+		position: relative;
+		@include display-flex();
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		a {
+			font-weight: 500;
+			&:hover {
+				text-decoration: underline;
+				color: #000;
+			}
+		}
+		&__author {
+			width: 100px;
+		}
+		&__date {
+			padding: 10px;
+		}
+		&__img {
+			margin-right: 15px;
+			border-radius: 100%;
+			width: 50px;
+			height: 50px;
+			overflow: hidden;
+			box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+		}
+	}
+	&__photo {
+		margin: 0 0 20px;
+	}
+	&__content {
+		word-break: break-word;
+		padding: 0 0 20px;
+		@include font-pack(false, 16px, 400, 1.5, #000);
+		//@include font-pack(false, 15px, 400, 1.5, #000);
+		//@include font-pack(false, 16px, 300, 1.5, #000);
+		h2 {
+			@include font-pack(false, 22px, 700, false, false);
+			margin: 30px 0 15px;
+		}
+		h3 {
+			@include font-pack(false, 19px, 700, false, false);
+			margin: 25px 0 10px;
+		}
+		strong {
+			font-weight: 700;
+		}
+		ol, ul {
+			list-style: disc;
+			padding: 0 0 0 30px;
+		}
+		ol {
+			list-style: decimal;
+		}
+		li {
+			list-style: inherit;
+			display: list-item;
+		}
+		iframe {
+			max-width: 100%;
+		}
+		a {
+			color: $color_theme;
+			position: relative;
+			//border-bottom: 1px solid #dfdfdf;
+			// &:after {
+			// 	position: absolute;
+			// 	width: 102%;
+			// 	content: '';
+			// 	border-bottom: 1px solid #dfdfdf;
+			// 	bottom: -2px;
+			// 	left: -1%;
+			// 	@include transition(all 0.2s ease);
+			// }
+			&:hover {
+				color: #000;
+				// border-bottom: 1px solid #666;
+				// &:after {
+				// 	border-bottom: 1px solid #666;
+				// }
+			}
+		}
+		table {
+			table-layout: auto;
+		}		
+		table colgroup col,
+		table td,
+		table th {
+			width: auto;
+		}
+	}
+	&__tagging {
+		padding: 10px 0;
+	}
+}

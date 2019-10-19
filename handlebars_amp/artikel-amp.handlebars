@@ -1,0 +1,298 @@
+<!doctype html>
+<html ⚡ lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1">
+		<meta name="description" content="This is the AMP Boilerplate.">
+		<link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+		<link rel="preconnect dns-prefetch" href="https://fonts.gstatic.com/" crossorigin>
+		<script async src="https://cdn.ampproject.org/v0.js"></script>
+		<!-- Import other AMP Extensions here -->
+
+		<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+		<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+		<script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+		<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,700i&display=swap" rel="stylesheet">
+		<style amp-custom></style>
+		<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+		<link rel="canonical" href=".">
+
+		<title>Pikiran Rakyat | Dari Rakyat Oleh Rakyat Untuk Rakyat</title>
+	</head>
+	
+	<body>
+
+		<!-- header -->
+		<header class="header">
+			<div class="header__top">
+				<div class="logo">
+					<a href="index.html">
+						<amp-img src="./asset/images/logo_pikiran_rakyat.png" alt="Pikiran Rakyat" height="40" width="223"></amp-img>
+					</a>
+				</div>
+				<div class="menu menu--left clearfix">
+					<div class="menu__item">
+						<a href="javascript:void(0)" class="menu__link icon-bar">
+							<i></i>
+						</a>
+					</div>
+				</div>
+				
+				<!-- nav -->
+				<nav class="nav -hide">
+					<div class="nav__close">
+						<div class="menu--close clearfix">
+							<div class="menu__item">
+								<a href="javascript:void(0)" class="menu__link icon-bar active">
+									<i></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="nav__scroll">
+						<ul class="nav__wrap">
+							{{#each menu}}
+							<li><a href="{{link}}">{{title}}</a></li>
+							{{/each}}
+							<li><a href="kanal.html">Hidup Gaya</a></li>
+							<li><a href="kanal.html">Otokir</a></li>
+							<li><a href="kanal.html">Belia</a></li>
+							<li><a href="opini.html">Kolom</a></li>
+							<li><a href="video.html">PR TV</a></li>
+							<li><a href="images.html">PT Images</a></li>
+						</ul>
+						<ul class="nav__wrap">
+							<li><a href="#">Bandung</a></li>
+							<li><a href="#">Ciamis</a></li>
+							<li><a href="#">Bogor</a></li>
+							<li><a href="#">Tasikmalaya</a></li>
+							<li><a href="#">Cirebon</a></li>
+							<li><a href="#">Karawang</a></li>
+							<li><a href="#">Sukabumi</a></li>
+							<li><a href="#">Kuningan</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		
+		
+		<!-- content -->
+		<div class="row clearfix">
+			<div class="container clearfix">
+			
+				<!-- ads top -->
+				<div class="ads__top">
+					<amp-ad width=300 height=50 type="criteo" data-tagtype="passback" data-zone="567890"></amp-ad>
+				</div>
+				
+				<!-- breadcrumb -->
+				<div class="breadcrumb clearfix">
+					<ul class="breadcrumb__wrap">
+						<li class="breadcrumb__item"><a class="breadcrumb__link" href="index.html">Home</a></li>
+						<li class="breadcrumb__item"><a class="breadcrumb__link" href="kanal.html">{{read.news.article.channel}}</a></li>
+					</ul>
+				</div>
+
+				<!-- photo main -->
+				<div class="photo">
+					<div class="photo__img">
+						<amp-img src="{{read.news.article.img}}" alt="{{read.news.article.title}}" width="640" height="384" layout="responsive"></amp-img>
+					</div>
+					<div class="photo__caption">{{read.news.article.img_caption}}</div>
+				</div>
+		
+				<!-- read header -->
+				<section class="read__header clearfix">
+					<h1 class="read__title">{{read.news.article.title}}</h1>
+
+					<div class="read__info">
+						{{#if read.news.article.author_img}}
+						<div class="read__info__img">
+							<amp-img src="{{read.news.article.author_img}}" alt="{{read.news.article.author}}" width="100" height="100" layout="responsive"></amp-img>
+						</div>
+						<div class="read__info__author">
+							<a href="opini-author.html">{{read.news.article.author}}</a>
+						</div>
+						{{else}}
+						<div class="read__info__author">
+							<a href="opini-author.html">{{read.news.article.editor}}</a>
+						</div>
+						{{/if}}
+						<div class="read__info__date">
+							24 September 2019
+						</div>
+					</div>
+
+					<div class="social social--article clearfix">
+						<div class="social__item facebook">
+							<amp-social-share class="rounded" width="29" height="29" type="facebook"></amp-social-share>
+						</div>
+						<div class="social__item twitter">
+							<amp-social-share class="rounded" width="29" height="29" type="twitter"></amp-social-share>
+						</div>
+						<div class="social__item whatsapp">
+							<amp-social-share class="rounded" width="29" height="29" type="whatsapp"></amp-social-share>
+						</div>
+						<div class="social__item line">
+							<amp-social-share class="rounded" width="29" height="29" type="line"></amp-social-share>
+						</div>
+					</div>
+				</section>
+
+				<!-- read content -->
+				<article class="read__content clearfix">
+					{{{read.news.article.content}}}
+					<div class="photo">
+						<div class="photo__img">
+							<amp-img src="{{read.news.article.img}}" alt="{{read.news.article.title}}" width="640" height="384" layout="responsive"></amp-img>
+						</div>
+						<div class="photo__caption">{{read.news.article.img_caption}}</div>
+					</div>
+					<div class="videos__player">
+						<amp-youtube width="480" height="270" layout="responsive" data-videoid="0qVhFc_m-PM"></amp-youtube>
+						<div class="videos__caption">Desta Stand Up, Cak Lontong Menertawakannya</div>
+					</div>
+				</article>
+
+				<!-- paging -->
+				<div class="read__paging clearfix">
+					<div class="paging paging--article clearfix">
+						<div class="paging__teaser">Halaman: </div>
+						<div class="paging__wrap clearfix">
+							<div class="paging__item">
+								<a class="paging__link paging__link--active" href="#">1</a>
+							</div>
+							<div class="paging__item">
+								<a class="paging__link" href="#">2</a>
+							</div>
+							<div class="paging__item">
+								<a class="paging__link" href="#">3</a>
+							</div>
+							<div class="paging__item">
+								<a class="paging__link" href="#">4</a>
+							</div>
+							<div class="paging__item">
+								<a class="paging__link" href="#">5</a>
+							</div>
+							<div class="paging__item">
+								<a class="paging__link" href="#">6</a>
+							</div>
+							<div class="paging__all">
+								<a class="paging__link paging__link--show" href="#">Show All</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- ads square -->
+				<div class="ads mt2 clearfix">
+					<amp-ad width=300 height=250 type="criteo" data-tagtype="passback" data-zone="567890"></amp-ad>
+				</div>
+				
+				<!-- tagging -->
+				<section class="read__tagging mt2 clearfix">
+					<h3 class="title6"><span>Tags</span></h3>
+					<div class="tag tag--article clearfix">
+						<ul class="tag__list">
+							{{#each read.news.article.tag as |tagging|}}
+							<li>
+								<h4><a href="tagging.html">{{tagging}}</a></h4>
+							</li>
+							{{/each}}
+						</ul>
+					</div>
+				</section>
+			
+				<!-- related -->
+				<section class="read__related mt2 clearfix">
+					<h3 class="title6"><span>Artikel Terkait</span></h3>
+					<div class="read__related clearfix">
+						<ul class="related__list clearfix">
+							{{#each read.news.article.related as |terkait|}}
+							<li>
+								<h2 class="related__title">
+									<a href="artikel.html" class="related__link">{{terkait}}</a>
+								</h2>
+							</li>
+							{{/each}}
+						</ul>
+					</div>
+				</section>
+
+				<!-- latests -->
+				<section class="latest latest--article mt2 clearfix">
+					<h3 class="title6"><span>Terkini</span></h3>
+					<div class="latest__wrap">
+						{{#each WP.Latest}}
+						{{#gte @index compare=20}}
+						{{#gte @index compare=30}}
+						{{else}}
+						<div class="latest__item">
+							<div class="latest__img">
+								<a href="artikel.html">
+									<amp-img src="https://asset.kompas.com/crop/0x0:0x0/100x100/data/photo/{{img}}" alt="{{title}}" layout="responsive" width="100" height="100"></amp-img>
+								</a>
+							</div>
+							<div class="latest__right">
+								<h2 class="latest__title">
+									<a href="artikel.html" class="latest__link">{{title}}</a>
+								</h2>
+								<div class="latest__date">25 September 2019, 23:12 WIB</div>
+							</div>
+						</div>
+						{{/gte}}
+						{{else}}
+						{{/gte}}
+						{{/each}}
+					</div>
+				</section>
+
+				<!-- ads square -->
+				<div class="ads mt2 clearfix">
+					<amp-ad width=300 height=250 type="criteo" data-tagtype="passback" data-zone="567890"></amp-ad>
+				</div>
+			
+			</div>
+		</div>		
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="row footer__top container clearfix">
+				<div class="footer__contact">
+					<p>
+						Jalan Asia Afrika No. 77 Bandung 40111, <br />
+						Telefon 022-4220770, 022-4201634; <br />
+						Faksimili 022-4230632
+					</p>
+				</div>
+			</div>
+			<div class="row footer__bottom container clearfix">
+				<div class="footer__menu inline clearfix">
+					<div class="footer__item">
+						<a href="#" class="footer__link">Tentang Kami</a>
+					</div>
+					<div class="footer__item">
+						<a href="#" class="footer__link">Redaksi</a>
+					</div>
+					<div class="footer__item">
+						<a href="#" class="footer__link">Pedoman Pemberitaan</a>
+					</div>
+					<div class="footer__item">
+						<a href="#" class="footer__link">Info Iklan</a>
+					</div>
+					<div class="footer__item">
+						<a href="#" class="footer__link">Kontak</a>
+					</div>
+				</div>
+				<div class="footer__copyright">
+					<p>&copy; 1996 - 2019 Pikiran Rakyat</p>
+				</div>
+			</div>
+		</footer>
+		
+	</body>
+</html>

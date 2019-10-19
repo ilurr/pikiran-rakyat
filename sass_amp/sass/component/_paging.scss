@@ -1,0 +1,65 @@
+.paging {
+	position: relative;
+	&__wrap {
+		position: relative;
+		padding: 0;
+		width: 100%;
+		//@include display-flex();
+	}
+	&__teaser {
+		position: absolute;
+		left: 0;
+		top: 0;
+		padding: 0;
+		width: 80px;
+		@include font-pack(false, 16px, 700, false, false);
+	}
+	&__all {
+		float: right;
+		margin: 5px 0;
+		padding-left: 10px;
+	}
+	&__item {
+		display: inline-block;
+		vertical-align: middle;
+		margin: 5px 2px 10px;
+	}
+	&__link {
+		padding: 8px 11px;
+		display: block;
+		line-height: 1;
+		border-radius: 20px;
+		background: #D2D2D2;
+		@include font-pack(false, 14px, 400, false, #000);
+		&--prev,
+		&--next {
+			@include font-pack(false, 14px, 300, false, #000);
+		}
+		&--show {
+			font-style: italic;
+			padding: 9px 15px;
+			font-size: 14px;
+		}
+		&--active,
+		&:hover {
+			background: $color_theme;
+			color: #fff;
+		}
+	}
+	&--article {
+		padding: 25px 0 10px;
+		position: relative;
+		@include display-flex();
+	}
+	&--page {
+		position: relative;
+		padding: 10px 0;
+		.paging__wrap {
+			text-align: center;
+		}
+		.paging__link {
+			padding: 9.7px 13px;
+			//background: #ececec;
+		}
+	}
+}
