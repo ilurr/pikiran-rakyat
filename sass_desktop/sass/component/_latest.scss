@@ -40,6 +40,21 @@
 		padding: 0 0 5px;
 		letter-spacing: 1px;
 		@include font-pack(false, 16px, 700, false, $color_theme);
+		&__wrap {
+			position: relative;
+			@include display-flex();
+			align-items: center;
+			padding: 0 0 10px;
+		    //justify-content: center;
+		}
+		&__img {
+			width: 40px;
+			height: 40px;
+			border-radius: 100%;
+			overflow: hidden;
+			margin-right: 10px;
+			box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+		}
 	}
 	&__link {
 		display: block;

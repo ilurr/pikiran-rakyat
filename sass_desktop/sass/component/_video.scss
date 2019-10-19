@@ -119,6 +119,12 @@
 		position: relative;
 		margin-bottom: 20px;
 	}
+	&__caption {
+		padding: 10px 0;
+		text-align: left;
+		//background: #f0f0f0;
+		@include font-pack(false, 12px, 400, false, #999);
+	}
 	&__ratio {
 		position: relative;
 		padding-bottom: 56.25%; /* 16:9 */

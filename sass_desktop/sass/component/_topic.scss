@@ -42,4 +42,110 @@
 			text-decoration: underline;
 		}
 	}
+	
+	// indeks
+	&__big {
+		position: relative;
+		overflow: hidden;
+	}
+	&__b {
+		&-item {
+			position: relative;
+		}
+		&-cat {
+			position: relative;
+			background: $color_theme;
+			padding: 8px 10px 8px 20px;
+			margin-left: -20px;
+			display: inline-block;
+			font-style: italic;
+			text-transform: uppercase;
+			letter-spacing: 4px;
+			height: 36px;
+			@include font-pack(false, 16px, 700, false, #fff);
+			&:after {
+				content: '';
+				position: absolute;
+				top: 0;
+				right: -10px;
+				width: 0;
+				height: 0;
+				border-top: 18px solid $color_theme;
+				border-bottom: 18px solid transparent;
+				border-right: 5px solid transparent;
+				border-left: 5px solid $color_theme;
+			}
+		}
+		&-img {
+			position: relative;
+			background: #000;
+			height: 381px;
+			img {
+				width: 100%;
+			}
+		}
+		&-box {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			padding: 30px 20px;
+			background: linear-gradient(90deg,#000,transparent);
+			background: -webkit-linear-gradient(90deg,#000,transparent);
+		}
+		&-title {
+			margin: 15px 0 12px;
+			padding: 0;
+			@include title_overflow(auto, 156px);
+			@include font-pack(false, 30px, 700, false, #fff);
+			& a:hover {
+				color: inherit;
+				text-decoration: underline;
+			}
+		}
+		&-lead {
+			width: calc(100% - 110px);
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+			@include font-pack(false, 14px, false, false, #fff);
+		}
+		&-link {
+			float: right;
+			background: #fff;
+			display: inline-block;
+			padding: 8px 15px;
+			border-radius: 20px;
+			@include font-pack(false, 14px, 400, false, #000);
+		}
+	}
+	
+	// index
+	&--list {
+		position: relative;
+		padding: 20px 0;
+		.topic__wrap {
+			margin: 0 -10px;
+			flex-wrap: wrap;
+		}
+		.topic__item {
+			width: 33.333333%;
+			padding: 0 10px 20px;
+		}
+		.topic__box {
+			padding: 0 0 10px;
+			background: transparent;
+		}
+		.topic__date {
+			color: #000;
+			letter-spacing: 0;
+		}
+		.topic__title {
+			margin: 5px 0;
+			font-size: 16px;
+			color: #000;
+			max-height: inherit;
+			height: auto;
+		}
+	}
 }
