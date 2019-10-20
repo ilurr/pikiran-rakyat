@@ -9,12 +9,14 @@
 		}
 	}
 	&__img {
-		width: 250px;
+		width: 220px;
+		height: calc(220px / (5 / 3));
 		position: relative;
+		overflow: hidden;
 	}
 	&__right {
-		width: calc(100% - 250px);
-		padding: 0 0 0 30px;
+		width: calc(100% - 220px);
+		padding: 0 0 0 15px;
 	}
 	&__subtitle {
 		display: inline-block;
@@ -28,9 +30,9 @@
 		}
 	}
 	&__title {
-		margin: 10px 0;
-		@include font-pack(false, 22px, 700, false, false);
-		@include title_overflow(auto, 85px);
+		margin: 6px 0;
+		@include font-pack(false, 20px, 700, false, false);
+		@include title_overflow(auto, 81px);
 	}
 	&__date {
 		letter-spacing: 1.2px;
@@ -97,6 +99,22 @@
 		}
 		.latest__date {
 			color: $color_theme;
+		}
+	}
+	
+	// video 
+	&--video {
+		.latest__img {
+			img {
+				position: absolute;
+				width: 100%;
+				//max-width: unset;
+				height: auto;
+				left: 50%;
+				top: 50%;
+				-webkit-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+			}
 		}
 	}
 }

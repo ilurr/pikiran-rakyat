@@ -1,6 +1,6 @@
 .network {
 	position: relative;
-	padding: 40px 0 60px;
+	padding: 40px 0 50px;
 	&__menu {
 		display: block;
 		position: relative;
@@ -75,23 +75,18 @@
 	&__link {
 		display: block;
 		&:hover {
-			color: #2a2a2a;
+			color: #fff;
+			text-decoration: underline;
 		}
 	}
 	.arrow {
 		//top: 75px;
 		box-shadow: 0px 0px 8px rgba(0, 0, 0, .2);
 		&--left {
-			left: 10px;
-			@include min-responsive($screen-lg-desktop) {
-				left: -30px;
-			}
+			left: 0;
 		}
 		&--right {
-			right: 10px;
-			@include min-responsive($screen-lg-desktop) {
-				right: -30px;
-			}
+			right: 0;
 		}
 	}
 	

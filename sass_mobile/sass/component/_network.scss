@@ -1,6 +1,6 @@
 .network {
 	position: relative;
-	padding: 0 0 20px;
+	padding: 0;
 	margin: 0 -15px;
 	&__menu {
 		display: block;
@@ -31,7 +31,7 @@
 		position: relative;
 		@include display-flex();
 		flex-wrap: wrap;
-		padding: 10px;
+		padding: 0 10px 10px;
 		margin: 0;
 		@include min-responsive($screen-lg-desktop) {
 			margin: 0 -15px;
@@ -39,12 +39,21 @@
 	}
 	&__item {
 		width: 50%;
-		padding: 0 10px;
+		padding: 0 5px;
 	}
 	&__img {
 		position: relative;
+		padding-top: 60%;
+		overflow: hidden;
 		img {
+			position: absolute;
 			width: 100%;
+			height: auto;
+			left: 50%;
+			top: 50%;
+			z-index: 1;
+			-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
 		}
 	}
 	&__box {
@@ -78,6 +87,7 @@
 	}
 	.arrow {
 		//top: 75px;
+		top: 25%;
 		box-shadow: 0px 0px 8px rgba(0, 0, 0, .2);
 		&--left {
 			left: 5px;

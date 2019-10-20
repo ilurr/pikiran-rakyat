@@ -48,6 +48,14 @@
 				{{> read_related channel=read.bola.article}}
 			</section>
 
+			<!-- most -->
+			<section class="most mt2 clearfix">
+				<h3 class="title6"><span>Terpopuler</span></h3>
+				<div class="most__wrap">
+					{{> most channel=Most total=5 index_start=0 index_end=5}}
+				</div>
+			</section>
+
 			<!-- comment -->
 			<section class="read__comment mt2 clearfix">
 				<h3 class="title6"><span>Komentar</span></h3>
@@ -67,14 +75,6 @@
 				{{> ads_square}}
 			</div>
 
-			<!-- most -->
-			<section class="most mt2 clearfix">
-				<h3 class="title6"><span>Terpopuler</span></h3>
-				<div class="most__wrap">
-					{{> most channel=Most total=10 index_start=0 index_end=10}}
-				</div>
-			</section>
-
 			<!-- network -->
 			<section class="network network--article mt2 clearfix">
 				<h3 class="title6"><span>Jawa Barat Network</span></h3>
@@ -83,9 +83,9 @@
 				</div>
 			</section>
 			
-			<!-- ads square -->
+			<!-- ads bottom -->
 			<div class="ads mt2 clearfix">
-				{{> ads_square}}
+				{{> ads_skin}}
 			</div>
 
 		</div>

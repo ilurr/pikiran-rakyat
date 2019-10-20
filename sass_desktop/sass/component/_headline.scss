@@ -127,6 +127,9 @@
 		&-img {
 			position: relative;
 			cursor: pointer;
+			width: 100%;
+			height: calc(157px / (5 / 3));
+			overflow: hidden;
 		}
 		&-title {
 			margin: 7px 0;

@@ -1,5 +1,6 @@
 .widget {
 	position: relative;
+	padding-top: 10px;
 	table {
 		width: 100%;
 	}
@@ -50,15 +51,17 @@
 			border: 1px solid #D2D2D2;
 		}
 		&__img {
-			padding: 10px;
+			margin: 10px;
+			height: 390px;
+			overflow: hidden;
 		}
 		&__title {
 			position: absolute;
 			bottom: 0;
 			left: 0;
 			z-index: 1;
-			padding: 200px 10px 10px;
-			margin: 20px;
+			padding: 200px 10px 20px;
+			margin: 20px 20px 0;
 			width: calc(100% - 40px);
 			text-align: center;
 			@include font-pack(false, 16px, 700, false, false);

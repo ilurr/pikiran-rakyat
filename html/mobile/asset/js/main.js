@@ -39,7 +39,7 @@ $(document).ready(function() {
     if($('.js--topic').length>0) {
 		$('.js--topic').slick({
 			autoplay: true,
-			slidesToShow: 1,
+			slidesToShow: 2,
 			autoplaySpeed: 8000,
 			pauseOnFocus: true,
 			fade: false,
@@ -102,6 +102,12 @@ $(document).ready(function() {
 		$('body').toggleClass('-menu');
 		$(this).toggleClass('active');
 		$('#js--nav').toggleClass('-hide');
+	});
+
+	// ads
+	$('#js--close').click(function(e){
+		e.preventDefault();
+		$('.ads__horizontal').hide();
 	});
 
 	// gallery

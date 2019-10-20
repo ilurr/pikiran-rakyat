@@ -18,8 +18,18 @@
 			position: relative;
 			background: #000;
 			//height: 381px;
+			//height: 60%;
+			padding-top: 60%;
+			overflow: hidden;
 			img {
+				position: absolute;
 				width: 100%;
+				height: auto;
+				left: 50%;
+				top: 50%;
+				z-index: 1;
+				-webkit-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
 			}
 		}
 		&-cat {
@@ -38,6 +48,7 @@
 			position: absolute;
 			bottom: 2px;
 			left: 1px;
+			z-index: 1;
 			width: calc(100% - 2px);
 			padding: 40px 10px 10px;
 			background: linear-gradient(90deg,#000,transparent);

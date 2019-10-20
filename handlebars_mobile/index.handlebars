@@ -42,7 +42,7 @@
 				<div class="row__bg" style="background-image: url('./asset/images/bg_topik.jpg')"></div>
 				<h3 class="title2"><span><a href="topik-khusus.html">Topik Khusus</a></span></h3>
 				<div class="topic__wrap js--topic">
-					{{> belt_topic channel=WP.Sorotan total=2 index_start=1 index_end=3}}
+					{{> belt_topic channel=WP.Sorotan total=4 index_start=1 index_end=5}}
 				</div>
 			</section>
 
@@ -55,7 +55,7 @@
 			<section class="most mt2 clearfix">
 				<h3 class="title"><span>Terpopuler</span></h3>
 				<div class="most__wrap">
-					{{> most channel=Most total=10 index_start=0 index_end=10}}
+					{{> most channel=Most total=5 index_start=0 index_end=5}}
 				</div>
 			</section>
 
@@ -102,6 +102,31 @@
 				{{> ads_square}}
 			</div>
 
+			<!-- latest -->
+			<section class="latest mt2 clearfix">
+				<div class="latest__wrap">
+					{{> latest channel=WP.Latest total=10 index_start=20 index_end=30}}
+				</div>
+				
+				<div class="latest__more clearfix">
+					<a href="all.html" class="latest__button">Lihat Semua</a>
+				</div>
+			</section>
+			
+			<!-- pr images -->
+			<section class="photos mt2 clearfix">
+				<div class="row__bg" style="background-image: url('./asset/images/bg_images.jpg')"></div>
+				<h3 class="title2"><span><a href="images.html">PR Images</a></span></h3>
+				<div class="photos__wrap">
+					{{> belt_images channel=channel.images.features total=3 index_start=0 index_end=3}}
+				</div>
+			</section>
+			
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
+			
 			<!-- salat -->
 			<section class="widget mt2 clearfix">
 				<h3 class="title"><span>Jadwal Salat</span></h3>
@@ -131,35 +156,10 @@
 				<h3 class="title"><span>Radio Streaming</span></h3>
 				{{> widget_radio}}
 			</section>
-			
-			<!-- pr images -->
-			<section class="photos mt2 clearfix">
-				<div class="row__bg" style="background-image: url('./asset/images/bg_images.jpg')"></div>
-				<h3 class="title2"><span><a href="images.html">PR Images</a></span></h3>
-				<div class="photos__wrap">
-					{{> belt_images channel=channel.images.features total=3 index_start=0 index_end=3}}
-				</div>
-			</section>
-			
-			<!-- ads square -->
-			<div class="ads mt2 clearfix">
-				{{> ads_square}}
-			</div>
-			
-			<!-- latest -->
-			<section class="latest mt2 clearfix">
-				<div class="latest__wrap">
-					{{> latest channel=WP.Latest total=10 index_start=20 index_end=30}}
-				</div>
-				
-				<div class="latest__more clearfix">
-					<a href="all.html" class="latest__button">Lihat Semua</a>
-				</div>
-			</section>
 
-			<!-- ads square -->
+			<!-- ads bottom -->
 			<div class="ads mt2 clearfix">
-				{{> ads_square}}
+				{{> ads_skin}}
 			</div>
 
 		</div>

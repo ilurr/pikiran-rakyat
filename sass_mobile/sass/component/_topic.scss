@@ -1,11 +1,11 @@
 .topic {
 	position: relative;
-	padding: 0 0 20px;
+	padding: 0 0 10px;
 	margin: 15px -15px;
 	&__wrap {
 		position: relative;
 		@include display-flex();
-		padding: 0;
+		padding: 0 10px;
 		margin: 0;
 		@include min-responsive($screen-lg-desktop) {
 			margin: 0 -20px;
@@ -13,24 +13,33 @@
 	}
 	&__item {
 		position: relative;
-		padding: 0 20px;
+		padding: 0 5px;
 		width: 50%;
 	}
 	&__img {
 		position: relative;
+		padding-top: 60%;
+		overflow: hidden;
 		img {
+			position: absolute;
 			width: 100%;
+			height: auto;
+			left: 50%;
+			top: 50%;
+			z-index: 1;
+			-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
 		}
 	}
 	&__box {
 		position: relative;
-		background: rgba(0,0,0,.5);
-		padding: 0 20px 20px;
+		//background: rgba(0,0,0,.5);
+		padding: 0 0 10px;
 	}
 	&__title {
 		margin: 10px 0 5px;
-		@include font-pack(false, 20px, 700, false, #fff);
-		@include title_overflow(55px, 55px);
+		@include font-pack(false, 16px, 700, false, #fff);
+		@include title_overflow(auto, 60px);
 	}
 	&__date {
 		letter-spacing: 1.2px;
@@ -44,6 +53,7 @@
 		}
 	}
 	.arrow {
+		top: 17.5%;
 		&--left {
 			left: 5px;
 		}

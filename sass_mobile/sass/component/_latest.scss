@@ -12,18 +12,30 @@
 		width: 90px;
 		height: 90px;
 		position: relative;
+		overflow: hidden;
 		.icon-play {
 			font-size: 35px;
+			z-index: 2;
 		} 
 		.icon-photo {
 			position: absolute;
-			z-index: 1;
+			z-index: 2;
 			left: 50%;
 			top: 50%;
 			-webkit-transform: translate(-50%, -50%);
 			transform: translate(-50%, -50%);
 			font-size: 28px;
 			color: #fff;
+		}
+		img {
+			position: absolute;
+			width: 100%;
+			height: auto;
+			left: 50%;
+			top: 50%;
+			z-index: 1;
+			-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
 		}
 	}
 	&__right {
@@ -120,18 +132,18 @@
 			background: #000;
 			width: 150px;
 			height: 90px;
-			img {
-				position: absolute;
-				width: 100%;
-				//max-width: unset;
-				height: auto;
-				left: 50%;
-				top: 50%;
-				-webkit-transform: translate(-50%, -50%);
-				transform: translate(-50%, -50%);
-				opacity: .75;
-				@include transition(all .2s ease);
-			}
+//			img {
+//				position: absolute;
+//				width: 100%;
+//				//max-width: unset;
+//				height: auto;
+//				left: 50%;
+//				top: 50%;
+//				-webkit-transform: translate(-50%, -50%);
+//				transform: translate(-50%, -50%);
+//				opacity: .75;
+//				@include transition(all .2s ease);
+//			}
 		}
 		.latest__right {
 			width: calc(100% - 150px);
