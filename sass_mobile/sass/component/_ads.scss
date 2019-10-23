@@ -40,6 +40,19 @@
 	&__wrap {
 		padding: 15px 0;
 	}
+	&__title {
+		position: relative;
+	    padding: 10px 20px;
+		margin: 0 -15px 10px;
+		background: #f5f5f5;
+		letter-spacing: 5px;
+	    font-style: italic;
+		@include font-pack(false, 16px, false, false, #616161);
+	}
+	&__subtitle {
+		color: #989898;
+		border-bottom: 1px solid #989898;
+	}
 	&__horizontal {
 		position: fixed;
 		bottom: 0;

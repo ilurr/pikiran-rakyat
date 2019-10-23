@@ -3067,6 +3067,17 @@ img.mfp-img {
     padding: 20px 0; }
   .ads__wrap {
     padding: 15px 0; }
+  .ads__title {
+    position: relative;
+    padding: 10px 20px;
+    background: #f5f5f5;
+    letter-spacing: 5px;
+    font-style: italic;
+    font-size: 20px;
+    color: #616161; }
+  .ads__subtitle {
+    color: #989898;
+    border-bottom: 1px solid #989898; }
   .ads__parallax {
     position: relative;
     height: 300px;

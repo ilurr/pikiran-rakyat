@@ -9,9 +9,17 @@
 		</a>
 	</div>
 	<div class="latest__right">
+		{{#eq ads compare=1}}
+		<h4 class="latest__subtitle ads__subtitle">Sponsored</h4>
+		{{else}}
 		<h4 class="latest__subtitle"><a href="kanal.html">{{subtitle}}</a></h4>
+		{{/eq}}
 		<h2 class="latest__title">
+			{{#eq ads compare=1}}
+			<a href="artikel-sponsored.html" class="latest__link">{{title}}</a>
+			{{else}}
 			<a href="artikel.html" class="latest__link">{{title}}</a>
+			{{/eq}}
 		</h2>
 		<date class="latest__date">25 September 2019, 23:12 WIB</date>
 	</div>
