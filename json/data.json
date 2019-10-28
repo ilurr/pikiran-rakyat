@@ -43,6 +43,12 @@
       "ads": 0
     },
     {
+      "title": "Pendidikan",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0
+    },
+    {
       "title": "Ekonomi",
       "link": "kanal.html",
       "new": 0,
@@ -61,7 +67,7 @@
       "ads": 0
     },
     {
-      "title": "Kesehatan",
+      "title": "Gaya Hidup",
       "link": "kanal.html",
       "new": 0,
       "ads": 0

@@ -2,13 +2,13 @@
 	position: relative;
 	&__big {
 		position: relative;
-		height: 381px;
+		height: 421px;
 		overflow: hidden;
 	}
 	&__small {
 		position: relative;
 		margin-top: -7px;
-		height: 180px;
+		height: 190px;
 		overflow: hidden;
 	}
 	&__link {
@@ -24,7 +24,7 @@
 		&-img {
 			position: relative;
 			background: #000;
-			height: 381px;
+			height: 421px;
 			img {
 				width: 100%;
 			}
@@ -103,7 +103,7 @@
 			border-right: 1px solid #fff;
 			border-top: 2px solid #fff;
 			border-left: 1px solid #fff;
-			height: 180px!important;
+			height: 182px!important;
 			background: #000;
 			margin-top: 7px;
 			width: 25%;
@@ -128,8 +128,11 @@
 			position: relative;
 			cursor: pointer;
 			width: 100%;
-			height: calc(157px / (5 / 3));
+			height: calc(174px / (5 / 3));
 			overflow: hidden;
+			img {
+				width: 100%;
+			}
 		}
 		&-title {
 			margin: 7px 0;

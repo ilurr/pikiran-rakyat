@@ -18,7 +18,7 @@
 	&__img {
 		position: relative;
 		width: 100%;
-		height: calc(219px / (5 / 3));
+		height: calc(245px / (5 / 3));
 		overflow: hidden;
 		img {
 			width: 100%;
@@ -82,7 +82,8 @@
 		&-img {
 			position: relative;
 			background: #000;
-			height: 381px;
+			height: 421px;
+			overflow: hidden;
 			img {
 				width: 100%;
 			}
@@ -107,7 +108,7 @@
 			}
 		}
 		&-lead {
-			width: calc(100% - 110px);
+			width: calc(100% - 120px);
 			display: inline-block;
 			margin: 0;
 			padding: 0;
