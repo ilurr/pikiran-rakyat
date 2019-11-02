@@ -33,7 +33,91 @@
 	<!-- footer -->
 	{{> footer}}
 
+	<!-- modals sucess -->
+	<div class="modals__hide">
+		<div id="modals-success" class="modals__success">
+			<div class="modals__box">
+				<div class="modals__lead">Terima kasih. Kami sudah menerima surat pembaca Anda.</div>
+				<div class="modals__footer">
+					<div class="modals__item">
+						<button class="modals__button" data-type="dismiss" type="button">OK</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- modals template -->
+	<div id="modals">
+		<div class="modals__content"></div>
+	</div>
+	
 	{{> js}}
+	
+	<script>
+	$("#kirim").submit(function(e){
+		send('modals-success', false);
+		return false;
+	});
+
+	// report
+	var m = document.querySelector('.modals__content');
+	
+	function send(modalsId, id) {
+		console.log(id);
+		showModals(modalsId);
+	}
+	
+	function showModals(modalsId) {
+		var md = document.getElementById('modals');
+		var cl = document.getElementById(modalsId);
+		if(!!md) {
+			if(!!cl) {
+				// clear first
+				var fc = md.firstElementChild;
+				clearModalsContent(fc);
+			
+				// add body class and clone element
+				document.body.classList.add('modals');
+				var ox = cl.cloneNode(true);
+				fc.appendChild(ox);
+			} else {
+				console.log('unknown modal target');
+				return;
+			}
+		} else {
+			console.log('template modals not found');
+			return;
+		}
+	}
+	
+	// event handler for element inside modals must be here
+	if(!!m) {
+		//console.log(m);
+		m.addEventListener('click', function(e) {
+			// dismiss modals
+			if(e.target.matches('.modals__button[data-type="dismiss"]')) {
+				dismissModals();
+			}
+		});
+	}
+	
+	function dismissModals() {
+		var md = document.getElementById('modals');
+		if(!!md) {
+			document.body.classList.remove('modals');
+			var fc = md.firstElementChild;
+			clearModalsContent(fc);
+		}
+	}
+	
+	function clearModalsContent(el) {
+		while (el.firstChild) {
+			el.removeChild(el.firstChild);
+		}		
+	}
+	
+	</script>
 	
 </body>
 </html>

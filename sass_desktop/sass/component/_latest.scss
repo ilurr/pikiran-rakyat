@@ -2,8 +2,9 @@
 	position: relative;
 	&__item {
 		position: relative;
-		@include display-flex();
+		//@include display-flex();
 		margin: 30px 0;
+		min-height: calc(220px / (5 / 3));
 		&:first-child {
 			margin: 0 0 30px;
 		}
@@ -13,10 +14,12 @@
 		height: calc(220px / (5 / 3));
 		position: relative;
 		overflow: hidden;
+		float: left;
+		margin-right: 15px;
 	}
 	&__right {
-		width: calc(100% - 220px);
-		padding: 0 0 0 15px;
+		//width: calc(100% - 220px);
+		//padding: 0 0 0 15px;
 	}
 	&__subtitle {
 		display: inline-block;
@@ -33,6 +36,10 @@
 		margin: 6px 0;
 		@include font-pack(false, 20px, 700, false, false);
 		@include title_overflow(auto, 81px);
+	}
+	&__lead {
+		margin: 10px 0;
+		@include font-pack(false, 14px, false, false, false);
 	}
 	&__date {
 		letter-spacing: 1.2px;
@@ -83,11 +90,12 @@
 	&--article {
 		.latest__item {
 			margin: 20px 0;
+			min-height: 100px;
 		}
-		.latest__right {
-			padding-left: 10px;
-			width: calc(100% - 100px);
-		}
+//		.latest__right {
+//			padding-left: 10px;
+//			width: calc(100% - 100px);
+//		}
 		.latest__img {
 			width: 100px;
 			height: 100px;
@@ -117,4 +125,18 @@
 			}
 		}
 	}
+	
+	// mail 
+//	&__wrap {
+//		&.mail {
+//			.latest__item {
+//				border-top: 1px solid #DCDCDC;
+//				padding-top: 30px;
+//			}
+//			.latest__right {
+//				width: 100%;
+//				padding-left: 0;
+//			}
+//		}
+//	}
 }

@@ -1,0 +1,28 @@
+{{#each channel}}
+{{#gte @index compare=../index_start}}
+{{#gte @index compare=../index_end}}
+{{else}}
+<div class="latest__item">
+	{{#eq @index compare=0}}
+	<div class="latest__img">
+		<a href="artikel.html">
+			<img src="https://asset.kompas.com/crop/0x0:0x0/90x90/data/photo/{{img}}" alt="{{title}}">
+		</a>
+	</div>
+	{{/eq}}
+	<div class="latest__right">
+		<h4 class="latest__subtitle">{{subtitle}}</h4>
+		<h2 class="latest__title">
+			<a href="artikel.html" class="latest__link">{{title}}</a>
+		</h2>
+		{{#eq @index compare=0}}
+		{{else}}
+		<div class="latest__lead">{{lead}}</div>
+		{{/eq}}
+		<date class="latest__date">25 September 2019, 23:12 WIB</date>
+	</div>
+</div>
+{{/gte}}
+{{else}}
+{{/gte}}
+{{/each}}
