@@ -2528,7 +2528,7 @@ body:after {
 
 .footer {
   margin-top: 40px;
-  padding: 40px 0 60px;
+  padding: 40px 0 90px;
   background: #000;
   font-size: 16px;
   color: #fff;
@@ -3136,6 +3136,26 @@ img.mfp-img {
   .ads__bottom {
     text-align: center;
     padding: 20px 0; }
+  .ads__horizontal {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    left: calc((100% - 1100px)/2);
+    width: 1100px;
+    z-index: 10;
+    height: auto;
+    text-align: center;
+    background: #eee; }
+  .ads__close {
+    position: absolute;
+    background: #eee;
+    display: inline-block;
+    right: 0;
+    top: -20px;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1; }
   .ads__wrap {
     padding: 15px 0; }
   .ads__title {

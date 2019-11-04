@@ -36,6 +36,29 @@
 		text-align: center;
 		padding: 20px 0;
 	}
+	&__horizontal {
+		margin: 0;
+		padding: 0;
+		position: fixed;
+		bottom: 0;
+		left: calc((100% - 1100px)/2);
+		width: $screen-lg-min;
+		z-index: 10;
+
+		// edit request dari adserving
+		height: auto;
+		text-align: center;
+		background: #eee;		
+	}
+	&__close {
+		position: absolute;
+		background: #eee;
+		display: inline-block;
+		right: 0;
+		top: -20px;
+		padding: 4px 8px;
+		@include font-pack(false, 12px, false, 1, false);
+	}
 	&__wrap {
 		padding: 15px 0;
 	}

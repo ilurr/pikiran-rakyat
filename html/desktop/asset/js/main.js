@@ -134,4 +134,9 @@ $(document).ready(function() {
 		});
 	}
 	
+	// ads
+	$('#js--close').click(function(e){
+		e.preventDefault();
+		$('.ads__horizontal').hide();
+	});
 });
