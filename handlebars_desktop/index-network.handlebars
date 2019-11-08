@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+	<!-- header -->
+	{{> header network=true}}
+	
+	<!-- ads skin -->
+	{{!> ads_skin}}
+	
+	<!-- content -->
+	<div class="row clearfix">
+		<div class="container clearfix">
+			<div class="col-offset-fluid clearfix">
+				<div class="col-bs12-12">
+					
+					<!-- ads top -->
+					{{!> ads_top}}
+
+				</div>
+				
+				<div class="col-bs12-8">
+				
+					<!-- headline -->
+					<section class="hl mt3 clearfix">
+						{{> headline channel=WP.Headline total=4 index_start=0 index_end=4}}
+					</section>
+					
+					<!-- editors pick -->
+					<section class="editors mt3 clearfix">
+						<h3 class="title3"><span>Pilihan Editor</span></h3>
+						<div class="editors__wrap js--editors">
+							{{> editor_pick channel=WP.Latest total=6 index_start=10 index_end=16}}
+						</div>
+					</section>
+					
+					<!-- latest -->
+					<section class="latest mt3 clearfix">
+						<h3 class="title"><span>Berita Terkini</span></h3>
+						<div class="latest__wrap">
+							{{> latest channel=WP.Latest total=10 index_start=0 index_end=10}}
+						</div>
+					</section>
+					
+				</div>
+				<div class="col-bs12-4">
+				
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+					<!-- most -->
+					<section class="most mt2 clearfix">
+						<h3 class="title"><span>Terpopuler</span></h3>
+						<div class="most__wrap">
+							{{> most channel=Most total=10 index_start=0 index_end=10}}
+						</div>
+					</section>
+					
+					<!-- opinion -->
+					<section class="opinion mt2 clearfix">
+						<h3 class="title"><span><a href="opini.html">Kolom</a></span></h3>
+						<div class="opinion__wrap">
+							{{> opinion channel=WP.Opini total=3 index_start=0 index_end=3}}
+						</div>
+					</section>
+					
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- topik -->
+	<div class="row clearfix">
+		<div class="row__bg" style="background-image: url('./asset/images/bg_topik.jpg')"></div>
+		<div class="container clearfix">
+			<div class="col-offset-fluid clearfix">
+				<div class="col-bs12-12">
+				
+					<section class="topic clearfix">
+						<h3 class="title2"><span><a href="topik-khusus.html">Topik Khusus</a></span></h3>
+						<div class="topic__wrap">
+							{{> belt_topic channel=WP.Sorotan total=4 index_start=1 index_end=5}}
+						</div>
+					</section>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- content -->
+	<div class="row clearfix">
+		<div class="container clearfix">
+			<div class="col-offset-fluid clearfix">
+				<div class="col-bs12-8">
+				
+					<!-- latest -->
+					<section class="latest mt3 clearfix">
+						<h3 class="title"><span>Berita Terkini</span></h3>
+						<div class="latest__wrap">
+							{{> latest channel=WP.Latest total=5 index_start=10 index_end=15}}
+						</div>
+					</section>
+					
+				</div>
+				<div class="col-bs12-4">
+				
+					<!-- opinion -->
+					<section class="widget mt2 clearfix">
+						<h3 class="title"><span>Jadwal Salat</span></h3>
+						{{> widget_salat}}
+					</section>
+					
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- network -->
+	<div class="row clearfix">
+		<div class="row__bg" style="background-image: url('./asset/images/bg_network.jpg')"></div>
+		<div class="container clearfix">
+			<div class="col-offset-fluid clearfix">
+				<div class="col-bs12-12">
+				
+					<section class="network clearfix">
+						<h3 class="title2"><span>Jawa Barat Network</span></h3>
+						<div class="network__wrap js--network">
+							{{> belt_network channel=WP.Sorotan total=8 index_start=0 index_end=8}}
+						</div>
+					</section>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- content -->
+	<div class="row clearfix">
+		<div class="container clearfix">
+			<div class="col-offset-fluid clearfix">
+				<div class="col-bs12-8">
+				
+					<!-- latest -->
+					<section class="latest mt3 clearfix">
+						<h3 class="title"><span>Berita Terkini</span></h3>
+						<div class="latest__wrap">
+							{{> latest channel=WP.Latest total=5 index_start=15 index_end=20}}
+						</div>
+					</section>
+					
+				</div>
+				<div class="col-bs12-4">
+				
+					<!-- opinion -->
+					<section class="widget mt2 clearfix">
+						<h3 class="title"><span>Epaper</span></h3>
+						{{> widget_epaper}}
+					</section>
+					
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- pr tv -->
+	<div class="row clearfix">
+		<div class="row__bg" style="background-image: url('./asset/images/bg_tv.jpg')"></div>
+		<div class="container clearfix">
+			<div class="col-offset-fluid clearfix">
+				<div class="col-bs12-12">
+				
+					<section class="videos clearfix">
+						<h3 class="title2"><span><a href="video.html">PR TV</a></span></h3>
+						<div class="videos__wrap clearfix">
+							{{> belt_tv channel=channel.images.video total=3 index_start=14 index_end=17}}
+						</div>
+					</section>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- content -->
+	<div class="row clearfix">
+		<div class="container clearfix">
+			<div class="col-offset-fluid clearfix">
+				<div class="col-bs12-8">
+				
+					<!-- latest -->
+					<section class="latest mt3 clearfix">
+						<h3 class="title"><span>Berita Terkini</span></h3>
+						<div class="latest__wrap">
+							{{> latest channel=WP.Latest total=5 index_start=20 index_end=25}}
+						</div>
+					</section>
+					
+				</div>
+				<div class="col-bs12-4">
+				
+					<!-- mail -->
+					<section class="widget mt2 clearfix">
+						<h3 class="title"><span><a href="surat-pembaca.html">Surat Pembaca</a></span></h3>
+						{{> widget_mail}}
+					</section>
+					
+					<!-- radio -->
+					<section class="widget mt2 clearfix">
+						<h3 class="title"><span>Radio Streaming</span></h3>
+						{{> widget_radio}}
+					</section>
+					
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- pr images -->
+	<div class="row clearfix">
+		<div class="row__bg" style="background-image: url('./asset/images/bg_images.jpg')"></div>
+		<div class="container clearfix">
+			<div class="col-offset-fluid clearfix">
+				<div class="col-bs12-12">
+				
+					<section class="photos clearfix">
+						<h3 class="title2"><span><a href="images.html">PR Images</a></span></h3>
+						<div class="photos__wrap">
+							{{> belt_images channel=channel.images.features total=4 index_start=0 index_end=4}}
+						</div>
+					</section>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- content -->
+	<div class="row clearfix">
+		<div class="container clearfix">
+			<div class="col-offset-fluid clearfix">
+				<div class="col-bs12-8">
+				
+					<!-- latest -->
+					<section class="latest mt3 clearfix">
+						<h3 class="title"><span>Berita Terkini</span></h3>
+						<div class="latest__wrap">
+							{{> latest channel=WP.Latest total=5 index_start=25 index_end=30}}
+						</div>
+						
+						<div class="latest__more clearfix">
+							<a href="all.html" class="latest__button">Lihat Semua</a>
+						</div>
+					</section>
+					
+				</div>
+				<div class="col-bs12-4">
+				
+					<!-- valas -->
+					<section class="widget mt2 clearfix">
+						<h3 class="title"><span>Valas BCA</span></h3>
+						{{> widget_valas}}
+					</section>
+					
+					<!-- ads square -->
+					<div class="ads mt3 clearfix">
+						{{> ads_square}}
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- footer -->
+	{{> footer network=true}}
+	
+	<!-- ads horizontal -->
+	{{> ads_horizontal}}
+
+	{{> js}}
+	
+</body>
+</html>
