@@ -137,4 +137,15 @@ $(document).ready(function() {
 		});
 	}
 	
+	// breaking news
+    $('.js--breaking').marquee({
+        pauseOnHover: true,
+        allowCss3Support: false,
+        delayBeforeStart: 2000,
+        duration: 8000,
+        gap: 50,
+        duplicated: true,
+		startVisible: true
+    }); 
+
 });

@@ -1,0 +1,63 @@
+.breaking {
+	position: relative;
+	margin: 10px -15px 0;
+	&__wrap {
+		position: relative;
+		background: $color_theme;
+		padding: 10px 15px;
+		@include display-flex();
+	}
+	&__title {
+		width: 90px;
+		text-transform: uppercase;
+		position: relative;
+		@include font-pack(false, 16px, 700, 1, #fff);
+		&:after {
+			content: '';
+			position: absolute;
+			left: 46px;
+			bottom: 3px;
+			width: 8px;
+			height: 8px;
+			background: #fff;
+			border-radius: 10px;
+			@include animation(blink 1s infinite);
+		}
+	}
+	&__content {
+		width: calc(100% - 90px);
+		//height: 20px;
+		overflow: hidden;
+		position: relative;
+		padding: 6px 0;
+		a {
+			&:hover {
+				color: #fff;
+			}
+		}
+		span {
+			display: block;
+			@include font-pack(false, 18px, 400, 1, #fff);
+		}
+		&:before {
+			content: '';
+			top: 0;
+			left: 0;
+			position: absolute;
+			width: 10px;
+			height: 100%;
+			background: rgba(#0BB1EF,1);
+			background: linear-gradient(90deg, rgba(#0BB1EF,1) 0%, rgba(#0BB1EF,0) 100%);
+		}
+		&:after {
+			content: '';
+			top: 0;
+			right: 0;
+			position: absolute;
+			width: 10px;
+			height: 100%;
+			background: rgba(#0BB1EF,1);
+			background: linear-gradient(90deg, rgba(#0BB1EF,0) 0%, rgba(#0BB1EF,1) 100%);
+		}
+	}
+}

@@ -9,12 +9,14 @@
 {{#eq type compare="gallery"}}
 {{> images_header channel=channel}}
 {{else}}
+{{#if channel.img}}
 <div class="photo">
 	<div class="photo__img">
 		<img src="{{channel.img}}" alt="{{channel.title}}">
 	</div>
 	<div class="photo__caption">{{channel.img_caption}}</div>
 </div>
+{{/if}}
 {{/eq}}
 {{/eq}}
 

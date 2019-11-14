@@ -167,3 +167,27 @@
 	}
 }
 
+.title7 {
+	position: relative;
+	padding: 0 0 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-style: italic;
+	text-align: left;
+	@include font-pack(false, 18px, 700, false, $color_theme);
+	span {
+		display: inline-block;
+		background: #fff;
+		padding: 0 10px 0 0;
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		top: 11px;
+		border-top: 1px solid $color_theme;
+		left: 0;
+		width: 100%;
+	}
+}
+

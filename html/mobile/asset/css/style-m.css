@@ -2053,6 +2053,75 @@ input[type="reset"] {
     position: relative;
     padding: 10px 0 20px; }
 
+.breaking {
+  position: relative;
+  margin: 10px -15px 0; }
+  .breaking__wrap {
+    position: relative;
+    background: #0BB1EF;
+    padding: 10px 15px;
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;
+    /* NEW, Spec - Firefox, Chrome, Opera */ }
+  .breaking__title {
+    width: 90px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff; }
+    .breaking__title:after {
+      content: '';
+      position: absolute;
+      left: 46px;
+      bottom: 3px;
+      width: 8px;
+      height: 8px;
+      background: #fff;
+      border-radius: 10px;
+      -webkit-animation: blink 1s infinite;
+      -moz-animation: blink 1s infinite;
+      -ms-animation: blink 1s infinite;
+      -o-animation: blink 1s infinite;
+      animation: blink 1s infinite; }
+  .breaking__content {
+    width: calc(100% - 90px);
+    overflow: hidden;
+    position: relative;
+    padding: 6px 0; }
+    .breaking__content a:hover {
+      color: #fff; }
+    .breaking__content span {
+      display: block;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1;
+      color: #fff; }
+    .breaking__content:before {
+      content: '';
+      top: 0;
+      left: 0;
+      position: absolute;
+      width: 10px;
+      height: 100%;
+      background: #0bb1ef;
+      background: linear-gradient(90deg, #0bb1ef 0%, rgba(11, 177, 239, 0) 100%); }
+    .breaking__content:after {
+      content: '';
+      top: 0;
+      right: 0;
+      position: absolute;
+      width: 10px;
+      height: 100%;
+      background: #0bb1ef;
+      background: linear-gradient(90deg, rgba(11, 177, 239, 0) 0%, #0bb1ef 100%); }
+
 body:after {
   content: '';
   background: transparent; }
@@ -2290,6 +2359,29 @@ body:after {
     display: inline-block;
     background: #fff;
     padding: 0; }
+
+.title7 {
+  position: relative;
+  padding: 0 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-style: italic;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0BB1EF; }
+  .title7 span {
+    display: inline-block;
+    background: #fff;
+    padding: 0 10px 0 0; }
+  .title7:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 11px;
+    border-top: 1px solid #0BB1EF;
+    left: 0;
+    width: 100%; }
 
 .breadcrumb {
   position: relative;
@@ -3190,6 +3282,22 @@ img.mfp-img {
       -webkit-transform: translateZ(0);
       /* Safari */
       transform: translateZ(0); }
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: .1; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: .1; } }
+
+@keyframes blink {
+  0% {
+    opacity: .1; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: .1; } }
 
 .mt1 {
   margin-top: 10px; }

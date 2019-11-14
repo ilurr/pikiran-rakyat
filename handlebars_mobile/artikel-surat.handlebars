@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+	<!-- header -->
+	{{> header}}
+	
+	<!-- nav -->
+	{{> nav}}
+	
+	<!-- content -->
+	<div class="row clearfix">
+		<div class="container clearfix">
+
+			<!-- ads top -->
+			{{> ads_top}}
+
+			{{> read_breadcrumb channel=read.surat.article}}
+
+			<!-- header -->
+			<section class="read__header clearfix">
+				{{> read_header channel=read.surat.article}}
+			</section>
+
+			<!-- content -->
+			<article class="read__content clearfix">
+				{{{read.surat.article.content}}}
+			</article>
+
+			{{> mail_reply}}
+
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
+
+			<!-- ads bottom -->
+			<div class="ads mt2 clearfix">
+				{{> ads_skin}}
+			</div>
+
+		</div>
+	</div>
+	
+	<!-- footer -->
+	{{> footer}}
+
+	{{> js}}
+	
+</body>
+</html>
