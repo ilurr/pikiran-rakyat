@@ -1,6 +1,6 @@
 .footer {
 	margin-top: 40px;
-	padding: 40px 0 60px;
+	padding: 30px 0 70px;
 	background: #000;
 	@include font-pack(false, 16px, false, false, #fff);
     width: $screen-lg-desktop;
@@ -8,17 +8,17 @@
 		margin: 0;
 	}
 	&__logo {
-		padding: 0 0 20px;
+		padding: 10px 0;
 		text-align: center;
 		position: relative;
 		&:after {
 			position: absolute;
 			content: '';
 			width: 100%;
-			top: 25px;
+			top: 50%;
 			left: 0;
 			z-index: 1;
-			border-top: 1px solid #fff;
+			border-top: 1px solid #444;
 		}
 		a {
 			position: relative;
@@ -79,8 +79,23 @@
 		@include font-pack(false, 14px, false, false, false);
 	}
 	&__contact {
+		padding: 10px 0;
 		text-align: center;
 		@include font-pack(false, 14px, false, false, false);
+	}
+	&__network {
+		position: relative;
+		@include display-flex();
+		align-items: center;
+		justify-content: center;
+		padding: 10px 0;
+		font-size: 14px;
+		.img {
+			padding: 0 10px;
+			img {
+				height: 35px;
+			}
+		}
 	}
 	&__bottom {
 		//letter-spacing: .6px;

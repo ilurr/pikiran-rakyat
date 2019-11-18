@@ -3,12 +3,23 @@
 		<div class="footer__logo">
 			<a href="index.html">
 				{{#eq network compare=true}}
-				<img src="./asset/images/logo_pikiran_rakyat_white_network.png" alt="Pikiran Rakyat Network">
+				<img src="./asset/images/logo_pikiran_rakyat_white_network_pangandaran.png" alt="Pikiran Rakyat Pangandaran">
 				{{else}}
 				<img src="./asset/images/logo_pikiran_rakyat_white.png" alt="Pikiran Rakyat">
 				{{/eq}}
 			</a>
 		</div>
+		<div class="social social--footer clearfix">
+			{{>social instagram=true twitter=true facebook=true rss=true}}
+		</div>
+		{{#eq network compare=true}}
+		<div class="footer__network">
+			<span>Member of</span>
+			<div class="img">
+				<img src="./asset/images/logo_pikiran_rakyat_white_network.png" alt="Pikiran Rakyat Network">
+			</div>
+		</div>
+		{{/eq}}
 		<div class="footer__contact">
 			<p>
 				Jalan Asia Afrika No. 77 Bandung 40111, <br />
@@ -71,9 +82,6 @@
 		</div>
 	</div>
 	<div class="row footer__bottom container clearfix">
-		<div class="social social--footer clearfix">
-			{{>social instagram=true twitter=true facebook=true rss=true}}
-		</div>
 		<div class="footer__menu inline clearfix">
 			<div class="footer__item">
 				<a href="#" class="footer__link">Tentang Kami</a>

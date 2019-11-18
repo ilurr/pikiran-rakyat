@@ -3,33 +3,59 @@
 	margin: 10px -15px 0;
 	&__wrap {
 		position: relative;
-		background: $color_theme;
-		padding: 10px 15px;
-		@include display-flex();
+		background: #000;
+		padding: 10px 5px 10px 105px;
+		//@include display-flex();
 	}
 	&__title {
-		width: 90px;
+		width: 100px;
+		height: 55px;
 		text-transform: uppercase;
-		position: relative;
-		@include font-pack(false, 16px, 700, 1, #fff);
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		padding: 6px 0;
+		font-style: italic;
+		background: #c00;
+		@include font-pack(false, 18px, 700, 1, #fff);
 		&:after {
 			content: '';
 			position: absolute;
-			left: 46px;
-			bottom: 3px;
-			width: 8px;
-			height: 8px;
-			background: #fff;
-			border-radius: 10px;
-			@include animation(blink 1s infinite);
+			top: 0;
+			right: -10px;
+			width: 0;
+			height: 0;
+			border-top: 27.5px solid #c00;
+			border-bottom: 27.5px solid transparent;
+			border-right: 5px solid transparent;
+			border-left: 5px solid #c00;
+		}
+		span {
+			float: left;
+			padding: 2px 10px;
+			position: relative;
+			//background: #c00;
+			&:last-child {
+				&:after {
+					content: '';
+					position: absolute;
+					right: 2px;
+					bottom: 5px;
+					width: 6px;
+					height: 6px;
+					background: #fff;
+					border-radius: 10px;
+					@include animation(blink 1s infinite);
+				}				
+			}
 		}
 	}
 	&__content {
-		width: calc(100% - 90px);
 		//height: 20px;
 		overflow: hidden;
 		position: relative;
-		padding: 6px 0;
+		padding: 8px 0;
 		a {
 			&:hover {
 				color: #fff;
@@ -37,7 +63,7 @@
 		}
 		span {
 			display: block;
-			@include font-pack(false, 18px, 400, 1, #fff);
+			@include font-pack(false, 19px, 400, 1, #fff);
 		}
 		&:before {
 			content: '';
@@ -46,8 +72,8 @@
 			position: absolute;
 			width: 10px;
 			height: 100%;
-			background: rgba(#0BB1EF,1);
-			background: linear-gradient(90deg, rgba(#0BB1EF,1) 0%, rgba(#0BB1EF,0) 100%);
+			background: rgba(#000,1);
+			background: linear-gradient(90deg, rgba(#000,1) 0%, rgba(#000,0) 100%);
 		}
 		&:after {
 			content: '';
@@ -56,8 +82,8 @@
 			position: absolute;
 			width: 10px;
 			height: 100%;
-			background: rgba(#0BB1EF,1);
-			background: linear-gradient(90deg, rgba(#0BB1EF,0) 0%, rgba(#0BB1EF,1) 100%);
+			background: rgba(#000,1);
+			background: linear-gradient(90deg, rgba(#000,0) 0%, rgba(#000,1) 100%);
 		}
 	}
 }

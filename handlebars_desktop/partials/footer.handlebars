@@ -5,7 +5,7 @@
 				<div class="footer__logo">
 					<a href="index.html">
 						{{#eq network compare=true}}
-						<img src="./asset/images/logo_pikiran_rakyat_white_network.png" alt="Pikiran Rakyat Network">
+						<img src="./asset/images/logo_pikiran_rakyat_white_network_pangandaran.png" alt="Pikiran Rakyat Pangandaran">
 						{{else}}
 						<img src="./asset/images/logo_pikiran_rakyat_white.png" alt="Pikiran Rakyat">
 						{{/eq}}
@@ -21,6 +21,14 @@
 						Faksimili 022-4230632
 					</p>
 				</div>
+				{{#eq network compare=true}}
+				<div class="footer__network">
+					<span>Member of</span>
+					<div class="img">
+						<img src="./asset/images/logo_pikiran_rakyat_white_network.png" alt="Pikiran Rakyat Network">
+					</div>
+				</div>
+				{{/eq}}
 			</div>
 			<div class="col-bs10-6">
 				<div class="col-offset-fluid clearfix">
