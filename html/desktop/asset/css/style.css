@@ -594,8 +594,7 @@ input[type="reset"] {
 
 .logo {
   position: relative;
-  padding-top: 15px;
-  margin-left: -9px; }
+  padding-top: 15px; }
   .logo img {
     width: auto;
     height: 70px; }
@@ -2676,7 +2675,7 @@ body:after {
       padding: 0 10px 0 0;
       background: #000; }
     .footer__logo img {
-      height: 60px; }
+      height: 55px; }
   .footer__link {
     padding: 5px 0;
     display: block;
@@ -2719,7 +2718,7 @@ body:after {
     .footer__network .img {
       padding: 0 10px; }
       .footer__network .img img {
-        height: 40px; }
+        height: 25px; }
   .footer__copyright {
     text-align: right;
     padding: 0;
