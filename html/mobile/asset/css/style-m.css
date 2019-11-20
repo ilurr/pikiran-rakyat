@@ -494,7 +494,7 @@ input[type="reset"] {
     .social__link:hover {
       color: #fff; }
   .social--footer {
-    padding: 10px 0;
+    padding: 15px 0;
     text-align: center; }
     .social--footer .social__link {
       font-size: 20px;
@@ -2691,7 +2691,7 @@ body:after {
     .footer__network .img {
       padding: 0 10px; }
       .footer__network .img img {
-        height: 35px; }
+        height: 25px; }
   .footer__bottom {
     padding-top: 20px; }
   .footer__wrap__menu {
