@@ -452,7 +452,7 @@ input[type="reset"] {
     width: 35px;
     height: 35px;
     border-radius: 100%;
-    padding: 8px;
+    padding: 9px 8px;
     background: transparent;
     color: #fff;
     font-size: 18px;
@@ -509,7 +509,7 @@ input[type="reset"] {
     .social--footer .social__item {
       padding: 0 5px; }
   .social--article {
-    padding: 10px 0 20px;
+    padding: 5px 0 20px;
     text-align: center; }
     .social--article .social__link:hover {
       -ms-transform: scale(1.02);
@@ -568,10 +568,16 @@ input[type="reset"] {
 
 .logo {
   position: relative;
-  padding: 10px 0;
-  text-align: center; }
+  text-align: center;
+  padding: 12px 0 14px; }
+  @media (min-width: 360px) {
+    .logo {
+      padding: 10px 0; } }
   .logo img {
-    height: 40px; }
+    height: 34px; }
+    @media (min-width: 360px) {
+      .logo img {
+        height: 40px; } }
   .logo__link,
   .logo a {
     display: inline-block; }
@@ -642,7 +648,7 @@ input[type="reset"] {
     /* NEW, Spec - Firefox, Chrome, Opera */
     justify-content: flex-start;
     margin: 0;
-    padding: 10px 15px;
+    padding: 10px 15px 15px;
     flex-wrap: wrap;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
@@ -1154,12 +1160,48 @@ input[type="reset"] {
   position: relative;
   padding: 0;
   margin: 0 -15px; }
+  .network__member {
+    position: relative;
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;
+    /* NEW, Spec - Firefox, Chrome, Opera */
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0;
+    margin: 0 22px;
+    font-size: 14px;
+    color: #fff; }
+    .network__member:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      left: 0;
+      z-index: 1;
+      border-top: 1px solid #8a8a8a; }
+    .network__member span {
+      background: #000;
+      z-index: 2;
+      position: relative;
+      font-size: 12px;
+      padding: 0 10px 0 0; }
+    .network__member .img {
+      background: #000;
+      padding: 0 10px 0 0;
+      position: relative;
+      z-index: 2; }
+      .network__member .img img {
+        height: 24px; }
   .network__menu {
     display: block;
     position: relative;
     letter-spacing: 1.6px;
-    padding: 20px 15px;
-    border-top: 1px solid #2a2a2a;
+    padding: 10px 15px;
     text-transform: uppercase;
     display: -webkit-box;
     /* OLD - iOS 6-, Safari 3.1-6, BB7 */
@@ -1495,8 +1537,23 @@ input[type="reset"] {
         text-decoration: underline; }
   .widget__mail {
     position: relative;
-    padding: 15px;
+    padding: 15px 15px 0;
     border: 1px solid #D2D2D2; }
+    .widget__mail__wrap {
+      padding: 0 0 20px; }
+    .widget__mail__footer {
+      border-top: 1px solid #bdbdbd;
+      padding: 12px;
+      text-align: right;
+      background: #f0f0f0;
+      margin: 0 -15px; }
+      .widget__mail__footer a {
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 7px 15px;
+        background: #0BB1EF;
+        color: #fff;
+        text-transform: uppercase; }
     .widget__mail__title {
       font-size: 16px;
       font-weight: 700;
@@ -2520,7 +2577,8 @@ body:after {
       .related__list li:last-child {
         border-bottom: 1px solid transparent; }
       .related__list li .related__title {
-        font-size: 16px; }
+        font-size: 16px;
+        font-weight: 700; }
       .related__list li a {
         display: block;
         padding: 15px 0; }
@@ -2531,11 +2589,19 @@ body:after {
     position: relative; }
   .tag__list {
     position: relative;
-    margin: 0 -2px; }
+    margin: 0 -2px;
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;
+    /* NEW, Spec - Firefox, Chrome, Opera */
+    flex-wrap: wrap; }
     .tag__list li {
       display: inline-block;
-      padding: 0 2px 4px;
-      margin: 0 0 5px; }
+      padding: 0 4px 8px; }
       .tag__list li a {
         display: block;
         padding: 5px 10px;
@@ -2585,7 +2651,7 @@ body:after {
       color: #000; }
     .paging__link--show {
       font-style: italic;
-      padding: 9px 15px;
+      padding: 8px 15px;
       font-size: 14px; }
     .paging__link--active, .paging__link:hover {
       background: #0BB1EF;

@@ -6,10 +6,11 @@
 	&__list {
 		position: relative;
 		margin: 0 -2px;
+		@include display-flex();
+		flex-wrap: wrap;
 		li {
 			display: inline-block;
-			padding: 0 2px 4px;
-			margin: 0 0 5px;
+			padding: 0 4px 8px;
 			a {
 				display: block;
 				padding: 5px 10px;

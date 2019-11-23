@@ -29,10 +29,16 @@
 
 .logo {
 	position: relative;
-	padding: 10px 0;
 	text-align: center;
+	padding: 12px 0 14px;
+	@include min-responsive(360px) {
+		padding: 10px 0;
+	}
 	img {
-		height: 40px;
+		height: 34px;
+		@include min-responsive(360px) {
+			height: 40px;
+		}
 	}
 	&__link,
 	a {

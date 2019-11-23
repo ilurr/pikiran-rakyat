@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+	<!-- header -->
+	{{> header}}
+	
+	<!-- nav -->
+	{{> nav}}
+	
+	<!-- content -->
+	<div class="row clearfix">
+		<div class="container clearfix">
+
+			<!-- ads top -->
+			{{> ads_top}}
+
+			{{> read_breadcrumb channel=read.static.about}}
+
+			<!-- header -->
+			<section class="read__header clearfix">
+				{{> read_header channel=read.static.about}}
+			</section>
+
+			<!-- content -->
+			<article class="read__content clearfix">
+				{{{read.static.about.content}}}
+			</article>
+
+			<!-- ads square -->
+			<div class="ads mt2 clearfix">
+				{{> ads_square}}
+			</div>
+
+		</div>
+	</div>
+	
+	<!-- footer -->
+	{{> footer}}
+
+	{{> js}}
+	
+</body>
+</html>

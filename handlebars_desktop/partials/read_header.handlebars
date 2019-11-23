@@ -1,26 +1,5 @@
 <div class="read__header mt3 clearfix">
 	
-	{{#eq type compare="video"}}
-	<div class="videos__player">
-		<div class="videos__ratio">
-			<iframe width="560" height="315" src="{{channel.img}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
-	</div>
-	{{else}}
-	{{#eq type compare="gallery"}}
-	{{> images_header channel=channel}}
-	{{else}}
-	{{#if channel.img}}
-	<div class="photo">
-		<div class="photo__img">
-			<img src="{{channel.img}}" alt="{{channel.title}}">
-		</div>
-		<div class="photo__caption">{{channel.img_caption}}</div>
-	</div>
-	{{/if}}
-	{{/eq}}
-	{{/eq}}
-	
 	<h1 class="read__title">{{channel.title}}</h1>
 	
 	<div class="read__info">
@@ -44,5 +23,26 @@
 	<div class="social social--article clearfix">
 		{{>social whatsapp=true twitter=true facebook=true line=true}}
 	</div>
+	
+	{{#eq type compare="video"}}
+	<div class="videos__player">
+		<div class="videos__ratio">
+			<iframe width="560" height="315" src="{{channel.img}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+	{{else}}
+	{{#eq type compare="gallery"}}
+	{{> images_header channel=channel}}
+	{{else}}
+	{{#if channel.img}}
+	<div class="photo">
+		<div class="photo__img">
+			<img src="{{channel.img}}" alt="{{channel.title}}">
+		</div>
+		<div class="photo__caption">{{channel.img_caption}}</div>
+	</div>
+	{{/if}}
+	{{/eq}}
+	{{/eq}}
 	
 </div>

@@ -2,12 +2,47 @@
 	position: relative;
 	padding: 0;
 	margin: 0 -15px;
+	&__member {
+		position: relative;
+		@include display-flex();
+		align-items: center;
+		justify-content: flex-start;
+		padding: 10px 0;
+		margin: 0 22px;
+		font-size: 14px;
+		color: #fff;
+		&:after {
+			content: '';
+			position: absolute;
+			width: 100%;
+			top: 50%;
+			left: 0;
+			z-index: 1;
+			border-top: 1px solid #8a8a8a;
+		}
+		span {
+			background: #000;
+			z-index: 2;
+			position: relative;
+			font-size: 12px;
+			padding: 0 10px 0 0;
+		}
+		.img {
+			background: #000;
+			padding: 0 10px 0 0;
+			position: relative;
+			z-index: 2;
+			img {
+				height: 24px;
+			}
+		}
+	}
 	&__menu {
 		display: block;
 		position: relative;
 		letter-spacing: 1.6px;
-		padding: 20px 15px;
-		border-top: 1px solid #2a2a2a;
+		padding: 10px 15px;
+		//border-top: 1px solid #2a2a2a;
 		text-transform: uppercase;
 		@include display-flex();
 		flex-wrap: wrap;

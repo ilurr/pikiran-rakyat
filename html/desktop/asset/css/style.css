@@ -490,7 +490,7 @@ input[type="reset"] {
     width: 35px;
     height: 35px;
     border-radius: 100%;
-    padding: 8px;
+    padding: 9px 8px;
     background: transparent;
     color: #fff;
     font-size: 18px;
@@ -1497,8 +1497,24 @@ input[type="reset"] {
         text-decoration: underline; }
   .widget__mail {
     position: relative;
-    padding: 15px;
+    padding: 15px 15px 0;
     border: 1px solid #D2D2D2; }
+    .widget__mail__wrap {
+      padding: 0 0 20px; }
+    .widget__mail__footer {
+      border-top: 1px solid #bdbdbd;
+      padding: 12px;
+      text-align: right;
+      background: #f0f0f0;
+      margin: 0 -15px; }
+      .widget__mail__footer a {
+        display: inline-block;
+        padding: 7px 15px;
+        background: #0BB1EF;
+        color: #fff;
+        text-transform: uppercase; }
+        .widget__mail__footer a:hover {
+          background: #098dbe; }
     .widget__mail__title {
       font-size: 16px;
       font-weight: 700;
@@ -2482,7 +2498,8 @@ input[type="reset"] {
       .related__list li:last-child {
         border-bottom: 1px solid transparent; }
       .related__list li .related__title {
-        font-size: 16px; }
+        font-size: 16px;
+        font-weight: 700; }
       .related__list li a {
         display: block;
         padding: 15px 0; }
@@ -2493,10 +2510,19 @@ input[type="reset"] {
     position: relative; }
   .tag__list {
     position: relative;
-    margin: 0 -2px; }
+    margin: 0 -2px;
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;
+    /* NEW, Spec - Firefox, Chrome, Opera */
+    flex-wrap: wrap; }
     .tag__list li {
       display: inline-block;
-      padding: 0 2px 4px; }
+      padding: 0 4px 8px; }
       .tag__list li a {
         display: block;
         padding: 5px 10px;
